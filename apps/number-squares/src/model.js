@@ -1,0 +1,4 @@
+import {random, shuffled, copy} from '../../shared/random.js';
+export function createState(seed){const r=random(seed),map=shuffled([1,2,3,4],r),base=[1,2,3,4,3,4,1,2,2,1,4,3,4,3,2,1],solution=base.map(v=>map[v-1]);const blank=[0,1,4,6,11,14];return {solution,values:solution.map((v,i)=>blank.includes(i)?0:v),given:solution.map((_,i)=>!blank.includes(i)),selected:null,done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='select'&&a.id>=0&&a.id<16&&!s.given[a.id])return {...s,selected:a.id};if(a.type==='tap'&&s.selected!==null&&a.id===s.solution[s.selected]){const n=copy(s);n.values[n.selected]=a.id;n.selected=null;n.done=n.values.every(Boolean);return n;}return s;}
+export const hint=s=>s.selected!==null?{type:'tap',id:s.solution[s.selected]}:{type:'select',id:s.values.findIndex(v=>v===0)};

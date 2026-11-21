@@ -1,0 +1,10 @@
+[data-app="toy-shelves"] .activity-root{background:#f1eef8;border-color:#a69bb7}
+[data-app="toy-shelves"] .room-label{display:block;text-align:left;color:#5b4d70;font-size:15px;font-weight:700;margin-bottom:15px}
+[data-app="toy-shelves"] .toy-turntable{display:flex;flex-direction:column;align-items:center;gap:10px;max-width:240px;margin:20px auto 30px;padding:20px;background:#fff;border-radius:50% 50% 18px 18px;border-bottom:10px solid #b7ade0}
+[data-app="toy-shelves"] .toy-turntable>.tile-art{width:130px;height:130px}
+[data-app="toy-shelves"] .toy-cabinet{padding:15px;background:#cfb9a0;border:3px solid #806951;border-radius:16px;gap:10px}
+[data-app="toy-shelves"] .toy-cabinet .play-tile{border-radius:9px;background:#fff9ef;border-color:#806951;box-shadow:0 5px 0 #a58b70}
+[data-app="toy-shelves"] .toy-cabinet .play-tile:nth-child(2){background:#e7f2ec}
+[data-app="toy-shelves"] .toy-cabinet .play-tile:nth-child(3){background:#eee9fa}
+[data-app="toy-shelves"] .drawer-pull{display:block;width:32px;height:8px;border-radius:8px;background:#806951;margin-top:7px}
+@media(max-width:640px){[data-app="toy-shelves"] .toy-cabinet{padding:10px;gap:8px}[data-app="toy-shelves"] .toy-cabinet .tile-art{width:57px;height:57px}}

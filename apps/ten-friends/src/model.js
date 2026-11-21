@@ -1,0 +1,4 @@
+import {random, shuffled, copy} from '../../shared/random.js';
+export function createState(seed){const r=random(seed),pairs=Array.from({length:4},()=>1+Math.floor(r()*9));return {numbers:shuffled(pairs.flatMap(n=>[n,10-n]),r),removed:[],selected:null,done:false};}
+export function reduce(s,a){if(s.done||a.type!=='tap'||a.id<0||a.id>=8||s.removed.includes(a.id))return s;if(s.selected===a.id)return {...s,selected:null};if(s.selected===null)return {...s,selected:a.id};if(s.numbers[s.selected]+s.numbers[a.id]!==10)return s;const removed=[...s.removed,s.selected,a.id];return {...s,removed,selected:null,done:removed.length===8};}
+export const hint=s=>{if(s.selected===null)return {type:'tap',id:s.numbers.findIndex((_,i)=>!s.removed.includes(i))};return {type:'tap',id:s.numbers.findIndex((v,i)=>i!==s.selected&&!s.removed.includes(i)&&v+s.numbers[s.selected]===10)};};

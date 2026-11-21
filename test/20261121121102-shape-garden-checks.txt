@@ -1,0 +1,11 @@
+body: 10.69:1 (min 4.5)
+secondary: 5.63:1 (min 4.5)
+button: 7.47:1 (min 4.5)
+boundary: 4.00:1 (min 3)
+boundary on background: 3.70:1 (min 3)
+shape outline: 3.91:1 (min 3)
+shape outline: 3.63:1 (min 3)
+shape outline: 3.58:1 (min 3)
+shape outline: 4.40:1 (min 3)
+PASS: 54076 assertions; 2,000 generated sessions, state transitions, storage failures, contrast.
+Markdown 19, HTML 3, JS syntax 6, local references 83, errors 0

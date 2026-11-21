@@ -14,17 +14,17 @@
 | 항목 | 기준 |
 |---|---|
 | 프로젝트 / TOOL | `studio-boos-appstore` / `boos-appstore` |
-| Git / 원격 / 기본 브랜치 | 작업 중 Git 초기화 확인 / `https://github.com/cafewill/studio-boos-appstore.git` / 로컬 초기 브랜치 `main`, 원격 기본값 미확인 |
+| Git / 원격 / 기본 브랜치 | Git 구성·초기 커밋 완료 / `https://github.com/cafewill/studio-boos-appstore.git` / `main` |
 | 참고 프로젝트 | `../studio-game-appstore` (변경하지 않음) |
 | 대상 | 게임·교육·창작·자유 놀이, 콘텐츠별 연령군 지정 |
-| 구현 위치 | `apps/{slug}/` (첫 구현 시 생성) |
-| 목록 데이터 / 화면 | `apps/catalog.js` / `apps/index.html` (예정) |
-| 루트 진입점 | `index.html` → `apps/` (예정) |
-| 실행 | `python3 -m http.server 7902 --bind 127.0.0.1` |
-| 접속 | `http://127.0.0.1:7902/apps/` (구현 후) |
-| 상태 | 문서 기반 구성, 구현 콘텐츠 0개, 브라우저 검증 미실시 |
+| 구현 위치 | `apps/{slug}/`, 첫 콘텐츠 `shape-garden` |
+| 목록 데이터 / 화면 | `apps/catalog.js` / `apps/index.html` |
+| 루트 진입점 | `index.html` → `apps/` |
+| 실행 | `start.command` 또는 `python3 tools/serve.py` (기본 Python 정적 서버 방식도 유지) |
+| 접속 | `http://127.0.0.1:7902/apps/` 및 `/apps/shape-garden/` |
+| 상태 | 신규 30개 + 기존 1개 = 31개 implemented. 자동 규칙·구조 검사 통과, 브라우저 미실시 |
 
-Git 초기화와 origin 연결은 사용자가 수행했다. 이전 작업의 Git 쓰기 권한 제한은 해소되었으며, 사용자의 명시적 지시에 따라 전체 초기 구성을 `main`에 직접 최초 커밋·푸시한다. 이후 일반 작업은 AGENTS의 작업 브랜치 규칙을 따른다.
+Git 초기화와 origin 연결은 사용자가 수행했다. 초기 구성은 `eef1f8d`로 main에 커밋·푸시 완료했다. 현재 첫 콘텐츠 작업은 `feature/20261121121102-chatgpt-boos-appstore-shape-garden`에서 진행하며 커밋·푸시는 하지 않았다.
 
 포트 `7902`는 이 프로젝트의 기본값이며 참고 프로젝트 `7901`과 구분한다. 점유 시 `lsof -nP -iTCP:7902 -sTCP:LISTEN`으로 확인하고 다른 작업 프로세스를 종료하지 않는다. 서버 실행 자체를 오프라인 앱 지원으로 간주하지 않는다. 외부 인터넷 없이 같은 로컬 서버에서 실행하는 것이 기본이며 서버 없는 실행·PWA는 별도 범위다.
 
@@ -35,6 +35,9 @@ Git 초기화와 origin 연결은 사용자가 수행했다. 이전 작업의 Gi
 | [AGENTS.md](AGENTS.md) | 협업·Git·문서 규칙 / 운영 변경 |
 | [README.md](README.md) | 프로젝트 진입점 / 목적·실행 변경 |
 | [가이드 목차](docs/guide/guide.md) | 상세 가이드 연결 / 가이드 증감 |
+| [독립 제작·권리 검토](docs/guide/guide-originality-rights.md) | 저작권·라이선스·독립 표현·완료 검토 / 권리 기준 변경 |
+| [구조와 유지보수](docs/guide/guide-content-architecture.md) | 공통 계층·의존 방향·실행 계약·호환성 / 전환 진행 중 |
+| [로컬 실행·진단](docs/guide/guide-local-run.md) | start.command·Python 실행기·포트·health·권한 오류 |
 | [콘텐츠 조사·리뷰](docs/guide/guide-content-review.md) | 출처·후보·리뷰 템플릿 / 조사 기준 변경 |
 | [아이들용 설계](docs/guide/guide-child-design.md) | 연령·학습·정서·컬러·용어·네이밍·안전·접근성 / 설계 기준 변경 |
 | [Fascinating 반응형 UI](docs/guide/guide-fascinating-ui.md) | 커스텀 UI·직관적 상호작용·반응형·HTML 의미 / UI 기준 변경 |
@@ -45,6 +48,42 @@ Git 초기화와 origin 연결은 사용자가 수행했다. 이전 작업의 Gi
 | [계획 목차](docs/plan/plan.md) | 구현 계획 목록 / 계획 증감 |
 | [초기 로드맵](docs/plan/20261121-bootstrap-plan.md) | 문서 구성과 첫 콘텐츠 제안 / 범위·진척 변경 |
 
+### 🔗 첫 콘텐츠와 조사 산출물
+
+| 문서·파일 | 내용 |
+|---|---|
+| [후보 조사](docs/review/20261121121102-appstore-candidates-review.md) | 한국 교육·가족 무료/유료 최대 100개씩 요청, 총 396행·후보 9개 |
+| [모양 정원 리뷰](docs/review/20261121121102-shape-garden-review.md) | 원작 공식 소개·자체 규칙·범위 |
+| [모양 정원 계획](docs/plan/20261121121102-shape-garden-plan.md) | 연령·표현·상태·저장·검증 |
+| [모양 정원 README](apps/shape-garden/README.md) | 조작·자체 제작·권리·제한 |
+| [검증 기록](test/20261121121102-shape-garden-verify.md) | 통과·실패·미실시 구분 |
+| `tools/verify-shape-garden.mjs` | 규칙·저장·대비 자동 검증 |
+| `tools/verify-project.py` | 문서·모듈·정적 참조 검사 |
+
+브라우저 검증 제한: 이 환경에서 정적 서버 바인딩 권한 오류, 시스템 Chrome 실행 SIGABRT. 제한 없는 로컬 환경에서 실행·플레이 검증 후에만 verified로 변경한다. 운영체제 시스템 글꼴과 자체 SVG·Web Audio만 사용하며 외부 에셋·폰트·분석 요청은 없다.
+
+### 🎨 공통 브랜드와 목록 화면
+
+자체 컬러 SVG 로고는 `apps/shared/logo.svg`, 워드마크는 `apps/shared/brand.js`에서 관리한다. 목록과 31개 활동 헤더·파비콘에 적용한다. 목록 삽화는 그림만 잘라내고 캡션은 별도 흐름으로 둔다. 820px 이하에서는 데스크톱 소개를 숨기고 살펴보기·생각하기·표현하기 선택과 실제 링크가 바뀌는 발견 카드로 재구성한다. 목록은 그림/내용을 나란히 배치한 탐색 카드로 전환한다. 관련 원칙은 Fascinating UI 가이드, 검증은 선택적 verify-browser의 화면 폭별 캡션·넘침·로고 검사에 포함한다. 실제 브라우저 실행을 못 한 검사를 통과로 표시하지 않는다.
+
+### 🌈 시각적 차별화 상태
+
+코드 계약의 일관성과 놀이 화면의 다양성을 분리한다. 전체 31개의 핵심 규칙 MVP 구현을 고유 아트·장면·연출 완성으로 해석하지 않는다. 1차로 counting-picnic의 소풍 돗자리·사과·바구니, vegetable-pairs의 텃밭 부엌·도마·접시, toy-shelves의 장난감 방·수납 서랍을 개별 view/style로 분리했다. 다른 콘텐츠의 고유 장면과 시작/완료 표현은 추가 검토 대상이며 전체의 시각적 다양성이 검증됐다고 표시하지 않는다.
+
+### 🗂 신규 30개 구현과 유지보수
+
+| 경로 | 역할 |
+|---|---|
+| [30개 일괄 계획](docs/plan/20261121143203-batch30-plan.md) | 콘텐츠별 이름·경험·범위 |
+| [원작 대응표](docs/review/20261121143203-priority30-review.md) | 우선 후보 30개와 개별 리뷰 연결 |
+| [묶음 검증](test/20261121143203-batch30-verify.md) | 자동 검사와 로컬 확인 절차 |
+| `apps/content-registry.js` | 신규 30개 메타데이터 정본 |
+| `apps/shared/` | 공통 호스트·표현·저장·오디오·수명주기 |
+| `tools/check-all.mjs` | 전체 자동 검사 진입점 |
+| `tools/create-content.py` | 미등록 작업 초안 생성, 기존 파일 덮어쓰기 금지 |
+
+현재 작업은 같은 feature 브랜치의 미커밋 변경이다. 외부 배포·커밋·푸시는 하지 않았다. 문서와 로그는 제작 범위의 근거이며 브라우저·교육 효과·법률 검토의 보증이 아니다.
+
 ### 🗂 산출물과 상태 규칙
 
 - 리뷰: `docs/review/{TS}-{slug}-review.md`.
@@ -53,7 +92,7 @@ Git 초기화와 origin 연결은 사용자가 수행했다. 이전 작업의 Gi
 - 이슈·프롬프트 문서는 필요할 때 `docs/issue/issue.md`·`docs/prompt/prompt.md` 목차와 함께 만든다.
 - TS는 KST `YYYYMMDDHHMMSS`. 이번 초기 구성 문서는 고정 날짜 `20261121`을 사용했다.
 - 콘텐츠 상태: `proposed` → `reviewed` → `planned` → `implemented` → `verified`. `verified`는 해당 검증 기록이 있어야 한다.
-- 현재 콘텐츠 없음. 초기 로드맵의 예시는 원작 조사나 구현 완료를 뜻하지 않는다.
+- 등록 31개 모두 implemented. counting-picnic·sound-paint를 포함한 신규 30개 독립 폴더가 있다. verified는 0개이며 실제 로컬 플레이 확인을 기다린다.
 
 ### 📖 문서 표준
 
@@ -61,7 +100,7 @@ Markdown을 정본으로 관리한다. HTML 변환기와 HTML 짝은 아직 없�
 
 ## 📌 요약 정보
 
-진행 순서: 후보 조사 → 원작 리뷰 → 연령·학습 목표와 MVP 계획 → 구현 → 검증 → 로컬 리뷰. 이번 요청은 문서 구성까지이며 첫 콘텐츠는 별도 구현 작업이다.
+진행 순서: 후보 조사 → 원작 리뷰 → 연령·학습 목표와 MVP 계획 → 구현 → 검증 → 로컬 리뷰. 신규 30개와 기존 모양 정원의 공통 구조 전환·자동 검증까지 완료했고, 다음 단계는 사용자 로컬 플레이 확인과 수정·검증이다.
 
 ---
 

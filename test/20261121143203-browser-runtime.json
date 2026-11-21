@@ -1,0 +1,8 @@
+{
+  "base": "http://127.0.0.1:7902",
+  "results": [],
+  "errors": [
+    "browserType.launch: Target page, context or browser has been closed"
+  ],
+  "status": "blocked-before-browser-launch"
+}
