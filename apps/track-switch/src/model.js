@@ -1,0 +1,3 @@
+export function createState(seed){return {switch:0,station:0,visited:[],tour:(seed>>>0)%2,done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='tool'&&a.id===0)return {...s,switch:1-s.switch};if(a.type==='start'&&a.id===0){const station=s.station===0?s.switch+1:0,visited=station?[...new Set([...s.visited,station])]:s.visited;return {...s,station,visited,done:station===0&&visited.length===2};}return s;}
+export function hint(s){if(s.done)return null;if(s.station!==0)return {type:'start',id:0};const goal=s.visited.includes(1)?2:1;return s.switch===goal-1?{type:'start',id:0}:{type:'tool',id:0};}

@@ -1,0 +1,3 @@
+export function createState(seed){return {branches:[true,true,true,true],shade:(seed>>>0)%2?[0,2]:[1,3],bloom:false,done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='tap'&&[0,1,2,3].includes(a.id))return {...s,branches:s.branches.map((v,i)=>i===a.id?!v:v)};if(a.type==='start'&&a.id===0&&s.shade.every(i=>!s.branches[i])&&s.branches.some(Boolean))return {...s,bloom:true,done:true};return s;}
+export function hint(s){if(s.done)return null;const i=s.shade.find(i=>s.branches[i]);if(i!==undefined)return {type:'tap',id:i};if(!s.branches.some(Boolean))return {type:'tap',id:[0,1,2,3].find(i=>!s.shade.includes(i))};return {type:'start',id:0};}

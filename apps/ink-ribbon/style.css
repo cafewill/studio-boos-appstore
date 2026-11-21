@@ -1,0 +1,4 @@
+[data-app="ink-ribbon"] .activity-root{background:#f7eddf}
+
+[data-app="ink-ribbon"] .ink-points{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+[data-app="ink-ribbon"] .ink-points .play-tile{min-height:56px;padding:8px 3px}

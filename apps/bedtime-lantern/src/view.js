@@ -1,0 +1,3 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+export function render(s){return note('창문의 빛을 한 단계씩 낮춰요. 언제 쉬어도 괜찮아요.')+scene(`<rect width="500" height="300" fill="#31465b"/><circle cx="420" cy="45" r="25" fill="#e3c46b"/>${s.lights.map((v,i)=>`<path d="M${35+i*155} 170l60-65 60 65v95H${35+i*155}Z" fill="#9caa98"/><rect x="${72+i*155}" y="185" width="46" height="46" rx="8" fill="${['#33434e','#bbaa75','#f1d382'][v]}"/>`).join('')}`,'창문 세 개의 저녁 오두막')+tools(s.lights.map((v,i)=>action(`${i+1}번 창문 · ${['고요한 빛','작은 빛','환한 빛'][v]}`,i,{disabled:v===0})))+summary(s,'저녁 풍경이 차분해졌어요. 다음 놀이나 쉬기를 골라도 좋아요.','잠들기나 특정 감정을 강요하지 않는 풍경 놀이예요.');}

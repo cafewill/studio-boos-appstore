@@ -1,0 +1,6 @@
+[data-app="seed-trade"] .activity-root{background:#edf1f7}
+
+[data-app="seed-trade"] .seed-postcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}
+[data-app="seed-trade"] .postcard{background:#fff;border:2px dashed #a3af9b;border-radius:20px;padding:14px}
+[data-app="seed-trade"] .postcard h2{font-size:18px}
+[data-app="seed-trade"] .postcard .explore-art{max-height:180px}

@@ -1,0 +1,9 @@
+[data-app="island-sculpt"] .activity-root{background:#edf1f7}
+
+[data-app="island-sculpt"] .terrain-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+[data-app="island-sculpt"] .terrain-grid .play-tile{padding:5px}
+[data-app="island-sculpt"] .terrain-level{display:grid;place-items:center;width:100%;min-height:90px;border-radius:14px}
+[data-app="island-sculpt"] .terrain-0{background:#b2d2dc}
+[data-app="island-sculpt"] .terrain-1{background:#ead6b3}
+[data-app="island-sculpt"] .terrain-2{background:#c5dbb2}
+[data-app="island-sculpt"] .terrain-3{background:#97bdaf}

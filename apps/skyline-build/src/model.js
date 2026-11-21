@@ -1,0 +1,3 @@
+export function createState(seed){return {columns:[0,0,0],roof:false,target:3+(seed>>>0)%2,done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='tap'&&Number.isInteger(a.id)&&a.id>=0&&a.id<3){const i=a.id,h=s.columns[i];if(h>=s.target||(i===1&&h>=Math.min(s.columns[0],s.columns[2])+1))return s;return {...s,columns:s.columns.map((v,j)=>j===i?v+1:v)};}if(a.type==='finish'&&a.id===0&&s.columns.every(v=>v===s.target))return {...s,roof:true,done:true};return s;}
+export function hint(s){if(s.done)return null;const i=[0,2,1].find(i=>s.columns[i]<s.target);return i===undefined?{type:'finish',id:0}:{type:'tap',id:i};}

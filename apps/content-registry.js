@@ -808,5 +808,635 @@ export const NEW_CONTENTS = [
       "plan": "../docs/plan/20261121165150-balance-playground-plan.md",
       "verify": "../test/20261121165150-balance-playground-verify.md"
     }
+  },
+  {
+    "slug": "star-stitch",
+    "title": "별빛 이음",
+    "ageBand": "6-8",
+    "category": "education",
+    "goal": "별을 차례로 이어 나만의 밤하늘 그림을 발견해요.",
+    "description": "별을 차례로 이어 나만의 밤하늘 그림을 발견해요.",
+    "skills": [
+      "별과 선"
+    ],
+    "kind": "별과 선",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "star-stitch/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-star-stitch-review.md",
+      "plan": "../docs/plan/20261121194717-star-stitch-plan.md",
+      "verify": "../test/20261121194717-star-stitch-verify.md"
+    }
+  },
+  {
+    "slug": "earth-river",
+    "title": "강이 만드는 땅",
+    "ageBand": "6-8",
+    "category": "education",
+    "goal": "높은 곳의 흙이 낮은 곳으로 옮겨 가는 모습을 관찰해요.",
+    "description": "높은 곳의 흙이 낮은 곳으로 옮겨 가는 모습을 관찰해요.",
+    "skills": [
+      "침식과 퇴적"
+    ],
+    "kind": "침식과 퇴적",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "earth-river/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-earth-river-review.md",
+      "plan": "../docs/plan/20261121194717-earth-river-plan.md",
+      "verify": "../test/20261121194717-earth-river-verify.md"
+    }
+  },
+  {
+    "slug": "skyline-build",
+    "title": "하늘 마을 공사장",
+    "ageBand": "6-8",
+    "category": "creative",
+    "goal": "튼튼한 받침 위에 방을 올려 작은 건물을 지어요.",
+    "description": "튼튼한 받침 위에 방을 올려 작은 건물을 지어요.",
+    "skills": [
+      "받침과 건축"
+    ],
+    "kind": "받침과 건축",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "skyline-build/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-skyline-build-review.md",
+      "plan": "../docs/plan/20261121194717-skyline-build-plan.md",
+      "verify": "../test/20261121194717-skyline-build-verify.md"
+    }
+  },
+  {
+    "slug": "invention-chain",
+    "title": "반짝 발명 책상",
+    "ageBand": "9-12",
+    "category": "education",
+    "goal": "스위치와 논리 장치를 연결해 불빛의 조건을 찾아요.",
+    "description": "스위치와 논리 장치를 연결해 불빛의 조건을 찾아요.",
+    "skills": [
+      "논리와 조건"
+    ],
+    "kind": "논리와 조건",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "invention-chain/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-invention-chain-review.md",
+      "plan": "../docs/plan/20261121194717-invention-chain-plan.md",
+      "verify": "../test/20261121194717-invention-chain-verify.md"
+    }
+  },
+  {
+    "slug": "robot-atelier",
+    "title": "로봇 꾸밈 공방",
+    "ageBand": "3-5",
+    "category": "creative",
+    "goal": "머리와 몸, 다리를 골라 나만의 로봇 친구를 만들어요.",
+    "description": "머리와 몸, 다리를 골라 나만의 로봇 친구를 만들어요.",
+    "skills": [
+      "조합과 표현"
+    ],
+    "kind": "조합과 표현",
+    "status": "implemented",
+    "rounds": 1,
+    "added": "2026-11-21",
+    "thumbnail": "robot-atelier/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-robot-atelier-review.md",
+      "plan": "../docs/plan/20261121194717-robot-atelier-plan.md",
+      "verify": "../test/20261121194717-robot-atelier-verify.md"
+    }
+  },
+  {
+    "slug": "gentle-vet",
+    "title": "포근한 인형 돌봄",
+    "ageBand": "3-5",
+    "category": "creative",
+    "goal": "먼지를 털고 담요를 덮으며 인형 친구를 돌봐요.",
+    "description": "먼지를 털고 담요를 덮으며 인형 친구를 돌봐요.",
+    "skills": [
+      "다정한 돌봄"
+    ],
+    "kind": "다정한 돌봄",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "gentle-vet/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-gentle-vet-review.md",
+      "plan": "../docs/plan/20261121194717-gentle-vet-plan.md",
+      "verify": "../test/20261121194717-gentle-vet-verify.md"
+    }
+  },
+  {
+    "slug": "bedtime-lantern",
+    "title": "저녁빛 오두막",
+    "ageBand": "3-5",
+    "category": "creative",
+    "goal": "창문의 불빛을 낮추며 조용한 저녁 풍경을 만들어요.",
+    "description": "창문의 불빛을 낮추며 조용한 저녁 풍경을 만들어요.",
+    "skills": [
+      "쉬기와 전환"
+    ],
+    "kind": "쉬기와 전환",
+    "status": "implemented",
+    "rounds": 1,
+    "added": "2026-11-21",
+    "thumbnail": "bedtime-lantern/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-bedtime-lantern-review.md",
+      "plan": "../docs/plan/20261121194717-bedtime-lantern-plan.md",
+      "verify": "../test/20261121194717-bedtime-lantern-verify.md"
+    }
+  },
+  {
+    "slug": "animal-greetings",
+    "title": "반가운 몸짓",
+    "ageBand": "3-5",
+    "category": "creative",
+    "goal": "토끼 친구의 인사와 기지개, 귀 움직임을 만나봐요.",
+    "description": "토끼 친구의 인사와 기지개, 귀 움직임을 만나봐요.",
+    "skills": [
+      "원인과 반응"
+    ],
+    "kind": "원인과 반응",
+    "status": "implemented",
+    "rounds": 1,
+    "added": "2026-11-21",
+    "thumbnail": "animal-greetings/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-animal-greetings-review.md",
+      "plan": "../docs/plan/20261121194717-animal-greetings-plan.md",
+      "verify": "../test/20261121194717-animal-greetings-verify.md"
+    }
+  },
+  {
+    "slug": "shadow-stage",
+    "title": "그림자 극장",
+    "ageBand": "6-8",
+    "category": "game",
+    "goal": "종이 조각을 돌려 무대 위 그림자의 방향을 맞춰요.",
+    "description": "종이 조각을 돌려 무대 위 그림자의 방향을 맞춰요.",
+    "skills": [
+      "회전과 그림자"
+    ],
+    "kind": "회전과 그림자",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "shadow-stage/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-shadow-stage-review.md",
+      "plan": "../docs/plan/20261121194717-shadow-stage-plan.md",
+      "verify": "../test/20261121194717-shadow-stage-verify.md"
+    }
+  },
+  {
+    "slug": "folded-view",
+    "title": "입체 선의 시선",
+    "ageBand": "9-12",
+    "category": "game",
+    "goal": "가로와 세로 시선을 바꾸며 흩어진 선을 맞춰요.",
+    "description": "가로와 세로 시선을 바꾸며 흩어진 선을 맞춰요.",
+    "skills": [
+      "시점과 투영"
+    ],
+    "kind": "시점과 투영",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "folded-view/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-folded-view-review.md",
+      "plan": "../docs/plan/20261121194717-folded-view-plan.md",
+      "verify": "../test/20261121194717-folded-view-verify.md"
+    }
+  },
+  {
+    "slug": "ink-ribbon",
+    "title": "잉크 물결",
+    "ageBand": "6-8",
+    "category": "creative",
+    "goal": "붓의 길을 이어 작은 빛들을 한 줄의 그림에 담아요.",
+    "description": "붓의 길을 이어 작은 빛들을 한 줄의 그림에 담아요.",
+    "skills": [
+      "선과 경로"
+    ],
+    "kind": "선과 경로",
+    "status": "implemented",
+    "rounds": 1,
+    "added": "2026-11-21",
+    "thumbnail": "ink-ribbon/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-ink-ribbon-review.md",
+      "plan": "../docs/plan/20261121194717-ink-ribbon-plan.md",
+      "verify": "../test/20261121194717-ink-ribbon-verify.md"
+    }
+  },
+  {
+    "slug": "bloom-prune",
+    "title": "빛길 가지 정원",
+    "ageBand": "6-8",
+    "category": "game",
+    "goal": "빛을 가리는 작은 가지를 골라 꽃봉오리에 길을 내줘요.",
+    "description": "빛을 가리는 작은 가지를 골라 꽃봉오리에 길을 내줘요.",
+    "skills": [
+      "가지와 빛"
+    ],
+    "kind": "가지와 빛",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "bloom-prune/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-bloom-prune-review.md",
+      "plan": "../docs/plan/20261121194717-bloom-prune-plan.md",
+      "verify": "../test/20261121194717-bloom-prune-verify.md"
+    }
+  },
+  {
+    "slug": "meadow-breeze",
+    "title": "꽃잎 바람길",
+    "ageBand": "3-5",
+    "category": "creative",
+    "goal": "바람을 골라 꽃잎을 들판의 세 쉼터로 데려가요.",
+    "description": "바람을 골라 꽃잎을 들판의 세 쉼터로 데려가요.",
+    "skills": [
+      "방향과 탐색"
+    ],
+    "kind": "방향과 탐색",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "meadow-breeze/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-meadow-breeze-review.md",
+      "plan": "../docs/plan/20261121194717-meadow-breeze-plan.md",
+      "verify": "../test/20261121194717-meadow-breeze-verify.md"
+    }
+  },
+  {
+    "slug": "island-sculpt",
+    "title": "손바닥 섬 만들기",
+    "ageBand": "6-8",
+    "category": "creative",
+    "goal": "땅을 올리고 낮추며 물과 언덕이 있는 섬을 만들어요.",
+    "description": "땅을 올리고 낮추며 물과 언덕이 있는 섬을 만들어요.",
+    "skills": [
+      "지형 표현"
+    ],
+    "kind": "지형 표현",
+    "status": "implemented",
+    "rounds": 1,
+    "added": "2026-11-21",
+    "thumbnail": "island-sculpt/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-island-sculpt-review.md",
+      "plan": "../docs/plan/20261121194717-island-sculpt-plan.md",
+      "verify": "../test/20261121194717-island-sculpt-verify.md"
+    }
+  },
+  {
+    "slug": "paper-panels",
+    "title": "세 장의 풍경 편지",
+    "ageBand": "6-8",
+    "category": "game",
+    "goal": "풍경의 가장자리 무늬를 이어 한 장의 긴 그림을 만들어요.",
+    "description": "풍경의 가장자리 무늬를 이어 한 장의 긴 그림을 만들어요.",
+    "skills": [
+      "그림의 연결"
+    ],
+    "kind": "그림의 연결",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "paper-panels/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-paper-panels-review.md",
+      "plan": "../docs/plan/20261121194717-paper-panels-plan.md",
+      "verify": "../test/20261121194717-paper-panels-verify.md"
+    }
+  },
+  {
+    "slug": "swim-turn",
+    "title": "한 걸음 물길",
+    "ageBand": "6-8",
+    "category": "game",
+    "goal": "물살의 방향을 살펴 작은 배를 안전한 나루로 옮겨요.",
+    "description": "물살의 방향을 살펴 작은 배를 안전한 나루로 옮겨요.",
+    "skills": [
+      "차례와 물살"
+    ],
+    "kind": "차례와 물살",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "swim-turn/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-swim-turn-review.md",
+      "plan": "../docs/plan/20261121194717-swim-turn-plan.md",
+      "verify": "../test/20261121194717-swim-turn-verify.md"
+    }
+  },
+  {
+    "slug": "track-switch",
+    "title": "갈림길 작은 기차",
+    "ageBand": "6-8",
+    "category": "game",
+    "goal": "갈림길을 바꿔 두 역에 작은 기차가 차례로 들르게 해요.",
+    "description": "갈림길을 바꿔 두 역에 작은 기차가 차례로 들르게 해요.",
+    "skills": [
+      "분기와 운행"
+    ],
+    "kind": "분기와 운행",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "track-switch/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-track-switch-review.md",
+      "plan": "../docs/plan/20261121194717-track-switch-plan.md",
+      "verify": "../test/20261121194717-track-switch-verify.md"
+    }
+  },
+  {
+    "slug": "seed-trade",
+    "title": "씨앗 나눔 우체국",
+    "ageBand": "9-12",
+    "category": "education",
+    "goal": "서로 필요한 씨앗을 찾아 같은 수로 바꾸어 나눠요.",
+    "description": "서로 필요한 씨앗을 찾아 같은 수로 바꾸어 나눠요.",
+    "skills": [
+      "교환과 보존"
+    ],
+    "kind": "교환과 보존",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "seed-trade/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-seed-trade-review.md",
+      "plan": "../docs/plan/20261121194717-seed-trade-plan.md",
+      "verify": "../test/20261121194717-seed-trade-verify.md"
+    }
+  },
+  {
+    "slug": "mosaic-tiles",
+    "title": "차례 타일 작업대",
+    "ageBand": "9-12",
+    "category": "game",
+    "goal": "숫자 타일을 옮겨 두 줄의 순서를 완성해요.",
+    "description": "숫자 타일을 옮겨 두 줄의 순서를 완성해요.",
+    "skills": [
+      "수열과 배열"
+    ],
+    "kind": "수열과 배열",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "mosaic-tiles/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-mosaic-tiles-review.md",
+      "plan": "../docs/plan/20261121194717-mosaic-tiles-plan.md",
+      "verify": "../test/20261121194717-mosaic-tiles-verify.md"
+    }
+  },
+  {
+    "slug": "duet-rhythm",
+    "title": "함께 박자길",
+    "ageBand": "6-8",
+    "category": "creative",
+    "goal": "두 친구의 차례를 번갈아 작은 박자 무늬를 만들어요.",
+    "description": "두 친구의 차례를 번갈아 작은 박자 무늬를 만들어요.",
+    "skills": [
+      "차례와 리듬"
+    ],
+    "kind": "차례와 리듬",
+    "status": "implemented",
+    "rounds": 1,
+    "added": "2026-11-21",
+    "thumbnail": "duet-rhythm/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-duet-rhythm-review.md",
+      "plan": "../docs/plan/20261121194717-duet-rhythm-plan.md",
+      "verify": "../test/20261121194717-duet-rhythm-verify.md"
+    }
+  },
+  {
+    "slug": "story-studio",
+    "title": "이야기 구름책",
+    "ageBand": "6-8",
+    "category": "creative",
+    "goal": "장소와 도구, 만남을 골라 짧은 이야기를 엮어요.",
+    "description": "장소와 도구, 만남을 골라 짧은 이야기를 엮어요.",
+    "skills": [
+      "선택과 이야기"
+    ],
+    "kind": "선택과 이야기",
+    "status": "implemented",
+    "rounds": 1,
+    "added": "2026-11-21",
+    "thumbnail": "story-studio/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-story-studio-review.md",
+      "plan": "../docs/plan/20261121194717-story-studio-plan.md",
+      "verify": "../test/20261121194717-story-studio-verify.md"
+    }
+  },
+  {
+    "slug": "stage-directions",
+    "title": "몸짓 이야기 무대",
+    "ageBand": "3-5",
+    "category": "creative",
+    "goal": "그림을 보고 내 방식의 몸짓을 상상하고 나눠요.",
+    "description": "그림을 보고 내 방식의 몸짓을 상상하고 나눠요.",
+    "skills": [
+      "상상과 표현"
+    ],
+    "kind": "상상과 표현",
+    "status": "implemented",
+    "rounds": 1,
+    "added": "2026-11-21",
+    "thumbnail": "stage-directions/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-stage-directions-review.md",
+      "plan": "../docs/plan/20261121194717-stage-directions-plan.md",
+      "verify": "../test/20261121194717-stage-directions-verify.md"
+    }
+  },
+  {
+    "slug": "pigment-lab",
+    "title": "물감 한 방울 공방",
+    "ageBand": "6-8",
+    "category": "creative",
+    "goal": "물감의 방울 수를 바꾸며 나만의 색 조합을 살펴봐요.",
+    "description": "물감의 방울 수를 바꾸며 나만의 색 조합을 살펴봐요.",
+    "skills": [
+      "색과 비율"
+    ],
+    "kind": "색과 비율",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "pigment-lab/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-pigment-lab-review.md",
+      "plan": "../docs/plan/20261121194717-pigment-lab-plan.md",
+      "verify": "../test/20261121194717-pigment-lab-verify.md"
+    }
+  },
+  {
+    "slug": "cozy-habitat",
+    "title": "동물 쉼터 꾸미기",
+    "ageBand": "6-8",
+    "category": "creative",
+    "goal": "물과 그늘, 풀을 놓아 두 친구의 쉼터를 꾸며요.",
+    "description": "물과 그늘, 풀을 놓아 두 친구의 쉼터를 꾸며요.",
+    "skills": [
+      "공간과 돌봄"
+    ],
+    "kind": "공간과 돌봄",
+    "status": "implemented",
+    "rounds": 1,
+    "added": "2026-11-21",
+    "thumbnail": "cozy-habitat/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-cozy-habitat-review.md",
+      "plan": "../docs/plan/20261121194717-cozy-habitat-plan.md",
+      "verify": "../test/20261121194717-cozy-habitat-verify.md"
+    }
+  },
+  {
+    "slug": "orchard-season",
+    "title": "오늘의 작은 밭",
+    "ageBand": "6-8",
+    "category": "education",
+    "goal": "씨앗을 심고 계절 한 걸음을 보내 수확을 나눠요.",
+    "description": "씨앗을 심고 계절 한 걸음을 보내 수확을 나눠요.",
+    "skills": [
+      "심기와 수확"
+    ],
+    "kind": "심기와 수확",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "orchard-season/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-orchard-season-review.md",
+      "plan": "../docs/plan/20261121194717-orchard-season-plan.md",
+      "verify": "../test/20261121194717-orchard-season-verify.md"
+    }
+  },
+  {
+    "slug": "bakery-pattern",
+    "title": "조각 접시 정리",
+    "ageBand": "9-12",
+    "category": "game",
+    "goal": "접시 맨 위 조각을 옮겨 같은 무늬끼리 모아요.",
+    "description": "접시 맨 위 조각을 옮겨 같은 무늬끼리 모아요.",
+    "skills": [
+      "쌓임과 정리"
+    ],
+    "kind": "쌓임과 정리",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "bakery-pattern/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-bakery-pattern-review.md",
+      "plan": "../docs/plan/20261121194717-bakery-pattern-plan.md",
+      "verify": "../test/20261121194717-bakery-pattern-verify.md"
+    }
+  },
+  {
+    "slug": "prism-window",
+    "title": "겹침 빛 창문",
+    "ageBand": "9-12",
+    "category": "game",
+    "goal": "같은 칸의 빛이 두 번 겹치면 사라지는 규칙을 탐색해요.",
+    "description": "같은 칸의 빛이 두 번 겹치면 사라지는 규칙을 탐색해요.",
+    "skills": [
+      "배타적 겹침"
+    ],
+    "kind": "배타적 겹침",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "prism-window/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-prism-window-review.md",
+      "plan": "../docs/plan/20261121194717-prism-window-plan.md",
+      "verify": "../test/20261121194717-prism-window-verify.md"
+    }
+  },
+  {
+    "slug": "poly-room",
+    "title": "빈칸 조각 공방",
+    "ageBand": "9-12",
+    "category": "game",
+    "goal": "두 칸 조각을 돌려 서로 겹치지 않게 판을 채워요.",
+    "description": "두 칸 조각을 돌려 서로 겹치지 않게 판을 채워요.",
+    "skills": [
+      "면적과 배치"
+    ],
+    "kind": "면적과 배치",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "poly-room/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-poly-room-review.md",
+      "plan": "../docs/plan/20261121194717-poly-room-plan.md",
+      "verify": "../test/20261121194717-poly-room-verify.md"
+    }
+  },
+  {
+    "slug": "knot-cloud",
+    "title": "풀어 보는 조각 구름",
+    "ageBand": "9-12",
+    "category": "game",
+    "goal": "조각의 방향을 돌려 비어 있는 길로 하나씩 꺼내요.",
+    "description": "조각의 방향을 돌려 비어 있는 길로 하나씩 꺼내요.",
+    "skills": [
+      "공간 분해"
+    ],
+    "kind": "공간 분해",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "knot-cloud/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-knot-cloud-review.md",
+      "plan": "../docs/plan/20261121194717-knot-cloud-plan.md",
+      "verify": "../test/20261121194717-knot-cloud-verify.md"
+    }
+  },
+  {
+    "slug": "bridge-pals",
+    "title": "서로 여는 다리",
+    "ageBand": "6-8",
+    "category": "game",
+    "goal": "한 친구가 받침을 밟아 다른 친구의 길을 열어줘요.",
+    "description": "한 친구가 받침을 밟아 다른 친구의 길을 열어줘요.",
+    "skills": [
+      "협력과 순서"
+    ],
+    "kind": "협력과 순서",
+    "status": "implemented",
+    "rounds": 3,
+    "added": "2026-11-21",
+    "thumbnail": "bridge-pals/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121194717-bridge-pals-review.md",
+      "plan": "../docs/plan/20261121194717-bridge-pals-plan.md",
+      "verify": "../test/20261121194717-bridge-pals-verify.md"
+    }
   }
 ];

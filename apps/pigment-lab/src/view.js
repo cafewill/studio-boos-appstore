@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+import {blend,matches} from './model.js';
+export function render(s){return note('방울의 비율을 맞춰보고, 같은 비율이면 양이 달라도 어떤 색이 되는지 살펴봐요.')+scene(`<rect x="55" y="45" width="160" height="190" rx="25" fill="rgb(${blend(s.target).join(',')})"/><circle cx="350" cy="145" r="95" fill="rgb(${blend(s.drops).join(',')})"/><text x="135" y="270" text-anchor="middle">참고 조합</text><text x="350" y="270" text-anchor="middle">내 조합</text>`,'참고 물감과 내 물감의 색')+chip(`참고 방울 · 살구 ${s.target[0]}, 청록 ${s.target[1]}, 보라 ${s.target[2]}`)+tools(['살구','청록','보라'].map((n,i)=>action(`${n} 한 방울 · ${s.drops[i]}`,i,{disabled:s.drops.reduce((a,b)=>a+b,0)>=9})))+tools([action('새로 섞기',0,{type:'clear',disabled:!s.drops.some(Boolean)}),action('색 나누기',0,{type:'finish',disabled:!matches(s)})])+summary(s,'방울의 비율로 같은 색을 만들었어요.','화면 색의 평균 모형이에요. 실제 물감 혼합 결과와 다를 수 있어요.');}

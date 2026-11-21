@@ -1,0 +1,5 @@
+[data-app="paper-panels"] .activity-root{background:#f7eddf}
+
+[data-app="paper-panels"] .landscape-letters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+[data-app="paper-panels"] .landscape-letters svg{width:100%;height:auto}
+[data-app="paper-panels"] .landscape-letters .play-tile{padding:7px}

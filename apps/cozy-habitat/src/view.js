@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+import {ready} from './model.js';
+export function render(s){return note('윗줄 친구 옆에는 물, 아랫줄 친구 옆에는 그늘을 놓아요. 풀은 남은 자리에 심어봐요.')+`<div class="habitat-plan">${Array.from({length:6},(_,i)=>action(i===1?'물가 친구':i===4?'그늘 친구':['물그릇','그늘 지붕','푸른 풀'][s.placed.indexOf(i)]||'비어 있는 자리',i,{name:`${i+1}번 자리 ${i===1||i===4?'동물 친구':s.placed.includes(i)?['물그릇','그늘 지붕','푸른 풀'][s.placed.indexOf(i)]:'비어 있음'}`,disabled:[1,4].includes(i)})).join('')}</div>`+tools(['물그릇','그늘 지붕','푸른 풀'].map((n,i)=>action(n,i,{type:'select',pressed:s.selected===i})))+tools([action('꾸밈 내려놓기',0,{type:'clear',disabled:s.placed.every(n=>n<0)}),action('쉼터 둘러보기',0,{type:'finish',disabled:!ready(s)})])+summary(s,'두 친구 곁에 물과 그늘이 생겼어요.','실제 동물별 사육·생태 조건을 안내하는 모형은 아니에요.');}

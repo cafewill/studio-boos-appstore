@@ -1,0 +1,7 @@
+[data-app="poly-room"] .activity-root{background:#efeaf5}
+
+[data-app="poly-room"] .poly-board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;padding:12px;background:#c4d1b9;border-radius:20px}
+[data-app="poly-room"] .poly-board .play-tile{aspect-ratio:1;min-height:70px}
+[data-app="poly-room"] .poly-0{background:#f2c4a8}
+[data-app="poly-room"] .poly-1{background:#b5d4c8}
+[data-app="poly-room"] .poly-2{background:#d1c6e7}

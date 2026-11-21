@@ -1,0 +1,6 @@
+[data-app="duet-rhythm"] .activity-root{background:#efeaf5}
+
+[data-app="duet-rhythm"] .duet-score{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+[data-app="duet-rhythm"] .beat-slot{background:#fff4d8;border:2px solid #718474;border-radius:18px;padding:12px;display:grid;gap:12px;font-size:16px}
+[data-app="duet-rhythm"] .breeze-beat{background:#dcebe5}
+[data-app="duet-rhythm"] .beat-slot strong{font-size:30px}

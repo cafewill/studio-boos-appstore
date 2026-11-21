@@ -1,0 +1,6 @@
+[data-app="story-studio"] .activity-root{background:#edf1e5}
+
+[data-app="story-studio"] .cloud-book{position:relative;text-align:left;background:#fff9ea;border:2px solid #b6ad98;border-radius:18px;padding:20px 24px;margin-bottom:20px}
+[data-app="story-studio"] .cloud-book p{display:grid;gap:8px;padding:14px;border-bottom:1px dashed #c5cdbb}
+[data-app="story-studio"] .cloud-book span{font-size:14px}
+[data-app="story-studio"] .cloud-book strong{font-size:20px}

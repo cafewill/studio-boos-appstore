@@ -1,0 +1,6 @@
+import {bfs} from '../../shared/search.js';
+export function solved(plates){return plates.filter(p=>p.length).length===2&&plates.every(p=>p.length===0||(p.length===2&&p[0]===p[1]));}
+export function transfers(plates){const out=[];plates.forEach((p,i)=>{if(!p.length)return;plates.forEach((q,j)=>{if(i===j||q.length>=2||(q.length&&q.at(-1)!==p.at(-1)))return;const next=plates.map(v=>[...v]);next[j].push(next[i].pop());out.push({from:i,to:j,plates:next});});});return out;}
+export function createState(seed){return {plates:(seed>>>0)%2?[[1,0],[0,1],[]]:[[0,1],[1,0],[]],selected:-1,done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='select'&&[0,1,2].includes(a.id)&&s.plates[a.id].length&&a.id!==s.selected)return {...s,selected:a.id};if(a.type==='tap'&&[0,1,2].includes(a.id)&&s.selected>=0){const move=transfers(s.plates).find(m=>m.from===s.selected&&m.to===a.id);if(move)return {...s,plates:move.plates,selected:-1,done:solved(move.plates)};}return s;}
+export function hint(s){if(s.done)return null;const p=bfs(s.plates,plates=>transfers(plates).map(m=>m.plates),solved,JSON.stringify);const move=transfers(s.plates).find(m=>JSON.stringify(m.plates)===JSON.stringify(p[1]));return s.selected===move.from?{type:'tap',id:move.to}:{type:'select',id:move.from};}

@@ -1,0 +1,3 @@
+export function createState(seed){return {x:2,y:1,visited:[],stops:(seed>>>0)%2?[[0,0],[4,1],[2,2]]:[[4,0],[0,1],[4,2]],done:false};}
+export function reduce(s,a){if(s.done||a.type!=='tool'||![0,1,2,3].includes(a.id))return s;const [dx,dy]=[[0,-1],[1,0],[0,1],[-1,0]][a.id],x=s.x+dx,y=s.y+dy;if(x<0||x>4||y<0||y>2)return s;const visited=[...s.visited];s.stops.forEach(([sx,sy],i)=>{if(sx===x&&sy===y&&!visited.includes(i))visited.push(i);});return {...s,x,y,visited,done:visited.length===3};}
+export function hint(s){if(s.done)return null;const [x,y]=s.stops.find((_,i)=>!s.visited.includes(i));return {type:'tool',id:s.x<x?1:s.x>x?3:s.y<y?2:0};}

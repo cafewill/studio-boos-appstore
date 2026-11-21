@@ -1,0 +1,4 @@
+[data-app="cozy-habitat"] .activity-root{background:#efeaf5}
+
+[data-app="cozy-habitat"] .habitat-plan{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:16px;background:#dbe8ce;border-radius:28px}
+[data-app="cozy-habitat"] .habitat-plan .play-tile{min-height:100px}

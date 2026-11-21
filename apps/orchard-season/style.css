@@ -1,0 +1,5 @@
+[data-app="orchard-season"] .activity-root{background:#edf1e5}
+
+[data-app="orchard-season"] .orchard-plots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+[data-app="orchard-season"] .orchard-plots svg{width:100%;height:auto}
+[data-app="orchard-season"] .orchard-plots .play-tile{padding:8px}
