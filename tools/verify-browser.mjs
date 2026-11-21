@@ -2,6 +2,8 @@
 import {createRequire} from 'node:module';
 import {mkdir,writeFile} from 'node:fs/promises';
 import {CONTENTS} from '../apps/catalog.js';
+import {CATEGORIES,isPlayable,summarizeContents} from '../apps/catalog-summary.js';
+const playableContents=CONTENTS.filter(isPlayable),counts=summarizeContents(CONTENTS);
 const require=createRequire(new URL('./browser/package.json',import.meta.url));
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const base=(process.env.BOOS_TEST_URL||'http://127.0.0.1:7902').replace(/\/$/,'');
@@ -13,9 +15,28 @@ try {
  const page=await context.newPage();
  page.on('pageerror',e=>report.errors.push(e.message));
  page.on('request',r=>{if(!r.url().startsWith(base+'/')&&!r.url().startsWith('data:'))report.errors.push('External request: '+r.url());});
- await page.goto(base+'/apps/');await page.locator('#catalog .content-card').last().waitFor();assert(await page.locator('#catalog .content-card').count()===CONTENTS.length,'catalog count matches registry');
+ await page.goto(base+'/apps/');await page.locator('#catalog .content-card').last().waitFor();assert(await page.locator('#catalog .content-card').count()===playableContents.length,'catalog count matches playable registry');
  for(const viewport of [{width:360,height:640},{width:390,height:844},{width:520,height:768},{width:768,height:1024},{width:1280,height:800}]){
   await page.setViewportSize(viewport);await page.goto(base+'/apps/');await page.locator('#catalog .content-card').last().waitFor();
+  for(const c of CATEGORIES){
+   const card=page.locator(`#catalog-overview [data-category="${c.id}"]`);
+   assert(await card.locator('strong').textContent()===String(counts[c.id]),'overview count '+c.id);
+   assert(await card.getAttribute('aria-label')===`${c.label} ${counts[c.id]}개 모두 보기`,'overview accessible name '+c.id);
+  }
+  await page.locator('#catalog-overview [data-category="game"]').click();
+  assert(await page.locator('#catalog .content-card').count()===counts.game,'overview filters games');
+  assert(await page.locator('.catalog-controls [data-category="game"]').getAttribute('aria-pressed')==='true','overview syncs category filter');
+  await page.locator('.catalog-controls [data-age="3-5"]').click();
+  await page.locator('.catalog-search input').fill('찾을 수 없는 놀이');
+  await page.locator('#catalog-overview [data-category="all"]').click();
+  assert(await page.locator('#catalog .content-card').count()===counts.all,'overview clears age and query');
+  assert(await page.locator('.catalog-search input').inputValue()==='','search reset');
+  await page.locator('.catalog-controls [data-category="creative"]').click();
+  assert(await page.locator('#catalog-overview [data-category="creative"]').getAttribute('aria-pressed')==='true','filter syncs overview');
+  assert(await page.locator('#catalog-overview [data-category="all"] strong').textContent()===String(counts.all),'global total remains stable');
+  await page.locator('#catalog-overview [data-category="all"]').click();
+  const overviewFits=await page.locator('#catalog-overview').evaluate(el=>[...el.children].every(card=>{const r=card.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&card.scrollWidth<=card.clientWidth+1;}));
+  assert(overviewFits,'overview cards fit viewport '+viewport.width);
   if(viewport.width<=820){
    await page.locator('.discovery-feature').waitFor();await page.locator('[data-discovery="2"]').click();assert(await page.locator('.discovery-feature').getAttribute('href')==='sound-paint/','mobile discovery changes actual destination');await page.locator('[data-discovery="0"]').click();
   }
@@ -25,7 +46,7 @@ try {
 
  }
  await page.setViewportSize({width:390,height:844});
- for(const c of CONTENTS){
+ for(const c of playableContents){
   await page.goto(`${base}/apps/${c.slug}/`);await page.locator('#host-start').waitFor();
   await page.evaluate(({slug})=>{localStorage.setItem(`${slug}:v1:progress`,JSON.stringify({seed:42,level:0,actions:[]}));},{slug:c.slug});await page.reload();
   await page.locator('#host-start').click();
@@ -45,6 +66,6 @@ try {
  }
  for(const size of [{width:360,height:640},{width:768,height:1024},{width:1280,height:800}]){await page.setViewportSize(size);await page.goto(base+'/apps/');await page.locator('#catalog .content-card').last().waitFor();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'catalog overflow '+size.width);}
  assert(report.errors.length===0,report.errors.join('\n'));
- console.log(`PASS: ${CONTENTS.length} full flows and catalog layouts`);
+ console.log(`PASS: ${playableContents.length} full flows and catalog layouts`);
 }catch(e){report.errors.push(e.message.split('\n')[0]);console.error(e.message.split('\n')[0]);process.exitCode=1;}
 finally{await browser?.close();await mkdir(new URL('../test/',import.meta.url),{recursive:true});await writeFile(new URL(process.env.BOOS_BROWSER_REPORT||'../test/20261121165150-browser-runtime.json',import.meta.url),JSON.stringify(report,null,2));}

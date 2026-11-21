@@ -41,7 +41,7 @@ python3 -m http.server 7902 --bind 127.0.0.1
 
 ### 🗂 전체 71개와 로컬 확인
 
-신규 30개 목록과 조작 목표는 [일괄 구현 계획](docs/plan/20261121143203-batch30-plan.md), 원작별 참고 범위는 [후보 대응표](docs/review/20261121143203-priority30-review.md), 공통 계약은 [구조 가이드](docs/guide/guide-content-architecture.md)를 따른다. 각 카드의 ‘함께 놀기’로 독립 실행한다. 목록은 분야·연령·이름/주제로 찾을 수 있다.
+신규 30개 목록과 조작 목표는 [일괄 구현 계획](docs/plan/20261121143203-batch30-plan.md), 원작별 참고 범위는 [후보 대응표](docs/review/20261121143203-priority30-review.md), 공통 계약은 [구조 가이드](docs/guide/guide-content-architecture.md)를 따른다. 목록 상단에서 전체·분야별 플레이 가능 개수를 확인하고, 카테고리 카드를 눌러 그 분야의 모든 놀이로 이동할 수 있다. 각 카드의 ‘함께 놀기’로 독립 실행한다. 목록은 분야·연령·이름/주제로 찾을 수 있다.
 
 [전체 검증과 로컬 체크리스트](test/20261121143203-batch30-verify.md)에 미실시 항목을 기록했다. 현재 모든 콘텐츠는 implemented이며 verified는 0개다. 사용자 로컬 확인 뒤 발견된 문제를 수정하고 검증 상태를 올린다.
 
