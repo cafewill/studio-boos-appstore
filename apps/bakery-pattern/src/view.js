@@ -1,0 +1,3 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+export function render(s){return note('접시를 골라 맨 위 조각을 집고, 빈 접시나 같은 무늬 위로 옮겨요. 접시는 두 조각까지 담아요.')+`<div class="cake-plates">${s.plates.map((p,i)=>`<section class="cake-plate"><div class="slice-stack">${p.map(n=>`<span class="cake-slice slice-${n}">${n?'줄무늬':'동그라미'}</span>`).join('')||'<span>빈 접시</span>'}</div>${action(`${i+1}번 접시에서 집기`,i,{type:'select',pressed:s.selected===i,disabled:!p.length})}${action('이 접시에 놓기',i,{disabled:s.selected<0})}</section>`).join('')}</div>`+summary(s,'두 접시에 같은 무늬가 나란히 모였어요.','판매·동전·무작위 보상 없이 두 종류 네 조각으로 살펴봐요.');}

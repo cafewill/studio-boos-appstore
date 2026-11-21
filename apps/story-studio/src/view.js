@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+import {chapters} from './model.js';
+export function render(s){return note(s.choices.length<3?['이야기는 어디에서 시작할까요?','어떤 물건을 가져갈까요?','무엇을 만나게 될까요?'][s.choices.length]:'어떤 마무리도 괜찮아요. 내 이야기를 골라요.')+`<div class="cloud-book"><div class="book-spine"></div>${s.choices.map((n,i)=>`<p><span>${['장소','도구','만남'][i]}</span><strong>${chapters[i][n]}</strong></p>`).join('')||'<p>빈 페이지가 이야기를 기다려요.</p>'}${s.done?`<p><span>우리의 마무리</span><strong>${['함께 길을 찾았어요.','잠깐 쉬었다 다시 만났어요.','필요한 것을 나누었어요.'][s.ending]}</strong></p>`:''}</div>`+tools((s.choices.length<3?chapters[s.choices.length]:['함께 길 찾기','쉬었다 만나기','서로 나누기']).map((n,i)=>action(n,i,{type:s.choices.length<3?'tap':'finish'})))+summary(s,'내가 고른 장면이 한 편의 이야기가 되었어요.','정답·평가 없이 선택으로 구성해요. 글 입력이나 개인정보는 받지 않아요.');}

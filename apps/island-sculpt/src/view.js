@@ -1,0 +1,3 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+export function render(s){return note('물은 남겨두어도 좋아요. 두 칸 이상 높이의 언덕도 하나 만들어 봐요.')+`<div class="terrain-grid">${s.heights.map((h,i)=>action(`<span class="terrain-level terrain-${h}">${['물','모래','풀 언덕','높은 언덕'][h]}</span>`,i,{name:`${i+1}번 땅 높이 ${h}`})).join('')}</div>`+tools([action('땅 올리기',1,{type:'tool',pressed:s.tool===1}),action('땅 낮추기',0,{type:'tool',pressed:s.tool===-1})])+action('섬 둘러보기',0,{type:'finish',className:'wide-tile',disabled:!s.heights.some(v=>v===0)||!s.heights.some(v=>v>=2)})+summary(s,'낮고 높은 땅이 나만의 섬이 되었어요.','실제 지형·생태계를 계산하는 시뮬레이션은 아니에요.');}

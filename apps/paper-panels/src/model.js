@@ -1,0 +1,3 @@
+export function createState(seed){return {panels:[1,2,0],selected:-1,done:false,season:(seed>>>0)%3};}
+export function reduce(s,a){if(s.done||a.type!=='tap'||![0,1,2].includes(a.id))return s;if(s.selected<0)return {...s,selected:a.id};if(s.selected===a.id)return {...s,selected:-1};const panels=[...s.panels];[panels[s.selected],panels[a.id]]=[panels[a.id],panels[s.selected]];return {...s,panels,selected:-1,done:panels.every((v,i)=>v===i)};}
+export function hint(s){if(s.done)return null;const i=s.panels.findIndex((v,i)=>v!==i);if(s.selected<0)return {type:'tap',id:i};return {type:'tap',id:s.panels.indexOf(s.selected)};}

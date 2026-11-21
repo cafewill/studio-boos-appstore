@@ -1,0 +1,3 @@
+export function createState(seed){return {tiles:(seed>>>0)%2?[3,1,2,6,4,5]:[2,3,1,5,6,4],selected:-1,done:false};}
+export function reduce(s,a){if(s.done||a.type!=='tap'||!Number.isInteger(a.id)||a.id<0||a.id>5)return s;if(s.selected<0)return {...s,selected:a.id};if(s.selected===a.id)return {...s,selected:-1};const tiles=[...s.tiles];[tiles[s.selected],tiles[a.id]]=[tiles[a.id],tiles[s.selected]];return {...s,tiles,selected:-1,done:tiles.every((v,i)=>v===i+1)};}
+export function hint(s){if(s.done)return null;const i=s.tiles.findIndex((v,i)=>v!==i+1);if(s.selected<0)return {type:'tap',id:i};const target=s.tiles.indexOf(s.selected+1);return target===s.selected?{type:'tap',id:s.selected}:{type:'tap',id:target};}

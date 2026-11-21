@@ -1,0 +1,4 @@
+export function createState(seed){return {positions:[0,0],active:(seed>>>0)%2,latched:false,done:false};}
+export function open(s){return s.latched||s.positions.includes(2);}
+export function reduce(s,a){if(s.done)return s;if(a.type==='select'&&[0,1].includes(a.id)&&s.active!==a.id)return {...s,active:a.id};if(a.type==='tap'&&a.id===0){const pos=s.positions[s.active],next=pos+1;if(pos===6||(next===3&&!s.latched&&s.positions[1-s.active]!==2))return s;const positions=s.positions.map((p,i)=>i===s.active?next:p);return {...s,positions,latched:s.latched||next===3,done:positions.every(p=>p===6)};}return s;}
+export function hint(s){if(s.done)return null;if(!s.latched){if(s.positions[0]<2)return s.active===0?{type:'tap',id:0}:{type:'select',id:0};if(s.positions[1]<3)return s.active===1?{type:'tap',id:0}:{type:'select',id:1};}const i=s.positions.findIndex(p=>p<6);return s.active===i?{type:'tap',id:0}:{type:'select',id:i};}

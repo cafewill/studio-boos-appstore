@@ -1,0 +1,1793 @@
+{
+  "base": "http://127.0.0.1:7902",
+  "contents": 71,
+  "checked": 0,
+  "errors": [
+    {
+      "path": "/apps/",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/catalog.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/content-registry.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/home.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/site.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shared/host.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shared/board-activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shared/experiment.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shared/exploration.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shared/search.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shared/exploration-ui.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shape-garden/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shape-garden/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shape-garden/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shape-garden/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shape-garden/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/counting-picnic/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/counting-picnic/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/counting-picnic/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/counting-picnic/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/counting-picnic/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/vegetable-pairs/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/vegetable-pairs/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/vegetable-pairs/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/vegetable-pairs/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/vegetable-pairs/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/toy-shelves/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/toy-shelves/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/toy-shelves/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/toy-shelves/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/toy-shelves/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/leaf-discovery/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/leaf-discovery/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/leaf-discovery/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/leaf-discovery/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/leaf-discovery/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/dino-pieces/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/dino-pieces/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/dino-pieces/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/dino-pieces/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/dino-pieces/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/letter-bloom/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/letter-bloom/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/letter-bloom/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/letter-bloom/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/letter-bloom/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/alphabet-pals/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/alphabet-pals/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/alphabet-pals/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/alphabet-pals/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/alphabet-pals/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-discovery/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-discovery/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-discovery/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-discovery/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-discovery/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/clock-walk/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/clock-walk/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/clock-walk/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/clock-walk/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/clock-walk/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-footsteps/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-footsteps/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-footsteps/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-footsteps/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-footsteps/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/breeze-salon/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/breeze-salon/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/breeze-salon/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/breeze-salon/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/breeze-salon/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/today-wardrobe/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/today-wardrobe/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/today-wardrobe/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/today-wardrobe/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/today-wardrobe/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cloud-icecream/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cloud-icecream/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cloud-icecream/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cloud-icecream/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cloud-icecream/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/kind-kitchen/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/kind-kitchen/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/kind-kitchen/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/kind-kitchen/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/kind-kitchen/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-paint/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-paint/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-paint/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-paint/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sound-paint/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/forest-hideaway/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/forest-hideaway/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/forest-hideaway/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/forest-hideaway/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/forest-hideaway/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-things-map/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-things-map/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-things-map/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-things-map/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-things-map/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/connected-trails/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/connected-trails/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/connected-trails/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/connected-trails/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/connected-trails/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/layered-paper/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/layered-paper/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/layered-paper/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/layered-paper/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/layered-paper/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ten-friends/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ten-friends/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ten-friends/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ten-friends/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ten-friends/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/number-squares/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/number-squares/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/number-squares/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/number-squares/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/number-squares/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/double-garden/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/double-garden/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/double-garden/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/double-garden/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/double-garden/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/loop-walk/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/loop-walk/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/loop-walk/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/loop-walk/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/loop-walk/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sum-flowerbeds/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sum-flowerbeds/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sum-flowerbeds/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sum-flowerbeds/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sum-flowerbeds/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-delivery/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-delivery/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-delivery/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-delivery/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/little-delivery/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/unwinding-hooks/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/unwinding-hooks/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/unwinding-hooks/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/unwinding-hooks/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/unwinding-hooks/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/discovery-buttons/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/discovery-buttons/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/discovery-buttons/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/discovery-buttons/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/discovery-buttons/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pattern-journey/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pattern-journey/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pattern-journey/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pattern-journey/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pattern-journey/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/escaping-pieces/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/escaping-pieces/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/escaping-pieces/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/escaping-pieces/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/escaping-pieces/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sand-paths/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sand-paths/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sand-paths/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sand-paths/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sand-paths/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sprout-lab/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sprout-lab/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sprout-lab/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sprout-lab/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sprout-lab/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sprout-lab/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/sprout-lab/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/weather-studio/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/weather-studio/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/weather-studio/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/weather-studio/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/weather-studio/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/weather-studio/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/weather-studio/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orbit-playground/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orbit-playground/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orbit-playground/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orbit-playground/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orbit-playground/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orbit-playground/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orbit-playground/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/body-trail/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/body-trail/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/body-trail/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/body-trail/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/body-trail/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/body-trail/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/body-trail/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gear-workshop/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gear-workshop/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gear-workshop/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gear-workshop/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gear-workshop/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gear-workshop/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gear-workshop/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/water-workshop/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/water-workshop/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/water-workshop/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/water-workshop/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/water-workshop/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/water-workshop/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/water-workshop/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-instructions/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-instructions/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-instructions/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-instructions/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-instructions/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-instructions/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-instructions/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fossil-field/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fossil-field/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fossil-field/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fossil-field/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fossil-field/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fossil-field/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fossil-field/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fraction-bakery/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fraction-bakery/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fraction-bakery/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fraction-bakery/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fraction-bakery/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fraction-bakery/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/fraction-bakery/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/balance-playground/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/balance-playground/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/balance-playground/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/balance-playground/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/balance-playground/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/balance-playground/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/balance-playground/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/star-stitch/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/star-stitch/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/star-stitch/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/star-stitch/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/star-stitch/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/star-stitch/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/star-stitch/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/earth-river/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/earth-river/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/earth-river/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/earth-river/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/earth-river/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/earth-river/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/earth-river/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/skyline-build/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/skyline-build/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/skyline-build/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/skyline-build/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/skyline-build/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/skyline-build/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/skyline-build/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/invention-chain/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/invention-chain/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/invention-chain/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/invention-chain/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/invention-chain/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/invention-chain/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/invention-chain/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-atelier/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-atelier/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-atelier/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-atelier/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-atelier/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-atelier/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/robot-atelier/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gentle-vet/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gentle-vet/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gentle-vet/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gentle-vet/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gentle-vet/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gentle-vet/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/gentle-vet/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bedtime-lantern/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bedtime-lantern/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bedtime-lantern/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bedtime-lantern/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bedtime-lantern/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bedtime-lantern/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bedtime-lantern/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/animal-greetings/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/animal-greetings/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/animal-greetings/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/animal-greetings/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/animal-greetings/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/animal-greetings/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/animal-greetings/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shadow-stage/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shadow-stage/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shadow-stage/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shadow-stage/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shadow-stage/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shadow-stage/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/shadow-stage/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/folded-view/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/folded-view/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/folded-view/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/folded-view/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/folded-view/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/folded-view/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/folded-view/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ink-ribbon/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ink-ribbon/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ink-ribbon/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ink-ribbon/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ink-ribbon/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ink-ribbon/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/ink-ribbon/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bloom-prune/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bloom-prune/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bloom-prune/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bloom-prune/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bloom-prune/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bloom-prune/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bloom-prune/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/meadow-breeze/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/meadow-breeze/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/meadow-breeze/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/meadow-breeze/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/meadow-breeze/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/meadow-breeze/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/meadow-breeze/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/island-sculpt/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/island-sculpt/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/island-sculpt/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/island-sculpt/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/island-sculpt/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/island-sculpt/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/island-sculpt/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/paper-panels/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/paper-panels/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/paper-panels/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/paper-panels/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/paper-panels/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/paper-panels/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/paper-panels/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/swim-turn/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/swim-turn/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/swim-turn/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/swim-turn/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/swim-turn/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/swim-turn/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/swim-turn/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/track-switch/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/track-switch/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/track-switch/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/track-switch/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/track-switch/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/track-switch/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/track-switch/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/seed-trade/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/seed-trade/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/seed-trade/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/seed-trade/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/seed-trade/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/seed-trade/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/seed-trade/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/mosaic-tiles/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/mosaic-tiles/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/mosaic-tiles/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/mosaic-tiles/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/mosaic-tiles/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/mosaic-tiles/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/mosaic-tiles/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/duet-rhythm/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/duet-rhythm/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/duet-rhythm/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/duet-rhythm/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/duet-rhythm/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/duet-rhythm/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/duet-rhythm/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-studio/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-studio/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-studio/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-studio/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-studio/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-studio/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/story-studio/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/stage-directions/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/stage-directions/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/stage-directions/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/stage-directions/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/stage-directions/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/stage-directions/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/stage-directions/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pigment-lab/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pigment-lab/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pigment-lab/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pigment-lab/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pigment-lab/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pigment-lab/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/pigment-lab/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cozy-habitat/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cozy-habitat/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cozy-habitat/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cozy-habitat/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cozy-habitat/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cozy-habitat/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/cozy-habitat/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orchard-season/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orchard-season/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orchard-season/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orchard-season/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orchard-season/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orchard-season/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/orchard-season/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bakery-pattern/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bakery-pattern/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bakery-pattern/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bakery-pattern/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bakery-pattern/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bakery-pattern/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bakery-pattern/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/prism-window/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/prism-window/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/prism-window/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/prism-window/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/prism-window/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/prism-window/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/prism-window/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/poly-room/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/poly-room/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/poly-room/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/poly-room/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/poly-room/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/poly-room/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/poly-room/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/knot-cloud/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/knot-cloud/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/knot-cloud/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/knot-cloud/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/knot-cloud/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/knot-cloud/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/knot-cloud/style.css",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bridge-pals/index.html",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bridge-pals/src/main.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bridge-pals/src/activity.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bridge-pals/src/model.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bridge-pals/src/view.js",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bridge-pals/cover.svg",
+      "error": "fetch failed"
+    },
+    {
+      "path": "/apps/bridge-pals/style.css",
+      "error": "fetch failed"
+    }
+  ],
+  "results": [],
+  "scope": "HTTP file delivery only; no browser execution or visual verification"
+}

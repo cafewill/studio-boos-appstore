@@ -1,0 +1,4 @@
+export function output(s){return s.gate===0?s.inputs.every(Boolean):s.inputs.some(Boolean);}
+export function createState(seed){return {inputs:[false,false],gate:(seed>>>0)%2,observed:[],done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='tap'&&[0,1].includes(a.id))return {...s,inputs:s.inputs.map((v,i)=>i===a.id?!v:v)};if(a.type==='select'&&[0,1].includes(a.id)&&a.id!==s.gate)return {...s,gate:a.id};if(a.type==='start'&&a.id===0){const value=output(s),observed=[...new Set([...s.observed,value])];if(observed.length===s.observed.length)return s;return {...s,observed,done:observed.length===2};}return s;}
+export function hint(s){if(s.done)return null;const want=!s.observed.includes(false)?false:true;if(output(s)===want)return {type:'start',id:0};const i=s.inputs.findIndex(v=>v!==want);return {type:'tap',id:i};}

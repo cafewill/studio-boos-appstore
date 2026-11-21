@@ -65,6 +65,43 @@
 | 나눔 빵집 | [구현 계획](20261121165150-fraction-bakery-plan.md) |
 | 균형 놀이터 | [구현 계획](20261121165150-balance-playground-plan.md) |
 
+### 🌈 다음 후보 30개 · 총 71개
+
+[30개 묶음 계획](20261121194717-next30-plan.md)
+
+| 콘텐츠 | 문서 |
+|---|---|
+| 별빛 이음 | [개별 plan](20261121194717-star-stitch-plan.md) |
+| 강이 만드는 땅 | [개별 plan](20261121194717-earth-river-plan.md) |
+| 하늘 마을 공사장 | [개별 plan](20261121194717-skyline-build-plan.md) |
+| 반짝 발명 책상 | [개별 plan](20261121194717-invention-chain-plan.md) |
+| 로봇 꾸밈 공방 | [개별 plan](20261121194717-robot-atelier-plan.md) |
+| 포근한 인형 돌봄 | [개별 plan](20261121194717-gentle-vet-plan.md) |
+| 저녁빛 오두막 | [개별 plan](20261121194717-bedtime-lantern-plan.md) |
+| 반가운 몸짓 | [개별 plan](20261121194717-animal-greetings-plan.md) |
+| 그림자 극장 | [개별 plan](20261121194717-shadow-stage-plan.md) |
+| 입체 선의 시선 | [개별 plan](20261121194717-folded-view-plan.md) |
+| 잉크 물결 | [개별 plan](20261121194717-ink-ribbon-plan.md) |
+| 빛길 가지 정원 | [개별 plan](20261121194717-bloom-prune-plan.md) |
+| 꽃잎 바람길 | [개별 plan](20261121194717-meadow-breeze-plan.md) |
+| 손바닥 섬 만들기 | [개별 plan](20261121194717-island-sculpt-plan.md) |
+| 세 장의 풍경 편지 | [개별 plan](20261121194717-paper-panels-plan.md) |
+| 한 걸음 물길 | [개별 plan](20261121194717-swim-turn-plan.md) |
+| 갈림길 작은 기차 | [개별 plan](20261121194717-track-switch-plan.md) |
+| 씨앗 나눔 우체국 | [개별 plan](20261121194717-seed-trade-plan.md) |
+| 차례 타일 작업대 | [개별 plan](20261121194717-mosaic-tiles-plan.md) |
+| 함께 박자길 | [개별 plan](20261121194717-duet-rhythm-plan.md) |
+| 이야기 구름책 | [개별 plan](20261121194717-story-studio-plan.md) |
+| 몸짓 이야기 무대 | [개별 plan](20261121194717-stage-directions-plan.md) |
+| 물감 한 방울 공방 | [개별 plan](20261121194717-pigment-lab-plan.md) |
+| 동물 쉼터 꾸미기 | [개별 plan](20261121194717-cozy-habitat-plan.md) |
+| 오늘의 작은 밭 | [개별 plan](20261121194717-orchard-season-plan.md) |
+| 조각 접시 정리 | [개별 plan](20261121194717-bakery-pattern-plan.md) |
+| 겹침 빛 창문 | [개별 plan](20261121194717-prism-window-plan.md) |
+| 빈칸 조각 공방 | [개별 plan](20261121194717-poly-room-plan.md) |
+| 풀어 보는 조각 구름 | [개별 plan](20261121194717-knot-cloud-plan.md) |
+| 서로 여는 다리 | [개별 plan](20261121194717-bridge-pals-plan.md) |
+
 ## 📌 요약 정보
 
 신규 30개와 기존 모양 정원을 유지한다. 개별 파일·목록·GLANCE를 같은 작업에서 갱신한다.

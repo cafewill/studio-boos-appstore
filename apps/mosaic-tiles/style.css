@@ -1,0 +1,4 @@
+[data-app="mosaic-tiles"] .activity-root{background:#f7eddf}
+
+[data-app="mosaic-tiles"] .number-workbench{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;background:#cdbb9e;padding:16px;border-radius:24px}
+[data-app="mosaic-tiles"] .engraved-number{font-size:40px;color:#365d46}

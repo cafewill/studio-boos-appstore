@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+import {clearWay} from './model.js';
+export function render(s){return note('선택한 조각이 바라보는 쪽에 다른 조각이 없으면 밖으로 나갈 수 있어요.')+scene(s.points.map(([x,y],i)=>s.removed.includes(i)?'':`<rect x="${90+x*90}" y="${35+y*85}" width="70" height="65" rx="15" fill="${['#efad85','#97bdaf','#b7ade0','#e3c46b'][i]}" stroke="#365d46" stroke-width="${s.selected===i?5:2}"/><text x="${125+x*90}" y="${76+y*85}" text-anchor="middle">${i+1} ${['위','오른쪽','아래','왼쪽'][s.directions[i]]}</text>`).join(''),'방향을 가진 네 조각')+tools(s.points.map((_,i)=>action(`${i+1}번 조각`,i,{type:'select',disabled:s.removed.includes(i),pressed:s.selected===i})))+tools([action('선택 조각 돌리기',0,{type:'tool'}),action('빈 길로 꺼내기',0,{type:'start',disabled:s.done||!clearWay(s,s.selected<0?0:s.selected)})])+summary(s,'서로 가리던 조각들이 빈 길을 찾아 나왔어요.','3D 충돌 대신 행·열의 직선 막힘만 살펴봐요.');}
