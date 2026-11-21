@@ -1,0 +1,8 @@
+[data-app="gear-workshop"] .activity-root{background:#efe5d4}
+[data-app="gear-workshop"] .gear-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+[data-app="gear-workshop"] .rotation-readout{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin-top:24px}
+[data-app="gear-workshop"] .gear-controls .play-tile{background:#fff8e7}
+@media(max-width:460px){[data-app="gear-workshop"] .gear-controls{grid-template-columns:1fr}
+[data-app="gear-workshop"] .gear-controls .play-tile{min-height:52px}
+[data-app="gear-workshop"] .rotation-readout .play-chip{font-size:14px}
+[data-app="gear-workshop"] .experiment-art{min-height:170px}}

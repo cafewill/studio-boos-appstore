@@ -10,6 +10,7 @@ for(const c of CONTENTS){
  check(!seen.has(c.slug),'duplicate '+c.slug);seen.add(c.slug);check(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(c.slug),'slug');
  check(['game','education','creative'].includes(c.category),'category');check(['3-5','6-8','9-12'].includes(c.ageBand),'age band');check(['implemented','verified'].includes(c.status),'runtime state');
  for(const file of ['index.html','README.md','src/main.js','src/activity.js','src/model.js','src/view.js'])await access(resolve(root,'apps',c.slug,file));
+ if(c.thumbnail){check(c.thumbnail===`${c.slug}/cover.svg`,c.slug+' local cover path');await access(resolve(root,'apps',c.thumbnail));await access(resolve(root,'apps',c.slug,'style.css'));}
  const activity=await import(pathToFileURL(resolve(root,'apps',c.slug,'src/activity.js')));check(typeof activity.createActivity==='function',c.slug+' factory');
  const source=await readFile(resolve(root,'apps',c.slug,'src/activity.js'),'utf8');check(source.includes('createBoardActivity'),c.slug+' shared lifecycle adapter');
  for(const type of ['review','plan','verify']){check(typeof c.docs?.[type]==='string',c.slug+' '+type);await access(resolve(root,'apps',c.docs[type]));}

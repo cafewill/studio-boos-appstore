@@ -13,7 +13,7 @@ try {
  const page=await context.newPage();
  page.on('pageerror',e=>report.errors.push(e.message));
  page.on('request',r=>{if(!r.url().startsWith(base+'/')&&!r.url().startsWith('data:'))report.errors.push('External request: '+r.url());});
- await page.goto(base+'/apps/');await page.locator('#catalog .content-card').last().waitFor();assert(await page.locator('#catalog .content-card').count()===31,'31 catalog cards');
+ await page.goto(base+'/apps/');await page.locator('#catalog .content-card').last().waitFor();assert(await page.locator('#catalog .content-card').count()===CONTENTS.length,'catalog count matches registry');
  for(const viewport of [{width:360,height:640},{width:390,height:844},{width:520,height:768},{width:768,height:1024},{width:1280,height:800}]){
   await page.setViewportSize(viewport);await page.goto(base+'/apps/');await page.locator('#catalog .content-card').last().waitFor();
   if(viewport.width<=820){
@@ -45,6 +45,6 @@ try {
  }
  for(const size of [{width:360,height:640},{width:768,height:1024},{width:1280,height:800}]){await page.setViewportSize(size);await page.goto(base+'/apps/');await page.locator('#catalog .content-card').last().waitFor();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'catalog overflow '+size.width);}
  assert(report.errors.length===0,report.errors.join('\n'));
- console.log('PASS: 31 full flows and catalog layouts');
+ console.log(`PASS: ${CONTENTS.length} full flows and catalog layouts`);
 }catch(e){report.errors.push(e.message.split('\n')[0]);console.error(e.message.split('\n')[0]);process.exitCode=1;}
-finally{await browser?.close();await mkdir(new URL('../test/',import.meta.url),{recursive:true});await writeFile(new URL('../test/20261121143203-browser-runtime.json',import.meta.url),JSON.stringify(report,null,2));}
+finally{await browser?.close();await mkdir(new URL('../test/',import.meta.url),{recursive:true});await writeFile(new URL(process.env.BOOS_BROWSER_REPORT||'../test/20261121165150-browser-runtime.json',import.meta.url),JSON.stringify(report,null,2));}

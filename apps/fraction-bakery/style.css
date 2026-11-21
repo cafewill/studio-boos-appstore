@@ -1,0 +1,14 @@
+[data-app="fraction-bakery"] .activity-root{background:#fcf0df}
+[data-app="fraction-bakery"] .bakery-ticket{display:flex;flex-direction:column;gap:8px;background:#fff;border:2px dashed #b09b7e;border-radius:15px;padding:16px;margin-bottom:20px;font-size:15px}
+[data-app="fraction-bakery"] .bakery-ticket strong{font-size:36px;color:#365d46}
+[data-app="fraction-bakery"] .bread-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:20px;align-items:center}
+[data-app="fraction-bakery"] .bread-board{width:100%;height:auto}
+[data-app="fraction-bakery"] .bread-tools{display:grid;gap:10px}
+[data-app="fraction-bakery"] .bread-tools .play-tile{min-height:50px}
+[data-app="fraction-bakery"] .slice-tray{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:20px 0}
+@media(max-width:500px){[data-app="fraction-bakery"] .bread-layout{grid-template-columns:1fr}
+[data-app="fraction-bakery"] .bread-board{max-width:280px;margin:auto}
+[data-app="fraction-bakery"] .bread-tools{grid-template-columns:repeat(3,minmax(0,1fr))}
+[data-app="fraction-bakery"] .bread-tools .scene-label,[data-app="fraction-bakery"] .bread-tools .quiet-note{grid-column:1/-1;margin:0}
+[data-app="fraction-bakery"] .slice-tray{grid-template-columns:repeat(2,minmax(0,1fr))}
+[data-app="fraction-bakery"] .slice-tray .play-tile{min-height:54px}}

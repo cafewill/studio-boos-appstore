@@ -1,0 +1,17 @@
+[data-app="fossil-field"] .activity-root{background:#f1e7d9}
+[data-app="fossil-field"] .dig-table{position:relative;max-width:480px;margin:auto;background:#caa87e;border:8px solid #a28058;border-radius:30px;overflow:hidden}
+[data-app="fossil-field"] .fossil-specimen{display:block;width:100%;height:auto;min-height:290px}
+[data-app="fossil-field"] .dust-grid{position:absolute;inset:12px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(3,minmax(0,1fr));gap:3px}
+[data-app="fossil-field"] .dust-grid .play-tile{border:0;border-radius:8px;box-shadow:none;min-height:70px;padding:4px}
+[data-app="fossil-field"] .dust-grid .thick-dust{background:#c7a67d;color:#253e34}
+[data-app="fossil-field"] .dust-grid .thin-dust{background:#dfc6a7;color:#3f4737}
+[data-app="fossil-field"] .dust-grid .clear-dust{background:transparent;color:#365d46;font-size:14px;align-self:start;min-height:24px}
+[data-app="fossil-field"] .stand-tray{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}
+[data-app="fossil-field"] .museum-plinth{background:#fff6e7;border-top:10px solid #9c7c52;padding:20px;font-weight:700}
+[data-app="fossil-field"] .museum-plinth.plinth-1{border-radius:50% 50% 0 0;border-color:#718474}
+[data-app="fossil-field"] .museum-plinth.plinth-2{border-color:#b7ade0}
+[data-app="fossil-field"] .museum-plinth small{font-weight:400;font-size:14px}
+@media(max-width:420px){[data-app="fossil-field"] .stand-tray{grid-template-columns:1fr}
+[data-app="fossil-field"] .stand-tray .play-tile{min-height:54px}
+[data-app="fossil-field"] .fossil-specimen{min-height:260px}
+[data-app="fossil-field"] .dust-grid{inset:7px}}
