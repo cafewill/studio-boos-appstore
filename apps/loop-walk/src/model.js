@@ -1,0 +1,7 @@
+import {random, shuffled, copy} from '../../shared/random.js';
+export const edges=[...Array.from({length:6},(_,i)=>[Math.floor(i/2)*3+i%2,Math.floor(i/2)*3+i%2+1]),...Array.from({length:6},(_,i)=>[i,i+3])];
+export function counts(lines){return [0,1,2,3].map(i=>{const row=Math.floor(i/2),col=i%2;return [row*2+col,(row+1)*2+col,6+row*3+col,6+row*3+col+1].filter(e=>lines.includes(e)).length;});}
+export function isSolved(s){if(s.lines.length<4||counts(s.lines).some((n,i)=>n!==s.clues[i]))return false;const degree=Array(9).fill(0),adj=Array.from({length:9},()=>[]);for(const id of s.lines){const [a,b]=edges[id];degree[a]++;degree[b]++;adj[a].push(b);adj[b].push(a);}if(degree.some(n=>n!==0&&n!==2))return false;const seen=new Set(),stack=[degree.findIndex(n=>n>0)];while(stack.length){const p=stack.pop();if(seen.has(p))continue;seen.add(p);stack.push(...adj[p]);}return seen.size===degree.filter(Boolean).length;}
+export function createState(seed){const variants=[[0,1,4,5,6,8,9,11],[0,2,6,7],[1,3,7,8],[2,4,9,10],[3,5,10,11],[0,1,2,3,6,8]],target=variants[seed%variants.length];return {target,clues:counts(target),lines:[],done:false};}
+export function reduce(s,a){if(s.done||a.type!=='tap'||a.id<0||a.id>=12)return s;const lines=s.lines.includes(a.id)?s.lines.filter(x=>x!==a.id):[...s.lines,a.id];const n={...s,lines};n.done=isSolved(n);return n;}
+export const hint=s=>({type:'tap',id:[...Array(12).keys()].find(id=>s.lines.includes(id)!==s.target.includes(id))});

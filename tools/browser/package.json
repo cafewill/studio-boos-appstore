@@ -1,0 +1,7 @@
+{
+  "name": "boos-appstore-browser-checks",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node ../verify-browser.mjs"},
+  "devDependencies": {"playwright": "1.61.1"}
+}

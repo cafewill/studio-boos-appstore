@@ -1,0 +1,874 @@
+{
+  "source": "https://itunes.apple.com/kr/rss/toppaidapplications/limit=100/genre=6017/json",
+  "fetchedAt": "2026-11-21T12:12:38.123907+09:00",
+  "feedUpdated": "2026-11-20T19:11:31-07:00",
+  "requestedLimit": 100,
+  "returnedCount": 96,
+  "platform": "Apple RSS applications feed; iPhone/iPad scope not separately guaranteed",
+  "entries": [
+    {
+      "rank": 1,
+      "id": "373493387",
+      "title": "AnkiMobile Flashcards",
+      "developer": "Anki Software, LLC",
+      "url": "https://apps.apple.com/kr/app/ankimobile-flashcards/id373493387?uo=2",
+      "price": "￦44,000",
+      "category": "교육"
+    },
+    {
+      "rank": 2,
+      "id": "1455054515",
+      "title": "회독JLPT VIP",
+      "developer": "LEE YONGHEE",
+      "url": "https://apps.apple.com/kr/app/%ED%9A%8C%EB%8F%85jlpt-vip/id1455054515?uo=2",
+      "price": "￦22,000",
+      "category": "교육"
+    },
+    {
+      "rank": 3,
+      "id": "6761680549",
+      "title": "국시마스터",
+      "developer": "Nexture Creative",
+      "url": "https://apps.apple.com/kr/app/%EA%B5%AD%EC%8B%9C%EB%A7%88%EC%8A%A4%ED%84%B0/id6761680549?uo=2",
+      "price": "￦8,800",
+      "category": "교육"
+    },
+    {
+      "rank": 4,
+      "id": "6795440406",
+      "title": "SMAT A+B+C 올인원 공부 앱",
+      "developer": "SUIN CHOI",
+      "url": "https://apps.apple.com/kr/app/smat-a-b-c-%EC%98%AC%EC%9D%B8%EC%9B%90-%EA%B3%B5%EB%B6%80-%EC%95%B1/id6795440406?uo=2",
+      "price": "￦6,900",
+      "category": "교육"
+    },
+    {
+      "rank": 5,
+      "id": "1484507247",
+      "title": "회독TOEIC",
+      "developer": "LEE YONGHEE",
+      "url": "https://apps.apple.com/kr/app/%ED%9A%8C%EB%8F%85toeic/id1484507247?uo=2",
+      "price": "￦11,000",
+      "category": "교육"
+    },
+    {
+      "rank": 6,
+      "id": "6781720985",
+      "title": "한국실용글쓰기검정 준2급 | 2026년 대비 문제",
+      "developer": "Masaki Kobayashi",
+      "url": "https://apps.apple.com/kr/app/%ED%95%9C%EA%B5%AD%EC%8B%A4%EC%9A%A9%EA%B8%80%EC%93%B0%EA%B8%B0%EA%B2%80%EC%A0%95-%EC%A4%802%EA%B8%89-2026%EB%85%84-%EB%8C%80%EB%B9%84-%EB%AC%B8%EC%A0%9C/id6781720985?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 7,
+      "id": "1459671308",
+      "title": "회독HSK",
+      "developer": "LEE YONGHEE",
+      "url": "https://apps.apple.com/kr/app/%ED%9A%8C%EB%8F%85hsk/id1459671308?uo=2",
+      "price": "￦19,000",
+      "category": "교육"
+    },
+    {
+      "rank": 8,
+      "id": "1515215584",
+      "title": "RakugakiAR",
+      "developer": "Whatever Co.",
+      "url": "https://apps.apple.com/kr/app/rakugakiar/id1515215584?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 9,
+      "id": "6824880652",
+      "title": "Jazz Piano 50",
+      "developer": "harang kim",
+      "url": "https://apps.apple.com/kr/app/jazz-piano-50/id6824880652?uo=2",
+      "price": "￦8,800",
+      "category": "교육"
+    },
+    {
+      "rank": 10,
+      "id": "6752510065",
+      "title": "일본어 한자 위젯 - Kanji-it 잠금화면 학습",
+      "developer": "EUIHYUNG JUNG",
+      "url": "https://apps.apple.com/kr/app/%EC%9D%BC%EB%B3%B8%EC%96%B4-%ED%95%9C%EC%9E%90-%EC%9C%84%EC%A0%AF-kanji-it-%EC%9E%A0%EA%B8%88%ED%99%94%EB%A9%B4-%ED%95%99%EC%8A%B5/id6752510065?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 11,
+      "id": "1072244466",
+      "title": "한국어 발음",
+      "developer": "佩佩 伍",
+      "url": "https://apps.apple.com/kr/app/%ED%95%9C%EA%B5%AD%EC%96%B4-%EB%B0%9C%EC%9D%8C/id1072244466?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 12,
+      "id": "6797004253",
+      "title": "보카체크 :: 나만의 단어장",
+      "developer": "kangho lee",
+      "url": "https://apps.apple.com/kr/app/%EB%B3%B4%EC%B9%B4%EC%B2%B4%ED%81%AC-%EB%82%98%EB%A7%8C%EC%9D%98-%EB%8B%A8%EC%96%B4%EC%9E%A5/id6797004253?uo=2",
+      "price": "￦1,900",
+      "category": "교육"
+    },
+    {
+      "rank": 13,
+      "id": "6794349349",
+      "title": "토익 단어 종결: 회독 영단어 암기",
+      "developer": "SANGSANGLYEOG",
+      "url": "https://apps.apple.com/kr/app/%ED%86%A0%EC%9D%B5-%EB%8B%A8%EC%96%B4-%EC%A2%85%EA%B2%B0-%ED%9A%8C%EB%8F%85-%EC%98%81%EB%8B%A8%EC%96%B4-%EC%95%94%EA%B8%B0/id6794349349?uo=2",
+      "price": "￦8,900",
+      "category": "교육"
+    },
+    {
+      "rank": 14,
+      "id": "6814737803",
+      "title": "그날 한국사 - 이야기와 문제풀이",
+      "developer": "Dong Jun Kim",
+      "url": "https://apps.apple.com/kr/app/%EA%B7%B8%EB%82%A0-%ED%95%9C%EA%B5%AD%EC%82%AC-%EC%9D%B4%EC%95%BC%EA%B8%B0%EC%99%80-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4/id6814737803?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 15,
+      "id": "6781537685",
+      "title": "상공회의소 한자 2급 | 2026년 대비 문제",
+      "developer": "Masaki Kobayashi",
+      "url": "https://apps.apple.com/kr/app/%EC%83%81%EA%B3%B5%ED%9A%8C%EC%9D%98%EC%86%8C-%ED%95%9C%EC%9E%90-2%EA%B8%89-2026%EB%85%84-%EB%8C%80%EB%B9%84-%EB%AC%B8%EC%A0%9C/id6781537685?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 16,
+      "id": "6764713718",
+      "title": "Loopnote - 토익/텝스 Mp3 Bookmark",
+      "developer": "Haeyoung Yoo",
+      "url": "https://apps.apple.com/kr/app/loopnote-%ED%86%A0%EC%9D%B5-%ED%85%9D%EC%8A%A4-mp3-bookmark/id6764713718?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 17,
+      "id": "6759973478",
+      "title": "몬테소리 아이 수학 : MONTEMATH",
+      "developer": "Aneesh Pradeep",
+      "url": "https://apps.apple.com/kr/app/%EB%AA%AC%ED%85%8C%EC%86%8C%EB%A6%AC-%EC%95%84%EC%9D%B4-%EC%88%98%ED%95%99-montemath/id6759973478?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 18,
+      "id": "307840670",
+      "title": "Flashcards Deluxe",
+      "developer": "OrangeOrApple.com",
+      "url": "https://apps.apple.com/kr/app/flashcards-deluxe/id307840670?uo=2",
+      "price": "￦7,700",
+      "category": "교육"
+    },
+    {
+      "rank": 19,
+      "id": "6502834553",
+      "title": "암카 상공한자: 상공회의소 한자 3급 암기카드",
+      "developer": "TheOne Lab",
+      "url": "https://apps.apple.com/kr/app/%EC%95%94%EC%B9%B4-%EC%83%81%EA%B3%B5%ED%95%9C%EC%9E%90-%EC%83%81%EA%B3%B5%ED%9A%8C%EC%9D%98%EC%86%8C-%ED%95%9C%EC%9E%90-3%EA%B8%89-%EC%95%94%EA%B8%B0%EC%B9%B4%EB%93%9C/id6502834553?uo=2",
+      "price": "￦5,500",
+      "category": "교육"
+    },
+    {
+      "rank": 20,
+      "id": "6758516518",
+      "title": "감평기지개-실전편",
+      "developer": "Yunhye Yu",
+      "url": "https://apps.apple.com/kr/app/%EA%B0%90%ED%8F%89%EA%B8%B0%EC%A7%80%EA%B0%9C-%EC%8B%A4%EC%A0%84%ED%8E%B8/id6758516518?uo=2",
+      "price": "￦17,900",
+      "category": "교육"
+    },
+    {
+      "rank": 21,
+      "id": "6740180928",
+      "title": "감정평가사 시험 기출지문 개념완성(감관법) - 기지개",
+      "developer": "Yunhye Yu",
+      "url": "https://apps.apple.com/kr/app/%EA%B0%90%EC%A0%95%ED%8F%89%EA%B0%80%EC%82%AC-%EC%8B%9C%ED%97%98-%EA%B8%B0%EC%B6%9C%EC%A7%80%EB%AC%B8-%EA%B0%9C%EB%85%90%EC%99%84%EC%84%B1-%EA%B0%90%EA%B4%80%EB%B2%95-%EA%B8%B0%EC%A7%80%EA%B0%9C/id6740180928?uo=2",
+      "price": "￦9,900",
+      "category": "교육"
+    },
+    {
+      "rank": 22,
+      "id": "1355481600",
+      "title": "박코치 학습기",
+      "developer": "Seokmin Lee",
+      "url": "https://apps.apple.com/kr/app/%EB%B0%95%EC%BD%94%EC%B9%98-%ED%95%99%EC%8A%B5%EA%B8%B0/id1355481600?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 23,
+      "id": "537961396",
+      "title": "TEDICT",
+      "developer": "CoCO SWING",
+      "url": "https://apps.apple.com/kr/app/tedict/id537961396?uo=2",
+      "price": "￦7,700",
+      "category": "교육"
+    },
+    {
+      "rank": 24,
+      "id": "6474207287",
+      "title": "와고타비 - 일본어 학습",
+      "developer": "WAGOTABI LIMITED",
+      "url": "https://apps.apple.com/kr/app/%EC%99%80%EA%B3%A0%ED%83%80%EB%B9%84-%EC%9D%BC%EB%B3%B8%EC%96%B4-%ED%95%99%EC%8A%B5/id6474207287?uo=2",
+      "price": "￦7,700",
+      "category": "교육"
+    },
+    {
+      "rank": 25,
+      "id": "6782233144",
+      "title": "매경TEST | 2026년 대비 문제",
+      "developer": "Masaki Kobayashi",
+      "url": "https://apps.apple.com/kr/app/%EB%A7%A4%EA%B2%BDtest-2026%EB%85%84-%EB%8C%80%EB%B9%84-%EB%AC%B8%EC%A0%9C/id6782233144?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 26,
+      "id": "1092524890",
+      "title": "속독 IQ+",
+      "developer": "Dmitry Zaika",
+      "url": "https://apps.apple.com/kr/app/%EC%86%8D%EB%8F%85-iq/id1092524890?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 27,
+      "id": "1015882004",
+      "title": "스텝업 365 영어회화패턴",
+      "developer": "DaolSoft, Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%EC%8A%A4%ED%85%9D%EC%97%85-365-%EC%98%81%EC%96%B4%ED%9A%8C%ED%99%94%ED%8C%A8%ED%84%B4/id1015882004?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 28,
+      "id": "1236657805",
+      "title": "Cube CFOP: F2L, OLL & PLL",
+      "developer": "Tuan Truong",
+      "url": "https://apps.apple.com/kr/app/cube-cfop-f2l-oll-pll/id1236657805?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 29,
+      "id": "507447320",
+      "title": "Acron B747-400 Cockpit Fam.",
+      "developer": "Aerosim",
+      "url": "https://apps.apple.com/kr/app/acron-b747-400-cockpit-fam/id507447320?uo=2",
+      "price": "￦55,000",
+      "category": "교육"
+    },
+    {
+      "rank": 30,
+      "id": "6807142512",
+      "title": "회계관리 1급 500제",
+      "developer": "YOUNGJUN MA",
+      "url": "https://apps.apple.com/kr/app/%ED%9A%8C%EA%B3%84%EA%B4%80%EB%A6%AC-1%EA%B8%89-500%EC%A0%9C/id6807142512?uo=2",
+      "price": "￦24,000",
+      "category": "교육"
+    },
+    {
+      "rank": 31,
+      "id": "6823012765",
+      "title": "포포키",
+      "developer": "Haksung Kim",
+      "url": "https://apps.apple.com/kr/app/%ED%8F%AC%ED%8F%AC%ED%82%A4/id6823012765?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 32,
+      "id": "6743347218",
+      "title": "감정평가사 시험 기출지문 개념완성(민법) - 기지개",
+      "developer": "Yunhye Yu",
+      "url": "https://apps.apple.com/kr/app/%EA%B0%90%EC%A0%95%ED%8F%89%EA%B0%80%EC%82%AC-%EC%8B%9C%ED%97%98-%EA%B8%B0%EC%B6%9C%EC%A7%80%EB%AC%B8-%EA%B0%9C%EB%85%90%EC%99%84%EC%84%B1-%EB%AF%BC%EB%B2%95-%EA%B8%B0%EC%A7%80%EA%B0%9C/id6743347218?uo=2",
+      "price": "￦9,900",
+      "category": "교육"
+    },
+    {
+      "rank": 33,
+      "id": "6833762504",
+      "title": "톡단어",
+      "developer": "Jaewon Song",
+      "url": "https://apps.apple.com/kr/app/%ED%86%A1%EB%8B%A8%EC%96%B4/id6833762504?uo=2",
+      "price": "￦990",
+      "category": "교육"
+    },
+    {
+      "rank": 34,
+      "id": "6742816495",
+      "title": "암카 토익단어 3000: 기출 단어카드 보카",
+      "developer": "TheOne Lab",
+      "url": "https://apps.apple.com/kr/app/%EC%95%94%EC%B9%B4-%ED%86%A0%EC%9D%B5%EB%8B%A8%EC%96%B4-3000-%EA%B8%B0%EC%B6%9C-%EB%8B%A8%EC%96%B4%EC%B9%B4%EB%93%9C-%EB%B3%B4%EC%B9%B4/id6742816495?uo=2",
+      "price": "￦5,500",
+      "category": "교육"
+    },
+    {
+      "rank": 35,
+      "id": "506599259",
+      "title": "해커스 텝스 기출 보카 어드밴스드",
+      "developer": "Hackers Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%ED%95%B4%EC%BB%A4%EC%8A%A4-%ED%85%9D%EC%8A%A4-%EA%B8%B0%EC%B6%9C-%EB%B3%B4%EC%B9%B4-%EC%96%B4%EB%93%9C%EB%B0%B4%EC%8A%A4%EB%93%9C/id506599259?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 36,
+      "id": "1464264092",
+      "title": "별책 국어사전",
+      "developer": "별책",
+      "url": "https://apps.apple.com/kr/app/%EB%B3%84%EC%B1%85-%EA%B5%AD%EC%96%B4%EC%82%AC%EC%A0%84/id1464264092?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 37,
+      "id": "447783470",
+      "title": "갑자기말되는영어 문법세상",
+      "developer": "ENSAPIA Corporation",
+      "url": "https://apps.apple.com/kr/app/%EA%B0%91%EC%9E%90%EA%B8%B0%EB%A7%90%EB%90%98%EB%8A%94%EC%98%81%EC%96%B4-%EB%AC%B8%EB%B2%95%EC%84%B8%EC%83%81/id447783470?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 38,
+      "id": "1499085878",
+      "title": "CNC Lathe Simulator",
+      "developer": "旭 陈",
+      "url": "https://apps.apple.com/kr/app/cnc-lathe-simulator/id1499085878?uo=2",
+      "price": "￦17,000",
+      "category": "교육"
+    },
+    {
+      "rank": 39,
+      "id": "6807413902",
+      "title": "감정평가사 시험 기출지문 개념완성(경제학원론)",
+      "developer": "Yunhye Yu",
+      "url": "https://apps.apple.com/kr/app/%EA%B0%90%EC%A0%95%ED%8F%89%EA%B0%80%EC%82%AC-%EC%8B%9C%ED%97%98-%EA%B8%B0%EC%B6%9C%EC%A7%80%EB%AC%B8-%EA%B0%9C%EB%85%90%EC%99%84%EC%84%B1-%EA%B2%BD%EC%A0%9C%ED%95%99%EC%9B%90%EB%A1%A0/id6807413902?uo=2",
+      "price": "￦9,900",
+      "category": "교육"
+    },
+    {
+      "rank": 40,
+      "id": "6813798161",
+      "title": "감정평가사 시험 기출지문 개념완성(회계학말문제)",
+      "developer": "Yunhye Yu",
+      "url": "https://apps.apple.com/kr/app/%EA%B0%90%EC%A0%95%ED%8F%89%EA%B0%80%EC%82%AC-%EC%8B%9C%ED%97%98-%EA%B8%B0%EC%B6%9C%EC%A7%80%EB%AC%B8-%EA%B0%9C%EB%85%90%EC%99%84%EC%84%B1-%ED%9A%8C%EA%B3%84%ED%95%99%EB%A7%90%EB%AC%B8%EC%A0%9C/id6813798161?uo=2",
+      "price": "￦5,900",
+      "category": "교육"
+    },
+    {
+      "rank": 41,
+      "id": "6780462795",
+      "title": "텝스 | 2026년 대비 문제",
+      "developer": "Masaki Kobayashi",
+      "url": "https://apps.apple.com/kr/app/%ED%85%9D%EC%8A%A4-2026%EB%85%84-%EB%8C%80%EB%B9%84-%EB%AC%B8%EC%A0%9C/id6780462795?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 42,
+      "id": "828392046",
+      "title": "Teach Your Monster to Read",
+      "developer": "Teach Your Monster",
+      "url": "https://apps.apple.com/kr/app/teach-your-monster-to-read/id828392046?uo=2",
+      "price": "￦15,000",
+      "category": "교육"
+    },
+    {
+      "rank": 43,
+      "id": "6782350300",
+      "title": "관광통역안내사 | 2026년 대비 문제",
+      "developer": "Masaki Kobayashi",
+      "url": "https://apps.apple.com/kr/app/%EA%B4%80%EA%B4%91%ED%86%B5%EC%97%AD%EC%95%88%EB%82%B4%EC%82%AC-2026%EB%85%84-%EB%8C%80%EB%B9%84-%EB%AC%B8%EC%A0%9C/id6782350300?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 44,
+      "id": "1086008379",
+      "title": "러시아어 발음",
+      "developer": "佩佩 伍",
+      "url": "https://apps.apple.com/kr/app/%EB%9F%AC%EC%8B%9C%EC%95%84%EC%96%B4-%EB%B0%9C%EC%9D%8C/id1086008379?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 45,
+      "id": "6804839101",
+      "title": "한귤 가나다",
+      "developer": "hangyul Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%ED%95%9C%EA%B7%A4-%EA%B0%80%EB%82%98%EB%8B%A4/id6804839101?uo=2",
+      "price": "￦9,900",
+      "category": "교육"
+    },
+    {
+      "rank": 46,
+      "id": "6769933068",
+      "title": "Voqales: Spectrogram Formants",
+      "developer": "Efai De Leon",
+      "url": "https://apps.apple.com/kr/app/voqales-spectrogram-formants/id6769933068?uo=2",
+      "price": "￦7,700",
+      "category": "교육"
+    },
+    {
+      "rank": 47,
+      "id": "6743614636",
+      "title": "오픽 기출 문제 - 모든 기출을 한눈에",
+      "developer": "Sunghee Lee",
+      "url": "https://apps.apple.com/kr/app/%EC%98%A4%ED%94%BD-%EA%B8%B0%EC%B6%9C-%EB%AC%B8%EC%A0%9C-%EB%AA%A8%EB%93%A0-%EA%B8%B0%EC%B6%9C%EC%9D%84-%ED%95%9C%EB%88%88%EC%97%90/id6743614636?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 48,
+      "id": "6782729645",
+      "title": "무역영어 1급 | 2026년 대비 문제",
+      "developer": "Masaki Kobayashi",
+      "url": "https://apps.apple.com/kr/app/%EB%AC%B4%EC%97%AD%EC%98%81%EC%96%B4-1%EA%B8%89-2026%EB%85%84-%EB%8C%80%EB%B9%84-%EB%AC%B8%EC%A0%9C/id6782729645?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 49,
+      "id": "994470614",
+      "title": "개념 한국사",
+      "developer": "별책",
+      "url": "https://apps.apple.com/kr/app/%EA%B0%9C%EB%85%90-%ED%95%9C%EA%B5%AD%EC%82%AC/id994470614?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 50,
+      "id": "1007368983",
+      "title": "8-STEP 영어회화 자동암기",
+      "developer": "Connecting the Dots Inc.",
+      "url": "https://apps.apple.com/kr/app/8-step-%EC%98%81%EC%96%B4%ED%9A%8C%ED%99%94-%EC%9E%90%EB%8F%99%EC%95%94%EA%B8%B0/id1007368983?uo=2",
+      "price": "￦11,000",
+      "category": "교육"
+    },
+    {
+      "rank": 51,
+      "id": "448573128",
+      "title": "갑자기말되는일본어 문법세상",
+      "developer": "ENSAPIA Corporation",
+      "url": "https://apps.apple.com/kr/app/%EA%B0%91%EC%9E%90%EA%B8%B0%EB%A7%90%EB%90%98%EB%8A%94%EC%9D%BC%EB%B3%B8%EC%96%B4-%EB%AC%B8%EB%B2%95%EC%84%B8%EC%83%81/id448573128?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 52,
+      "id": "490535249",
+      "title": "해커스 리스닝 핵심편 - 토익",
+      "developer": "Hackers Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%ED%95%B4%EC%BB%A4%EC%8A%A4-%EB%A6%AC%EC%8A%A4%EB%8B%9D-%ED%95%B5%EC%8B%AC%ED%8E%B8-%ED%86%A0%EC%9D%B5/id490535249?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 53,
+      "id": "348094440",
+      "title": "Sound Touch",
+      "developer": "SoundTouch Interactive",
+      "url": "https://apps.apple.com/kr/app/sound-touch/id348094440?uo=2",
+      "price": "￦25,000",
+      "category": "교육"
+    },
+    {
+      "rank": 54,
+      "id": "892279069",
+      "title": "Star Walk 2 Pro - 실시간 3D 별자리표",
+      "developer": "Vito Technology Inc.",
+      "url": "https://apps.apple.com/kr/app/star-walk-2-pro-%EC%8B%A4%EC%8B%9C%EA%B0%84-3d-%EB%B3%84%EC%9E%90%EB%A6%AC%ED%91%9C/id892279069?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 55,
+      "id": "995780261",
+      "title": "영단어 완전학습 - 영어사전 & 단어장",
+      "developer": "kyochoul lee",
+      "url": "https://apps.apple.com/kr/app/%EC%98%81%EB%8B%A8%EC%96%B4-%EC%99%84%EC%A0%84%ED%95%99%EC%8A%B5-%EC%98%81%EC%96%B4%EC%82%AC%EC%A0%84-%EB%8B%A8%EC%96%B4%EC%9E%A5/id995780261?uo=2",
+      "price": "￦7,700",
+      "category": "교육"
+    },
+    {
+      "rank": 56,
+      "id": "543835101",
+      "title": "리스닝드릴 : 영어 리스닝 구간반복 영어듣기 영어공부",
+      "developer": "Neointro",
+      "url": "https://apps.apple.com/kr/app/%EB%A6%AC%EC%8A%A4%EB%8B%9D%EB%93%9C%EB%A6%B4-%EC%98%81%EC%96%B4-%EB%A6%AC%EC%8A%A4%EB%8B%9D-%EA%B5%AC%EA%B0%84%EB%B0%98%EB%B3%B5-%EC%98%81%EC%96%B4%EB%93%A3%EA%B8%B0-%EC%98%81%EC%96%B4%EA%B3%B5%EB%B6%80/id543835101?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 57,
+      "id": "404990064",
+      "title": "SkyView®",
+      "developer": "Terminal Eleven LLC",
+      "url": "https://apps.apple.com/kr/app/skyview/id404990064?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 58,
+      "id": "347546771",
+      "title": "Solar Walk - 태양 광 시스템 3D, 행성",
+      "developer": "Vito Technology Inc.",
+      "url": "https://apps.apple.com/kr/app/solar-walk-%ED%83%9C%EC%96%91-%EA%B4%91-%EC%8B%9C%EC%8A%A4%ED%85%9C-3d-%ED%96%89%EC%84%B1/id347546771?uo=2",
+      "price": "￦7,700",
+      "category": "교육"
+    },
+    {
+      "rank": 59,
+      "id": "324038407",
+      "title": "천문학 3D",
+      "developer": "Sanville Software",
+      "url": "https://apps.apple.com/kr/app/%EC%B2%9C%EB%AC%B8%ED%95%99-3d/id324038407?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 60,
+      "id": "351986992",
+      "title": "천문학 3D+: Sky Map",
+      "developer": "Sanville Software",
+      "url": "https://apps.apple.com/kr/app/%EC%B2%9C%EB%AC%B8%ED%95%99-3d-sky-map/id351986992?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 61,
+      "id": "478643661",
+      "title": "Handy Art Reference Tool",
+      "developer": "Belief Engine",
+      "url": "https://apps.apple.com/kr/app/handy-art-reference-tool/id478643661?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 62,
+      "id": "348749285",
+      "title": "다락원 알짜 일본어 Vocabulary",
+      "developer": "DaolSoft, Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%EB%8B%A4%EB%9D%BD%EC%9B%90-%EC%95%8C%EC%A7%9C-%EC%9D%BC%EB%B3%B8%EC%96%B4-vocabulary/id348749285?uo=2",
+      "price": "￦15,000",
+      "category": "교육"
+    },
+    {
+      "rank": 63,
+      "id": "314343183",
+      "title": "도전! 한자 2급 Chinese CharTest 2nd",
+      "developer": "DaolSoft, Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%EB%8F%84%EC%A0%84-%ED%95%9C%EC%9E%90-2%EA%B8%89-chinese-chartest-2nd/id314343183?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 64,
+      "id": "682046579",
+      "title": "타이니밥의 사람의 몸",
+      "developer": "Tinybop Inc.",
+      "url": "https://apps.apple.com/kr/app/%ED%83%80%EC%9D%B4%EB%8B%88%EB%B0%A5%EC%9D%98-%EC%82%AC%EB%9E%8C%EC%9D%98-%EB%AA%B8/id682046579?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 65,
+      "id": "625740630",
+      "title": "Hairtechapp - Cutting Diagrams",
+      "developer": "Oleksandr Prent",
+      "url": "https://apps.apple.com/kr/app/hairtechapp-cutting-diagrams/id625740630?uo=2",
+      "price": "￦29,000",
+      "category": "교육"
+    },
+    {
+      "rank": 66,
+      "id": "668800056",
+      "title": "말킴의 영어회화 패턴500-A",
+      "developer": "Mark Kim",
+      "url": "https://apps.apple.com/kr/app/%EB%A7%90%ED%82%B4%EC%9D%98-%EC%98%81%EC%96%B4%ED%9A%8C%ED%99%94-%ED%8C%A8%ED%84%B4500-a/id668800056?uo=2",
+      "price": "￦44,000",
+      "category": "교육"
+    },
+    {
+      "rank": 67,
+      "id": "316361170",
+      "title": "도전! 사자성어 Chinese Four-Idiom",
+      "developer": "DaolSoft, Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%EB%8F%84%EC%A0%84-%EC%82%AC%EC%9E%90%EC%84%B1%EC%96%B4-chinese-four-idiom/id316361170?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 68,
+      "id": "509909625",
+      "title": "우리아이 한글떼기",
+      "developer": "ozzywow",
+      "url": "https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%AC%EC%95%84%EC%9D%B4-%ED%95%9C%EA%B8%80%EB%96%BC%EA%B8%B0/id509909625?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 69,
+      "id": "316562192",
+      "title": "도전! 한자 3급 Chinese CharTest 3rd",
+      "developer": "DaolSoft, Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%EB%8F%84%EC%A0%84-%ED%95%9C%EC%9E%90-3%EA%B8%89-chinese-chartest-3rd/id316562192?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 70,
+      "id": "1031155880",
+      "title": "Solar Walk 2 - 우주 탐사, 우주선 3D",
+      "developer": "Vito Technology Inc.",
+      "url": "https://apps.apple.com/kr/app/solar-walk-2-%EC%9A%B0%EC%A3%BC-%ED%83%90%EC%82%AC-%EC%9A%B0%EC%A3%BC%EC%84%A0-3d/id1031155880?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 71,
+      "id": "562165517",
+      "title": "해커스 리스닝 핵심 영어회화",
+      "developer": "Hackers Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%ED%95%B4%EC%BB%A4%EC%8A%A4-%EB%A6%AC%EC%8A%A4%EB%8B%9D-%ED%95%B5%EC%8B%AC-%EC%98%81%EC%96%B4%ED%9A%8C%ED%99%94/id562165517?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 72,
+      "id": "1451782248",
+      "title": "WCT 영어회화패턴",
+      "developer": "JUN SUK O",
+      "url": "https://apps.apple.com/kr/app/wct-%EC%98%81%EC%96%B4%ED%9A%8C%ED%99%94%ED%8C%A8%ED%84%B4/id1451782248?uo=2",
+      "price": "￦11,000",
+      "category": "교육"
+    },
+    {
+      "rank": 73,
+      "id": "714180827",
+      "title": "별자리표∞",
+      "developer": "ESCAPE VELOCITY LIMITED",
+      "url": "https://apps.apple.com/kr/app/%EB%B3%84%EC%9E%90%EB%A6%AC%ED%91%9C/id714180827?uo=2",
+      "price": "￦7,700",
+      "category": "교육"
+    },
+    {
+      "rank": 74,
+      "id": "327210762",
+      "title": "Multilingual Picture DIC",
+      "developer": "DaolSoft, Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/multilingual-picture-dic/id327210762?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 75,
+      "id": "569632660",
+      "title": "Toca Hair Salon 2",
+      "developer": "Toca Boca AB",
+      "url": "https://apps.apple.com/kr/app/toca-hair-salon-2/id569632660?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 76,
+      "id": "1466747898",
+      "title": "우리말 속뜻사전 (느낌 쏘옥! 실력 쑤욱!)",
+      "developer": "주식회사 코퍼스랩",
+      "url": "https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%AC%EB%A7%90-%EC%86%8D%EB%9C%BB%EC%82%AC%EC%A0%84-%EB%8A%90%EB%82%8C-%EC%8F%98%EC%98%A5-%EC%8B%A4%EB%A0%A5-%EC%91%A4%EC%9A%B1/id1466747898?uo=2",
+      "price": "￦33,000",
+      "category": "교육"
+    },
+    {
+      "rank": 77,
+      "id": "1115415865",
+      "title": "타이니밥의 고층 빌딩",
+      "developer": "Tinybop Inc.",
+      "url": "https://apps.apple.com/kr/app/%ED%83%80%EC%9D%B4%EB%8B%88%EB%B0%A5%EC%9D%98-%EA%B3%A0%EC%B8%B5-%EB%B9%8C%EB%94%A9/id1115415865?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 78,
+      "id": "851485894",
+      "title": "MediaDict",
+      "developer": "CoCO SWING",
+      "url": "https://apps.apple.com/kr/app/mediadict/id851485894?uo=2",
+      "price": "￦12,000",
+      "category": "교육"
+    },
+    {
+      "rank": 79,
+      "id": "780656219",
+      "title": "Sounds of Speech",
+      "developer": "The University of Iowa Research Foundation",
+      "url": "https://apps.apple.com/kr/app/sounds-of-speech/id780656219?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 80,
+      "id": "961227503",
+      "title": "BEAKER by THIX",
+      "developer": "THIX LLC",
+      "url": "https://apps.apple.com/kr/app/beaker-by-thix/id961227503?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 81,
+      "id": "1241179190",
+      "title": "민법총칙 실전문제",
+      "developer": "oh changwon",
+      "url": "https://apps.apple.com/kr/app/%EB%AF%BC%EB%B2%95%EC%B4%9D%EC%B9%99-%EC%8B%A4%EC%A0%84%EB%AC%B8%EC%A0%9C/id1241179190?uo=2",
+      "price": "￦1,100",
+      "category": "교육"
+    },
+    {
+      "rank": 82,
+      "id": "602773895",
+      "title": "페팅 동물원",
+      "developer": "Fox and Sheep GmbH",
+      "url": "https://apps.apple.com/kr/app/%ED%8E%98%ED%8C%85-%EB%8F%99%EB%AC%BC%EC%9B%90/id602773895?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 83,
+      "id": "468580673",
+      "title": "WordMasking",
+      "developer": "Akira Takahashi",
+      "url": "https://apps.apple.com/kr/app/wordmasking/id468580673?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 84,
+      "id": "1328950963",
+      "title": "넘버블록스: 숨바꼭질",
+      "developer": "Blue-Zoo",
+      "url": "https://apps.apple.com/kr/app/%EB%84%98%EB%B2%84%EB%B8%94%EB%A1%9D%EC%8A%A4-%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88/id1328950963?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    },
+    {
+      "rank": 85,
+      "id": "724786142",
+      "title": "우끼는 채소! 어린이와 유아에게 교육적인 게임.",
+      "developer": "DOG&FROG Educational preschool kids games for girls and boys, toddlers and babies",
+      "url": "https://apps.apple.com/kr/app/%EC%9A%B0%EB%81%BC%EB%8A%94-%EC%B1%84%EC%86%8C-%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%99%80-%EC%9C%A0%EC%95%84%EC%97%90%EA%B2%8C-%EA%B5%90%EC%9C%A1%EC%A0%81%EC%9D%B8-%EA%B2%8C%EC%9E%84/id724786142?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 86,
+      "id": "1234702272",
+      "title": "PlantSnap Pro: Identify Plants",
+      "developer": "PlantSnap, Inc.",
+      "url": "https://apps.apple.com/kr/app/plantsnap-pro-identify-plants/id1234702272?uo=2",
+      "price": "￦349,000",
+      "category": "교육"
+    },
+    {
+      "rank": 87,
+      "id": "1001244846",
+      "title": "타이니밥의 무엇이든 가능한 기계",
+      "developer": "Tinybop Inc.",
+      "url": "https://apps.apple.com/kr/app/%ED%83%80%EC%9D%B4%EB%8B%88%EB%B0%A5%EC%9D%98-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%93%A0-%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B8%B0%EA%B3%84/id1001244846?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 88,
+      "id": "1001247878",
+      "title": "타이니밥의 지구",
+      "developer": "Tinybop Inc.",
+      "url": "https://apps.apple.com/kr/app/%ED%83%80%EC%9D%B4%EB%8B%88%EB%B0%A5%EC%9D%98-%EC%A7%80%EA%B5%AC/id1001247878?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 89,
+      "id": "950593464",
+      "title": "닥터팬더의 아이스크림 트럭",
+      "developer": "Dr. Panda Ltd",
+      "url": "https://apps.apple.com/kr/app/%EB%8B%A5%ED%84%B0%ED%8C%AC%EB%8D%94%EC%9D%98-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-%ED%8A%B8%EB%9F%AD/id950593464?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 90,
+      "id": "387692731",
+      "title": "Mensa Brain Test",
+      "developer": "Barnstorm Games",
+      "url": "https://apps.apple.com/kr/app/mensa-brain-test/id387692731?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 91,
+      "id": "931936670",
+      "title": "자장자장 서커스",
+      "developer": "Fox and Sheep GmbH",
+      "url": "https://apps.apple.com/kr/app/%EC%9E%90%EC%9E%A5%EC%9E%90%EC%9E%A5-%EC%84%9C%EC%BB%A4%EC%8A%A4/id931936670?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 92,
+      "id": "545625741",
+      "title": "수학의 제왕: 스쿨 에디션",
+      "developer": "Oddrobo Software AB",
+      "url": "https://apps.apple.com/kr/app/%EC%88%98%ED%95%99%EC%9D%98-%EC%A0%9C%EC%99%95-%EC%8A%A4%EC%BF%A8-%EC%97%90%EB%94%94%EC%85%98/id545625741?uo=2",
+      "price": "￦3,300",
+      "category": "교육"
+    },
+    {
+      "rank": 93,
+      "id": "936966605",
+      "title": "타이니밥의 로봇 공장",
+      "developer": "Tinybop Inc.",
+      "url": "https://apps.apple.com/kr/app/%ED%83%80%EC%9D%B4%EB%8B%88%EB%B0%A5%EC%9D%98-%EB%A1%9C%EB%B4%87-%EA%B3%B5%EC%9E%A5/id936966605?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 94,
+      "id": "1036517151",
+      "title": "작은 여우 동물 의사",
+      "developer": "Fox and Sheep GmbH",
+      "url": "https://apps.apple.com/kr/app/%EC%9E%91%EC%9D%80-%EC%97%AC%EC%9A%B0-%EB%8F%99%EB%AC%BC-%EC%9D%98%EC%82%AC/id1036517151?uo=2",
+      "price": "￦6,600",
+      "category": "교육"
+    },
+    {
+      "rank": 95,
+      "id": "395718701",
+      "title": "VerbForms Español",
+      "developer": "Laura Mueller",
+      "url": "https://apps.apple.com/kr/app/verbforms-espa%C3%B1ol/id395718701?uo=2",
+      "price": "￦7,700",
+      "category": "교육"
+    },
+    {
+      "rank": 96,
+      "id": "338404717",
+      "title": "SPA 문제상식 - Common Sense Test",
+      "developer": "DaolSoft, Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/spa-%EB%AC%B8%EC%A0%9C%EC%83%81%EC%8B%9D-common-sense-test/id338404717?uo=2",
+      "price": "￦4,400",
+      "category": "교육"
+    }
+  ]
+}

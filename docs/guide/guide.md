@@ -11,6 +11,9 @@
 
 | 가이드 | 적용 단계 |
 |---|---|
+| [독립 제작·권리 검토](guide-originality-rights.md) | 모든 단계의 표현 차별화·저작권·라이선스·검토 기록 |
+| [구조와 유지보수](guide-content-architecture.md) | 31개 공통 계층·의존 방향·실행 계약·호환성·추가 절차 |
+| [로컬 실행·진단](guide-local-run.md) | start.command·Python 실행기·포트·health·권한 오류 |
 | [콘텐츠 조사·리뷰](guide-content-review.md) | 출처 확인·원작 분석·후보 선정 |
 | [아이들용 설계](guide-child-design.md) | 연령·놀이·학습·정서·컬러·용어·네이밍·접근성·보호자 기능 |
 | [Fascinating 반응형 UI](guide-fascinating-ui.md) | 커스텀 컴포넌트·절제된 발견·반응형·접근성 |

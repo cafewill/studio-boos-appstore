@@ -1,0 +1,10 @@
+[data-app="counting-picnic"] .activity-root{background:#fff7e9;border-color:#bda78c}
+[data-app="counting-picnic"] .picnic-postcard{text-align:left;margin-bottom:12px}
+[data-app="counting-picnic"] .picnic-postcard>span{color:#67533f;font-size:14px}
+[data-app="counting-picnic"] .picnic-postcard h2{font-size:26px;margin-top:7px;line-height:1.4}
+[data-app="counting-picnic"] .picnic-cloth{border-radius:24px;padding:12px;background-color:#fffbf4;background-image:linear-gradient(90deg,#efad8526 50%,transparent 50%),linear-gradient(#efad8526 50%,transparent 50%);background-size:46px 46px;border:1px solid #bda78c}
+[data-app="counting-picnic"] .picnic-fruit{display:block;width:100%;max-width:480px;margin:auto}
+[data-app="counting-picnic"] .picnic-answer-label{font-size:15px;font-weight:650;margin-top:22px;color:#67533f}
+[data-app="counting-picnic"] .woven-basket{position:relative;background:#f4dab0;border-color:#84684b;border-radius:12px 12px 26px 26px;margin-top:18px;gap:0;box-shadow:0 5px 0 #d5b991}
+[data-app="counting-picnic"] .woven-handle{position:absolute;top:-21px;width:45%;height:27px;border:4px solid #84684b;border-bottom:0;border-radius:30px 30px 0 0}
+[data-app="counting-picnic"] .woven-basket strong{font-size:38px;color:#493d30}

@@ -1,0 +1,6 @@
+import {random, shuffled, copy} from '../../shared/random.js';
+function rotate(i,n){let r=Math.floor(i/3),c=i%3;for(let k=0;k<n;k++)[r,c]=[c,2-r];return r*3+c;}
+export function deliveries(s,path=s.path){const picked=[false,false],given=[false,false];for(const id of path){s.pickups.forEach((v,i)=>{if(id===v)picked[i]=true;});s.houses.forEach((v,i)=>{if(id===v&&picked[i])given[i]=true;});}return given;}
+export function createState(seed){const turns=seed%4;return {path:[rotate(0,turns)],pickups:[rotate(1,turns),rotate(7,turns)],houses:[rotate(2,turns),rotate(8,turns)],done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='start'&&a.id===0&&deliveries(s).every(Boolean))return {...s,done:true};if(a.type!=='tap'||a.id<0||a.id>=9||s.path.includes(a.id))return s;const last=s.path.at(-1);if(Math.abs(Math.floor(last/3)-Math.floor(a.id/3))+Math.abs(last%3-a.id%3)!==1)return s;return {...s,path:[...s.path,a.id]};}
+export function hint(s){if(deliveries(s).every(Boolean))return {type:'start',id:0};const dfs=st=>{if(deliveries(st).every(Boolean))return [];for(let id=0;id<9;id++){const n=reduce(st,{type:'tap',id});if(n!==st){const tail=dfs(n);if(tail)return [id,...tail];}}return null;};const path=dfs(s);return path?.length?{type:'tap',id:path[0]}:null;}

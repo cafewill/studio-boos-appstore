@@ -14,8 +14,9 @@ App Store의 아이들용 게임·교육·창작 콘텐츠를 리뷰하고, 핵�
 - 기본: HTML/CSS + Vanilla JavaScript ES Modules. 학습 UI는 DOM, 연속 움직임은 Canvas를 선택한다.
 - 표현 원칙: 아이들의 정서 함양과 발달 적합성을 고려해 컬러 컨셉·용어·네이밍·피드백을 항상 검토한다.
 - UI 원칙: “Fascinating”의 절제된 놀라움과 호기심을 간결하고 직관적인 커스텀 반응형 UI로 표현한다.
+- 권리 원칙: 추상 규칙만 참고하고 표현·코드·문제는 독립 제작하며, 모든 단계에서 출처·라이선스·원작과의 혼동 가능성을 점검한다.
 - 산출물: 앱 리뷰, 구현 계획, 독립 콘텐츠, 검증 기록.
-- 현재 상태: 지침·가이드 구성 완료. 콘텐츠·목록 화면·실행 코드는 아직 없다.
+- 현재 상태: 차트 396개 재검토·공식 소개 106개 추가 확인, 우선 후보 30개 구현 및 기존 모양 정원 공통 호스트 전환. 총 31개 콘텐츠와 목록 필터 제공. 자동 규칙·구조 검사 통과, 실제 브라우저 플레이는 환경 제한으로 미실시.
 
 | 문서 | 역할 |
 |---|---|
@@ -25,11 +26,24 @@ App Store의 아이들용 게임·교육·창작 콘텐츠를 리뷰하고, 핵�
 | [참고 프로젝트 리뷰](docs/review/20261121-reference-project-review.md) | 기존 구조의 재사용 및 변경 판단 |
 | [초기 로드맵](docs/plan/20261121-bootstrap-plan.md) | 후보 유형과 첫 구현 순서 |
 
-콘텐츠 구현 후 저장소 루트에서 다음 명령으로 실행한다. 현재는 문서만 제공하므로 `/apps/` 플레이 화면은 없다.
+Finder에서 루트의 `start.command`를 더블클릭하거나 저장소 루트에서 `python3 tools/serve.py`를 실행한다. 실행기·오류 진단은 [로컬 실행 가이드](docs/guide/guide-local-run.md)를 따른다. 아래 기본 명령도 동일하게 사용할 수 있다. 루트는 `/apps/`로 이동하며 모양 정원은 `/apps/shape-garden/`에서 연다. 이번 환경에서는 서버 바인딩이 차단돼 실제 브라우저 실행은 확인하지 못했다.
 
 ```bash
 python3 -m http.server 7902 --bind 127.0.0.1
 ```
+
+### ✅ 조사·플레이·검증 진입점
+
+- [App Store TOP 100 광역 조사](docs/review/20261121121102-appstore-candidates-review.md): 네 차트 396행, 심화 후보 9개.
+- [모양 정원 안내](apps/shape-garden/README.md): 조작·보호자 설정·저장·독립 제작 근거.
+- [검증 기록](test/20261121121102-shape-garden-verify.md): 자동 검증과 브라우저 미실시 항목 구분.
+- 검증 명령: `node tools/check-all.mjs`. 선택적 브라우저 검사는 `npm install --prefix tools/browser`, `npm test --prefix tools/browser`로 실행한다. 앱 실행에는 npm 설치가 필요 없다.
+
+### 🗂 전체 31개와 로컬 확인
+
+신규 30개 목록과 조작 목표는 [일괄 구현 계획](docs/plan/20261121143203-batch30-plan.md), 원작별 참고 범위는 [후보 대응표](docs/review/20261121143203-priority30-review.md), 공통 계약은 [구조 가이드](docs/guide/guide-content-architecture.md)를 따른다. 각 카드의 ‘함께 놀기’로 독립 실행한다. 목록은 분야·연령·이름/주제로 찾을 수 있다.
+
+[전체 검증과 로컬 체크리스트](test/20261121143203-batch30-verify.md)에 미실시 항목을 기록했다. 현재 모든 콘텐츠는 implemented이며 verified는 0개다. 사용자 로컬 확인 뒤 발견된 문제를 수정하고 검증 상태를 올린다.
 
 ## 📌 요약 정보
 

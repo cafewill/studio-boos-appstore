@@ -5,7 +5,7 @@
 
 ## 📖 개요
 
-독립적인 로컬 웹 콘텐츠를 구현한다. 현재는 가이드만 있으며 아래 구조는 첫 구현 때 생성한다.
+독립적인 로컬 웹 콘텐츠를 구현한다. 첫 콘텐츠 `apps/shape-garden/`과 목록을 구현했으며 아래 구조를 기준으로 후속 콘텐츠를 추가한다.
 
 ## 🧩 주요 내용
 
@@ -13,19 +13,21 @@
 
 ```text
 apps/
-  index.html           # 아이용 콘텐츠 목록
-  catalog.js           # 목록 데이터의 정본
+  catalog.js              # 전체 목록 (기존 1개 + 신규 registry)
+  content-registry.js     # 신규 콘텐츠 메타데이터
+  shared/                 # host · board-activity · UI · 저장 · 오디오 · 수명주기
   {slug}/
     index.html
-    README.md          # 대상·목표·조작·출처·저장 키·검증 제한
+    README.md
     src/
-      main.js          # 시작·상태 연결
-      activity.js      # DOM과 독립된 규칙·문제·정답
-      render.js        # DOM 또는 Canvas 표현
-      input.js         # 입력과 좌표 변환
-      storage.js       # 최소 저장·복구·삭제
-    assets/            # 필요할 때만 생성
+      main.js             # 공통 boot 호출
+      activity.js         # createActivity 수명주기 계약
+      model.js            # DOM 없는 규칙·초기 상태·판정·힌트
+      view.js             # 상태의 화면 표현
 ```
+
+
+[구조·유지보수 정본](guide-content-architecture.md)의 계약과 신규 추가 절차를 따른다. 검증 진입점은 `node tools/check-all.mjs`다.
 
 슬러그는 자체 이름으로 `a-z`, `0-9`, `-`만 쓴다. 작은 콘텐츠는 파일을 줄일 수 있으나 규칙과 UI 책임은 분리한다. 공유 코드가 필요하면 범위와 의존성을 계획에 기록하며 불필요한 추상화를 먼저 만들지 않는다.
 
@@ -69,6 +71,10 @@ iOS Safari의 오디오 활성화와 포커스·화면 회전을 확인한다. v
 | `docs` | 내부 리뷰·계획·검증 문서 경로 |
 
 플레이 링크는 `implemented` 또는 `verified`이고 실제 진입 파일이 있을 때만 제공한다. 미검증 상태는 내부 기록에서 구분한다. 사용자 화면에는 개발 명령·문서 경로·원작 브랜드를 노출하지 않는다. 원작 분석 정보는 리뷰에만 둔다.
+
+### 🛡 독립 제작과 권리 기록
+
+[권리 검토 가이드](guide-originality-rights.md)에 따라 계획에 추상 규칙·자체 표현·리소스 조달 방식을 적고, 콘텐츠 README에 자체/외부 리소스 및 표현 차이·유사성 검토·미확인 권리를 기록한다. 원작 소스·스크린샷·추출 에셋·레벨·문제·고유 문구를 구현 입력으로 사용하지 않는다.
 
 ### 🚀 실행과 완료
 

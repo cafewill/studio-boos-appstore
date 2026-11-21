@@ -1,0 +1,58 @@
+import {brandMarkup} from './brand.js';
+import {CONTENTS} from '../catalog.js';
+import {createScopedStorage} from './storage.js';
+import {createAudio} from './audio.js';
+import {icon} from './garden-art.js';
+import {seedNow,validAction} from './random.js';
+import {escape,shape,palette} from './board-ui.js';
+export function boot(slug, factory) {
+ const config=CONTENTS.find(c=>c.slug===slug);if(!config)throw new Error('등록되지 않은 콘텐츠');
+ const root=document.querySelector('#app'),store=createScopedStorage(slug),audio=createAudio(),events=new AbortController();
+ const validPreferences=p=>!!p&&typeof p.sound==='boolean';
+ let prefs=store.read('preferences',validPreferences,{sound:false});audio.setEnabled(prefs.sound);
+ const total=config.rounds||5;
+ const validProgress=p=>!!p&&Number.isInteger(p.seed)&&p.seed>=0&&p.seed<=0xffffffff&&Number.isInteger(p.level)&&p.level>=0&&p.level<=total&&Array.isArray(p.actions)&&p.actions.length<=512&&p.actions.every(validAction);
+ let progress=store.read('progress',validProgress,null);
+ // 모양 정원 최초 버전의 완료한 라운드와 선택지 설정을 유지한다.
+ if(!progress&&slug==='shape-garden'){
+  const old=store.read('progress',p=>!!p&&Number.isInteger(p.seed)&&p.seed>=0&&p.seed<=0xffffffff&&Array.isArray(p.results)&&p.results.length<=5&&p.results.every(v=>['matched','skipped'].includes(v)),null);
+  if(old)progress={seed:old.seed,level:old.results.length,actions:[]};
+ }
+ let screenEvents=new AbortController();
+ const bindPage=(target,type,fn)=>target.addEventListener(type,fn,{signal:screenEvents.signal});
+ let activity=null,screen='welcome',done=false,showHint=false,saveNotice=false;
+ const on=(target,type,fn)=>target.addEventListener(type,fn,{signal:events.signal});
+ root.dataset.app=slug;
+ root.innerHTML=`<header class="host-header"><a class="brand" href="../" aria-label="작은 발견 놀이 목록">${brandMarkup('..')}</a><div class="host-tools"><button type="button" class="icon-button" id="host-sound" aria-label="소리 켜기" aria-pressed="false"></button><button type="button" class="text-button" id="host-pause">${icon('pause')}쉬기</button><button type="button" class="text-button" id="host-parents">${icon('settings')}보호자</button></div></header><main class="host-main" id="host-main"><section id="host-screen"></section></main><p class="sr-only" id="host-live" role="status" aria-live="polite" aria-atomic="true"></p><dialog id="host-pause-dialog" aria-labelledby="host-pause-title"><div class="host-dialog"><h2 id="host-pause-title">쉬어도 괜찮아요.</h2><p>놀이는 여기서 기다릴게요.<br>준비되면 다시 함께해요.</p><div class="host-actions"><button class="button" type="button" data-close>계속 놀기</button><a class="button secondary" href="../">놀이 목록으로</a></div></div></dialog><dialog id="host-parent-dialog" aria-labelledby="host-parent-title"><div class="host-dialog"><div class="dialog-heading"><h2 id="host-parent-title">함께 돌보는 놀이</h2><button type="button" class="icon-button" data-close aria-label="보호자 설정 닫기">${icon('close')}</button></div><div id="host-gate"><p>설정과 기록 지우기는 보호자와 함께 사용해 주세요. 이 확인은 인증 수단이 아니에요.</p><label class="host-check"><input type="checkbox" id="host-gate-check"><span>안내를 읽었어요</span></label><button type="button" class="button" id="host-gate-open" disabled>설정 열기</button></div><div id="host-settings" hidden>${config.choiceCounts?`<fieldset class="host-choices"><legend>선택지 수</legend>${config.choiceCounts.map(v=>`<label class="host-check"><input type="radio" name="option-count" value="${v}" ${v===(prefs.choices||3)?'checked':''}><span>${v===2?'두 개로 살펴보기':'세 개로 살펴보기'}</span></label>`).join('')}</fieldset>`:''}<label class="host-check"><input type="checkbox" id="host-parent-sound"><span>작은 합성 소리 켜기</span></label><p>이 기기에 소리 설정과 진행만 저장해요. 이름과 나이는 묻지 않아요.</p><button type="button" class="button outline" id="host-reset-request">이 놀이의 기록 지우기</button><div id="host-reset-confirm" hidden><p>이 놀이의 설정과 진행만 지워요. 다른 놀이의 기록은 그대로예요.</p><div class="host-actions"><button type="button" class="button secondary" id="host-reset-cancel">취소</button><button type="button" class="button" id="host-reset-confirm-button">기록 지우기</button></div></div></div></div></dialog>`;
+ const page=root.querySelector('#host-screen'),live=root.querySelector('#host-live'),pause=root.querySelector('#host-pause-dialog'),parents=root.querySelector('#host-parent-dialog');
+ function announce(message){if(screen==='play'){const feedback=page.querySelector('#host-feedback');if(feedback)feedback.textContent=message;}live.textContent='';requestAnimationFrame(()=>{live.textContent=message;});}
+ function updateSound(){const b=root.querySelector('#host-sound');b.innerHTML=icon(prefs.sound?'sound':'mute');b.setAttribute('aria-pressed',String(prefs.sound));b.setAttribute('aria-label',prefs.sound?'소리 끄기':'소리 켜기');root.querySelector('#host-parent-sound').checked=prefs.sound;audio.setEnabled(prefs.sound);}
+ function save(){if(!progress)return;const value=activity?.serialize()||{actions:[]};if(value.actions.length>512){store.write('progress',null);if(!saveNotice){announce('이번 활동은 현재 화면에서 계속할 수 있어요. 변경이 많아 새로고침하면 처음부터 살펴봐요.');saveNotice=true;}return;}progress.actions=value.actions;store.write('progress',progress);}
+ function dispose(){screenEvents.abort();screenEvents=new AbortController();activity?.destroy();activity=null;audio.stop();}
+ function welcome(){dispose();screen='welcome';done=false;page.innerHTML=`<section class="activity-welcome"><div><span class="eyebrow">${escape(config.kind||config.skills?.[0]||'작은 발견')} · 만 ${config.ageBand.replace('-','~')}세</span><h1>${escape(config.title)}</h1><p class="welcome-description">${escape(config.goal)}</p><p>천천히 살펴보고, 내 방식으로 발견해요.<br>잘하지 않아도 괜찮아요.</p><div class="host-actions"><button type="button" class="button" id="host-start">${progress&&progress.level<total?'이어서 함께하기':'함께 시작하기'}</button></div><p class="host-small">${total===1?'정답 없이 자유롭게 표현해요.':total+'개의 작은 활동 · 시간 제한 없이'}</p></div><div class="welcome-glyphs" aria-hidden="true">${['leaf','star','circle','triangle'].map((k,i)=>shape(k,palette[i])).join('')}</div></section>`;bindPage(page.querySelector('#host-start'),'click',()=>{if(!progress||progress.level>=total)progress={seed:seedNow(),level:0,actions:[]};start();});}
+ function finish(){dispose();screen='finish';page.innerHTML=`<section class="host-finish"><span class="eyebrow">오늘의 작은 발견</span><h1 tabindex="-1">${escape(config.title)}에서 만났어요.</h1><div class="finish-glyphs" aria-hidden="true">${shape('leaf')}${shape('star','#e3c46b')}</div><p>${escape(config.goal)}<br>여기까지 함께했네요. 쉬어도 좋아요.</p><div class="host-actions"><button type="button" class="button" id="host-again">새롭게 살펴보기</button><a class="button secondary" href="../">놀이 목록으로</a></div></section>`;bindPage(page.querySelector('#host-again'),'click',()=>{progress={seed:seedNow(),level:0,actions:[]};start();});page.querySelector('h1').focus({preventScroll:true});}
+ function start(){dispose();if(progress.level>=total){finish();return;}screen='play';done=false;showHint=false;page.innerHTML=`<section class="activity-shell"><div class="activity-heading"><div><span class="eyebrow">${escape(config.kind||'작은 발견')}</span><h1>${escape(config.title)}</h1></div><span class="round-counter">${progress.level+1} / ${total}</span></div><p id="host-instruction">${escape(config.goal)}</p><div id="activity-root" class="activity-root" tabindex="-1" aria-label="${escape(config.title)} 놀이 영역"></div><div class="host-feedback" id="host-feedback" role="status"></div><div class="host-actions activity-actions"><button type="button" class="button outline" id="host-help">한 걸음 도움</button><button type="button" class="button secondary" id="host-undo">되돌리기</button><button type="button" class="button" id="host-next" hidden>다음 발견</button></div><button type="button" class="text-button" id="host-skip" hidden>지금은 건너뛰기</button><p class="host-small">${total===1?'자유 놀이에는 정해진 답이 없어요.':'시간에 쫓기지 않아요. 언제든 도움을 받고 쉬어도 좋아요.'}</p></section>`;
+  const feedback=page.querySelector('#host-feedback'),next=page.querySelector('#host-next'),undo=page.querySelector('#host-undo'),help=page.querySelector('#host-help');
+  activity=factory({seed:(progress.seed+progress.level*997)>>>0,actions:progress.actions,prefs,audio,announce,save,changed(status){done=status.done;showHint=showHint||status.hinted===true;undo.disabled=!status.canUndo;next.hidden=!done;next.textContent=progress.level===total-1?'발견 마무리':'다음 발견';help.hidden=done;page.querySelector('#host-skip').hidden=done||!showHint;if(done)next.focus({preventScroll:true});feedback.textContent=done?'함께 살펴봤어요. 다음으로 가거나 쉬어도 좋아요.':'';}});
+  activity.mount(page.querySelector('#activity-root'));
+  bindPage(help,'click',()=>{showHint=true;activity.help?.();page.querySelector('#host-skip').hidden=false;feedback.textContent='표시된 곳을 살펴보세요. 막히면 되돌리거나 건너뛰어도 괜찮아요.';});
+  bindPage(undo,'click',()=>activity.undo?.());
+  function advance(){progress.level++;progress.actions=[];store.write('progress',progress);start();}
+  bindPage(next,'click',()=>{if(done)advance();});bindPage(page.querySelector('#host-skip'),'click',()=>{if(showHint)advance();});
+  page.querySelector('#activity-root').focus({preventScroll:true});save();
+ }
+ on(root.querySelector('#host-sound'),'click',()=>{prefs={...prefs,sound:!prefs.sound};store.write('preferences',prefs);updateSound();announce(prefs.sound?'소리를 켰어요.':'소리를 껐어요.');});
+ on(root.querySelector('#host-pause'),'click',()=>{activity?.pause();audio.stop();pause.showModal();});
+ on(root.querySelector('#host-parents'),'click',()=>{activity?.pause();audio.stop();root.querySelector('#host-gate').hidden=false;root.querySelector('#host-settings').hidden=true;root.querySelector('#host-gate-check').checked=false;root.querySelector('#host-gate-open').disabled=true;root.querySelector('#host-reset-confirm').hidden=true;parents.showModal();});
+ for(const dialog of [pause,parents]){on(dialog,'close',()=>{if(!document.hidden)activity?.resume();});for(const b of dialog.querySelectorAll('[data-close]'))on(b,'click',()=>dialog.close());}
+ on(root.querySelector('#host-gate-check'),'change',e=>{root.querySelector('#host-gate-open').disabled=!e.target.checked;});
+ on(root.querySelector('#host-gate-open'),'click',()=>{if(!root.querySelector('#host-gate-check').checked)return;root.querySelector('#host-gate').hidden=true;root.querySelector('#host-settings').hidden=false;root.querySelector('#host-parent-sound').focus();});
+ on(root.querySelector('#host-settings'),'change',e=>{if(e.target.name!=='option-count')return;const value=Number(e.target.value);if(!config.choiceCounts?.includes(value))return;prefs={...prefs,choices:value};store.write('preferences',prefs);if(progress&&screen==='play'){progress.actions=[];start();activity.pause();}announce('선택지 수를 바꿨어요. 마친 활동은 유지돼요.');});
+ on(root.querySelector('#host-parent-sound'),'change',e=>{prefs={...prefs,sound:e.target.checked};store.write('preferences',prefs);updateSound();});
+ on(root.querySelector('#host-reset-request'),'click',()=>{root.querySelector('#host-reset-confirm').hidden=false;root.querySelector('#host-reset-cancel').focus();});
+ on(root.querySelector('#host-reset-cancel'),'click',()=>{root.querySelector('#host-reset-confirm').hidden=true;root.querySelector('#host-reset-request').focus();});
+ on(root.querySelector('#host-reset-confirm-button'),'click',()=>{dispose();store.clear(['preferences','progress']);prefs={sound:false};progress=null;updateSound();parents.close();welcome();announce('이 놀이의 설정과 진행을 지웠어요.');});
+ on(document,'visibilitychange',()=>{if(document.hidden){activity?.pause();audio.stop();if(screen==='play'&&!pause.open&&!parents.open)pause.showModal();}else if(!pause.open&&!parents.open)activity?.resume();});
+ on(window,'pagehide',()=>{save();dispose();audio.destroy();events.abort();});
+ updateSound();welcome();
+}

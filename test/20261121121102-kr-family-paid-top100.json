@@ -1,0 +1,910 @@
+{
+  "source": "https://itunes.apple.com/kr/rss/toppaidapplications/limit=100/genre=7009/json",
+  "fetchedAt": "2026-11-21T12:12:38.133493+09:00",
+  "feedUpdated": "2026-11-20T19:11:31-07:00",
+  "requestedLimit": 100,
+  "returnedCount": 100,
+  "platform": "Apple RSS applications feed; iPhone/iPad scope not separately guaranteed",
+  "entries": [
+    {
+      "rank": 1,
+      "id": "575154654",
+      "title": "Pou",
+      "developer": "Zakeh Limited",
+      "url": "https://apps.apple.com/kr/app/pou/id575154654?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 2,
+      "id": "6547834967",
+      "title": "동물의 숲 포켓 캠프 컴플리트",
+      "developer": "Nintendo Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%EB%8F%99%EB%AC%BC%EC%9D%98-%EC%88%B2-%ED%8F%AC%EC%BC%93-%EC%BA%A0%ED%94%84-%EC%BB%B4%ED%94%8C%EB%A6%AC%ED%8A%B8/id6547834967?uo=2",
+      "price": "￦19,000",
+      "category": "게임"
+    },
+    {
+      "rank": 3,
+      "id": "6670190133",
+      "title": "도라에몽의 팥빵 가게 스토리",
+      "developer": "Kairosoft Co.,Ltd",
+      "url": "https://apps.apple.com/kr/app/%EB%8F%84%EB%9D%BC%EC%97%90%EB%AA%BD%EC%9D%98-%ED%8C%A5%EB%B9%B5-%EA%B0%80%EA%B2%8C-%EC%8A%A4%ED%86%A0%EB%A6%AC/id6670190133?uo=2",
+      "price": "￦25,000",
+      "category": "게임"
+    },
+    {
+      "rank": 4,
+      "id": "1093131935",
+      "title": "Incredibox",
+      "developer": "So Far So Good",
+      "url": "https://apps.apple.com/kr/app/incredibox/id1093131935?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 5,
+      "id": "973113361",
+      "title": "Rummikub®",
+      "developer": "Kinkajoo Ltd",
+      "url": "https://apps.apple.com/kr/app/rummikub/id973113361?uo=2",
+      "price": "￦11,000",
+      "category": "게임"
+    },
+    {
+      "rank": 6,
+      "id": "503092422",
+      "title": "Ski Safari",
+      "developer": "Defiant Development",
+      "url": "https://apps.apple.com/kr/app/ski-safari/id503092422?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 7,
+      "id": "351841075",
+      "title": "Cogs",
+      "developer": "Lazy 8 Studios",
+      "url": "https://apps.apple.com/kr/app/cogs/id351841075?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 8,
+      "id": "449735650",
+      "title": "스왐피는 어디에",
+      "developer": "Disney",
+      "url": "https://apps.apple.com/kr/app/%EC%8A%A4%EC%99%90%ED%94%BC%EB%8A%94-%EC%96%B4%EB%94%94%EC%97%90/id449735650?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 9,
+      "id": "6738984292",
+      "title": "Voice Through",
+      "developer": "洋 李",
+      "url": "https://apps.apple.com/kr/app/voice-through/id6738984292?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 10,
+      "id": "1477966166",
+      "title": "모노폴리 (MONOPOLY)",
+      "developer": "Marmalade Game Studio",
+      "url": "https://apps.apple.com/kr/app/%EB%AA%A8%EB%85%B8%ED%8F%B4%EB%A6%AC-monopoly/id1477966166?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 11,
+      "id": "495937600",
+      "title": "The Tiny Bang Story",
+      "developer": "Ellada Games LLC",
+      "url": "https://apps.apple.com/kr/app/the-tiny-bang-story/id495937600?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 12,
+      "id": "775888026",
+      "title": "Shadowmatic",
+      "developer": "TRIADA Studio",
+      "url": "https://apps.apple.com/kr/app/shadowmatic/id775888026?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 13,
+      "id": "1309035984",
+      "title": "Passpartout: Starving Artist",
+      "developer": "Flamebait AB",
+      "url": "https://apps.apple.com/kr/app/passpartout-starving-artist/id1309035984?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 14,
+      "id": "853706620",
+      "title": "Botanicula (보타니큘라)",
+      "developer": "Amanita Design s.r.o.",
+      "url": "https://apps.apple.com/kr/app/botanicula-%EB%B3%B4%ED%83%80%EB%8B%88%ED%81%98%EB%9D%BC/id853706620?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 15,
+      "id": "1504000687",
+      "title": "2 Players 1 Device: Tabletop",
+      "developer": "Anthony Harvey",
+      "url": "https://apps.apple.com/kr/app/2-players-1-device-tabletop/id1504000687?uo=2",
+      "price": "￦500",
+      "category": "게임"
+    },
+    {
+      "rank": 16,
+      "id": "1133544923",
+      "title": "Hidden Folks",
+      "developer": "Hidden Folks B.V.",
+      "url": "https://apps.apple.com/kr/app/hidden-folks/id1133544923?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 17,
+      "id": "1297430468",
+      "title": "Florence",
+      "developer": "Annapurna Interactive",
+      "url": "https://apps.apple.com/kr/app/florence/id1297430468?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 18,
+      "id": "1108327399",
+      "title": "샐리의 법칙",
+      "developer": "Nanali Inc.",
+      "url": "https://apps.apple.com/kr/app/%EC%83%90%EB%A6%AC%EC%9D%98-%EB%B2%95%EC%B9%99/id1108327399?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 19,
+      "id": "1121782467",
+      "title": "Samorost 3（사모로스트 3）",
+      "developer": "Amanita Design s.r.o.",
+      "url": "https://apps.apple.com/kr/app/samorost-3-%EC%82%AC%EB%AA%A8%EB%A1%9C%EC%8A%A4%ED%8A%B8-3/id1121782467?uo=2",
+      "price": "￦11,000",
+      "category": "게임"
+    },
+    {
+      "rank": 20,
+      "id": "952555810",
+      "title": "Ski Safari 2",
+      "developer": "Sleepy Z Studios Pty Ltd",
+      "url": "https://apps.apple.com/kr/app/ski-safari-2/id952555810?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 21,
+      "id": "1269225754",
+      "title": "Gorogoa",
+      "developer": "Annapurna Interactive",
+      "url": "https://apps.apple.com/kr/app/gorogoa/id1269225754?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 22,
+      "id": "1065127755",
+      "title": "Never Alone: Ki Edition",
+      "developer": "E-Line Media",
+      "url": "https://apps.apple.com/kr/app/never-alone-ki-edition/id1065127755?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 23,
+      "id": "1445593893",
+      "title": "Journey",
+      "developer": "Annapurna Interactive",
+      "url": "https://apps.apple.com/kr/app/journey/id1445593893?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 24,
+      "id": "456244246",
+      "title": "Blueprint 3D",
+      "developer": "FDG Entertainment GmbH & Co.KG",
+      "url": "https://apps.apple.com/kr/app/blueprint-3d/id456244246?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 25,
+      "id": "1030548464",
+      "title": "hocus.",
+      "developer": "GAMEBRAIN YAZILIM TEKNOLOJILERI ANONIM SIRKETI",
+      "url": "https://apps.apple.com/kr/app/hocus/id1030548464?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 26,
+      "id": "742625884",
+      "title": "Blek",
+      "developer": "kunabi brother GmbH",
+      "url": "https://apps.apple.com/kr/app/blek/id742625884?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 27,
+      "id": "972319818",
+      "title": "Prune",
+      "developer": "Joel McDonald LLC",
+      "url": "https://apps.apple.com/kr/app/prune/id972319818?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 28,
+      "id": "1279174518",
+      "title": "Flower",
+      "developer": "Annapurna Interactive",
+      "url": "https://apps.apple.com/kr/app/flower/id1279174518?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 29,
+      "id": "408697793",
+      "title": "King of Opera",
+      "developer": "Tuokio Inc.",
+      "url": "https://apps.apple.com/kr/app/king-of-opera/id408697793?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 30,
+      "id": "497936366",
+      "title": "Catapult King",
+      "developer": "Glinda Games PTY LTD",
+      "url": "https://apps.apple.com/kr/app/catapult-king/id497936366?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 31,
+      "id": "730919094",
+      "title": "Double Dragon Trilogy",
+      "developer": "DotEmu",
+      "url": "https://apps.apple.com/kr/app/double-dragon-trilogy/id730919094?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 32,
+      "id": "1105390093",
+      "title": "\"Klocki\"",
+      "developer": "Maciej Targoni",
+      "url": "https://apps.apple.com/kr/app/klocki/id1105390093?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 33,
+      "id": "1506973111",
+      "title": "Samorost 2 (사모로스트 2)",
+      "developer": "Amanita Design s.r.o.",
+      "url": "https://apps.apple.com/kr/app/samorost-2-%EC%82%AC%EB%AA%A8%EB%A1%9C%EC%8A%A4%ED%8A%B8-2/id1506973111?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 34,
+      "id": "1108935309",
+      "title": "20 Watch Games - Classic Pack",
+      "developer": "Diem Le",
+      "url": "https://apps.apple.com/kr/app/20-watch-games-classic-pack/id1108935309?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 35,
+      "id": "1017367213",
+      "title": "Octodad: Dadliest Catch",
+      "developer": "Young Horses, Inc.",
+      "url": "https://apps.apple.com/kr/app/octodad-dadliest-catch/id1017367213?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 36,
+      "id": "1037820836",
+      "title": "Build Your Palace",
+      "developer": "Pascal Monaco",
+      "url": "https://apps.apple.com/kr/app/build-your-palace/id1037820836?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 37,
+      "id": "407998895",
+      "title": "Bubble Bust! - Bubble Shooter",
+      "developer": "GOES International AB",
+      "url": "https://apps.apple.com/kr/app/bubble-bust-bubble-shooter/id407998895?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 38,
+      "id": "957124541",
+      "title": "Tsuro - 경로의 게임",
+      "developer": "Thunderbox Entertainment Ltd.",
+      "url": "https://apps.apple.com/kr/app/tsuro-%EA%B2%BD%EB%A1%9C%EC%9D%98-%EA%B2%8C%EC%9E%84/id957124541?uo=2",
+      "price": "￦6,600",
+      "category": "게임"
+    },
+    {
+      "rank": 39,
+      "id": "515840296",
+      "title": "알려지지 않은 세계",
+      "developer": "Fire Maple Games",
+      "url": "https://apps.apple.com/kr/app/%EC%95%8C%EB%A0%A4%EC%A7%80%EC%A7%80-%EC%95%8A%EC%9D%80-%EC%84%B8%EA%B3%84/id515840296?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 40,
+      "id": "534282109",
+      "title": "Topia World Builder",
+      "developer": "Crescent Moon Games",
+      "url": "https://apps.apple.com/kr/app/topia-world-builder/id534282109?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 41,
+      "id": "1296646396",
+      "title": "CHUCHEL (츄첼)",
+      "developer": "Amanita Design s.r.o.",
+      "url": "https://apps.apple.com/kr/app/chuchel-%EC%B8%84%EC%B2%BC/id1296646396?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 42,
+      "id": "384282298",
+      "title": "Secret of Grisly Manor",
+      "developer": "Fire Maple Games",
+      "url": "https://apps.apple.com/kr/app/secret-of-grisly-manor/id384282298?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 43,
+      "id": "1082189848",
+      "title": "Under Leaves",
+      "developer": "Circus Atos",
+      "url": "https://apps.apple.com/kr/app/under-leaves/id1082189848?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 44,
+      "id": "529826126",
+      "title": "OLO game",
+      "developer": "Sennep",
+      "url": "https://apps.apple.com/kr/app/olo-game/id529826126?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 45,
+      "id": "634885478",
+      "title": "The Inner World",
+      "developer": "Headup GmbH",
+      "url": "https://apps.apple.com/kr/app/the-inner-world/id634885478?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 46,
+      "id": "1110376793",
+      "title": "voi",
+      "developer": "GAMEBRAIN YAZILIM TEKNOLOJILERI ANONIM SIRKETI",
+      "url": "https://apps.apple.com/kr/app/voi/id1110376793?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 47,
+      "id": "1335784091",
+      "title": "Scalak",
+      "developer": "Michal Pawlowski",
+      "url": "https://apps.apple.com/kr/app/scalak/id1335784091?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 48,
+      "id": "956794130",
+      "title": "\"HOOK\"",
+      "developer": "Maciej Targoni",
+      "url": "https://apps.apple.com/kr/app/hook/id956794130?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 49,
+      "id": "1478611992",
+      "title": "Farming Simulator 20",
+      "developer": "GIANTS Software GmbH",
+      "url": "https://apps.apple.com/kr/app/farming-simulator-20/id1478611992?uo=2",
+      "price": "￦8,500",
+      "category": "게임"
+    },
+    {
+      "rank": 50,
+      "id": "1257416763",
+      "title": "\"PUSH\"",
+      "developer": "Maciej Targoni",
+      "url": "https://apps.apple.com/kr/app/push/id1257416763?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 51,
+      "id": "1016459121",
+      "title": "Steam: Rails to Riches",
+      "developer": "Acram Digital",
+      "url": "https://apps.apple.com/kr/app/steam-rails-to-riches/id1016459121?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 52,
+      "id": "1293516048",
+      "title": "Dissembler",
+      "developer": "Shape Shop Pty Ltd atf Shape Shop Trust",
+      "url": "https://apps.apple.com/kr/app/dissembler/id1293516048?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 53,
+      "id": "1204231646",
+      "title": "Swim Out",
+      "developer": "Lozange Lab",
+      "url": "https://apps.apple.com/kr/app/swim-out/id1204231646?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 54,
+      "id": "422034547",
+      "title": "Feed Me Oil",
+      "developer": "Alexandr Ilin",
+      "url": "https://apps.apple.com/kr/app/feed-me-oil/id422034547?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 55,
+      "id": "1512751689",
+      "title": "The Game of Life 2",
+      "developer": "Marmalade Game Studio",
+      "url": "https://apps.apple.com/kr/app/the-game-of-life-2/id1512751689?uo=2",
+      "price": "￦5,500",
+      "category": "게임"
+    },
+    {
+      "rank": 56,
+      "id": "555641008",
+      "title": "Draw a Stickman: EPIC",
+      "developer": "Hitcents.com, Inc.",
+      "url": "https://apps.apple.com/kr/app/draw-a-stickman-epic/id555641008?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 57,
+      "id": "1280919052",
+      "title": "Bohnanza The Duel",
+      "developer": "DIGIDICED",
+      "url": "https://apps.apple.com/kr/app/bohnanza-the-duel/id1280919052?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 58,
+      "id": "1076402133",
+      "title": "Colorcube",
+      "developer": "Next Apps BVBA",
+      "url": "https://apps.apple.com/kr/app/colorcube/id1076402133?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 59,
+      "id": "636777828",
+      "title": "Karateka Classic",
+      "developer": "DotEmu",
+      "url": "https://apps.apple.com/kr/app/karateka-classic/id636777828?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 60,
+      "id": "1192689055",
+      "title": "Alphaputt",
+      "developer": "Sennep",
+      "url": "https://apps.apple.com/kr/app/alphaputt/id1192689055?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 61,
+      "id": "699687299",
+      "title": "Feed Me Oil 2",
+      "developer": "Alexandr Ilin",
+      "url": "https://apps.apple.com/kr/app/feed-me-oil-2/id699687299?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 62,
+      "id": "887362336",
+      "title": "RGB Express",
+      "developer": "Bad Crane Ltd",
+      "url": "https://apps.apple.com/kr/app/rgb-express/id887362336?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 63,
+      "id": "520762327",
+      "title": "리틀 띵스 포에버",
+      "developer": "KLICKTOCK",
+      "url": "https://apps.apple.com/kr/app/%EB%A6%AC%ED%8B%80-%EB%9D%B5%EC%8A%A4-%ED%8F%AC%EC%97%90%EB%B2%84/id520762327?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 64,
+      "id": "1339172788",
+      "title": "Up Left Out",
+      "developer": "Maciej Targoni",
+      "url": "https://apps.apple.com/kr/app/up-left-out/id1339172788?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 65,
+      "id": "1411348057",
+      "title": "That's Pretty Clever",
+      "developer": "BrettspielWelt",
+      "url": "https://apps.apple.com/kr/app/thats-pretty-clever/id1411348057?uo=2",
+      "price": "￦6,600",
+      "category": "게임"
+    },
+    {
+      "rank": 66,
+      "id": "328992396",
+      "title": "Glow Hockey 2",
+      "developer": "Ariya Studio Company Limited",
+      "url": "https://apps.apple.com/kr/app/glow-hockey-2/id328992396?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 67,
+      "id": "1374372468",
+      "title": "Teslagrad",
+      "developer": "Playdigious",
+      "url": "https://apps.apple.com/kr/app/teslagrad/id1374372468?uo=2",
+      "price": "￦11,000",
+      "category": "게임"
+    },
+    {
+      "rank": 68,
+      "id": "975985952",
+      "title": "Return to Grisly Manor",
+      "developer": "Fire Maple Games",
+      "url": "https://apps.apple.com/kr/app/return-to-grisly-manor/id975985952?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 69,
+      "id": "550971517",
+      "title": "Dr. Panda의 레스토랑",
+      "developer": "Dr. Panda Ltd",
+      "url": "https://apps.apple.com/kr/app/dr-panda%EC%9D%98-%EB%A0%88%EC%8A%A4%ED%86%A0%EB%9E%91/id550971517?uo=2",
+      "price": "￦6,600",
+      "category": "게임"
+    },
+    {
+      "rank": 70,
+      "id": "1522202364",
+      "title": "DHG",
+      "developer": "WONSEOK LEE",
+      "url": "https://apps.apple.com/kr/app/dhg/id1522202364?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 71,
+      "id": "6463616555",
+      "title": "Ticket to Ride®",
+      "developer": "Marmalade Game Studio",
+      "url": "https://apps.apple.com/kr/app/ticket-to-ride/id6463616555?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 72,
+      "id": "430656073",
+      "title": "Anodia: Unique Brick Breaker",
+      "developer": "Rafal Kozik",
+      "url": "https://apps.apple.com/kr/app/anodia-unique-brick-breaker/id430656073?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 73,
+      "id": "1291390392",
+      "title": "VMOD",
+      "developer": "Martin Knopf",
+      "url": "https://apps.apple.com/kr/app/vmod/id1291390392?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 74,
+      "id": "850456491",
+      "title": "Bounden",
+      "developer": "Adriaan de Jongh",
+      "url": "https://apps.apple.com/kr/app/bounden/id850456491?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 75,
+      "id": "1447375817",
+      "title": "재미 있은 공룡 퍼즐 게임, 풀 버전.",
+      "developer": "CLEVERBIT LTD",
+      "url": "https://apps.apple.com/kr/app/%EC%9E%AC%EB%AF%B8-%EC%9E%88%EC%9D%80-%EA%B3%B5%EB%A3%A1-%ED%8D%BC%EC%A6%90-%EA%B2%8C%EC%9E%84-%ED%92%80-%EB%B2%84%EC%A0%84/id1447375817?uo=2",
+      "price": "￦6,600",
+      "category": "게임"
+    },
+    {
+      "rank": 76,
+      "id": "1343246862",
+      "title": "Hexologic",
+      "developer": "MYTHICOWL SP Z O O",
+      "url": "https://apps.apple.com/kr/app/hexologic/id1343246862?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 77,
+      "id": "286106725",
+      "title": "에어 하키 - Air Hockey",
+      "developer": "Acceleroto",
+      "url": "https://apps.apple.com/kr/app/%EC%97%90%EC%96%B4-%ED%95%98%ED%82%A4-air-hockey/id286106725?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 78,
+      "id": "1166097026",
+      "title": "Lethe",
+      "developer": "Changyou.com HK Limited",
+      "url": "https://apps.apple.com/kr/app/lethe/id1166097026?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 79,
+      "id": "1114170869",
+      "title": "Day of the Tentacle Remastered",
+      "developer": "Double Fine Productions, Inc.",
+      "url": "https://apps.apple.com/kr/app/day-of-the-tentacle-remastered/id1114170869?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 80,
+      "id": "901161827",
+      "title": "Fire Maple Games - Collection",
+      "developer": "Fire Maple Games",
+      "url": "https://apps.apple.com/kr/app/fire-maple-games-collection/id901161827?uo=2",
+      "price": "￦6,600",
+      "category": "게임"
+    },
+    {
+      "rank": 81,
+      "id": "1254419905",
+      "title": "Train Simulator PRO 2018",
+      "developer": "MAGEEKS SC",
+      "url": "https://apps.apple.com/kr/app/train-simulator-pro-2018/id1254419905?uo=2",
+      "price": "￦9,900",
+      "category": "게임"
+    },
+    {
+      "rank": 82,
+      "id": "1123652342",
+      "title": "쥐라기GO - 공룡 사진 찍기 대모험 - 귀엽고 재미있는 공룡들을 발견하고 멋진 사진을 찍어보세요",
+      "developer": "BebopBee, Inc",
+      "url": "https://apps.apple.com/kr/app/%EC%A5%90%EB%9D%BC%EA%B8%B0go-%EA%B3%B5%EB%A3%A1-%EC%82%AC%EC%A7%84-%EC%B0%8D%EA%B8%B0-%EB%8C%80%EB%AA%A8%ED%97%98-%EA%B7%80%EC%97%BD%EA%B3%A0-%EC%9E%AC%EB%AF%B8%EC%9E%88%EB%8A%94-%EA%B3%B5%EB%A3%A1%EB%93%A4%EC%9D%84-%EB%B0%9C%EA%B2%AC%ED%95%98%EA%B3%A0-%EB%A9%8B%EC%A7%84-%EC%82%AC%EC%A7%84%EC%9D%84-%EC%B0%8D%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94/id1123652342?uo=2",
+      "price": "￦6,600",
+      "category": "게임"
+    },
+    {
+      "rank": 83,
+      "id": "446408493",
+      "title": "Virtual Villagers 5",
+      "developer": "LDW Software, LLC",
+      "url": "https://apps.apple.com/kr/app/virtual-villagers-5/id446408493?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 84,
+      "id": "320300350",
+      "title": "Virtual Families",
+      "developer": "LDW Software, LLC",
+      "url": "https://apps.apple.com/kr/app/virtual-families/id320300350?uo=2",
+      "price": "￦3,300",
+      "category": "게임"
+    },
+    {
+      "rank": 85,
+      "id": "1078677054",
+      "title": "minimize",
+      "developer": "BorderLeap",
+      "url": "https://apps.apple.com/kr/app/minimize/id1078677054?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 86,
+      "id": "6740349666",
+      "title": "Backyard Baseball '97",
+      "developer": "Playground Productions LLC",
+      "url": "https://apps.apple.com/kr/app/backyard-baseball-97/id6740349666?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 87,
+      "id": "937976391",
+      "title": "Heads Up! Charades for Kids",
+      "developer": "Warner Bros.",
+      "url": "https://apps.apple.com/kr/app/heads-up-charades-for-kids/id937976391?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 88,
+      "id": "1524841987",
+      "title": "The First Tree™",
+      "developer": "David Wehle",
+      "url": "https://apps.apple.com/kr/app/the-first-tree/id1524841987?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 89,
+      "id": "845190066",
+      "title": "6 takes!",
+      "developer": "Application Systems Heidelberg Software GmbH",
+      "url": "https://apps.apple.com/kr/app/6-takes/id845190066?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 90,
+      "id": "1271707085",
+      "title": "Orbu",
+      "developer": "Dream Reality Interactive",
+      "url": "https://apps.apple.com/kr/app/orbu/id1271707085?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 91,
+      "id": "1473480040",
+      "title": "NABOKI",
+      "developer": "Maciej Targoni",
+      "url": "https://apps.apple.com/kr/app/naboki/id1473480040?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 92,
+      "id": "1320364842",
+      "title": "Thickety Creek",
+      "developer": "Fire Maple Games, LLC",
+      "url": "https://apps.apple.com/kr/app/thickety-creek/id1320364842?uo=2",
+      "price": "￦6,600",
+      "category": "게임"
+    },
+    {
+      "rank": 93,
+      "id": "416087694",
+      "title": "Can Knockdown 2",
+      "developer": "Infinite Dreams Inc.",
+      "url": "https://apps.apple.com/kr/app/can-knockdown-2/id416087694?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 94,
+      "id": "423855879",
+      "title": "Bumpy Road",
+      "developer": "Simogo AB",
+      "url": "https://apps.apple.com/kr/app/bumpy-road/id423855879?uo=2",
+      "price": "￦4,400",
+      "category": "게임"
+    },
+    {
+      "rank": 95,
+      "id": "1560172174",
+      "title": "El Hijo",
+      "developer": "THQ Nordic Mobile GmbH",
+      "url": "https://apps.apple.com/kr/app/el-hijo/id1560172174?uo=2",
+      "price": "￦3,500",
+      "category": "게임"
+    },
+    {
+      "rank": 96,
+      "id": "468564994",
+      "title": "Tasty Planet: Back for Seconds",
+      "developer": "Dingo Games Inc.",
+      "url": "https://apps.apple.com/kr/app/tasty-planet-back-for-seconds/id468564994?uo=2",
+      "price": "￦6,600",
+      "category": "게임"
+    },
+    {
+      "rank": 97,
+      "id": "508049561",
+      "title": "The Last Express",
+      "developer": "DotEmu",
+      "url": "https://apps.apple.com/kr/app/the-last-express/id508049561?uo=2",
+      "price": "￦7,700",
+      "category": "게임"
+    },
+    {
+      "rank": 98,
+      "id": "415069562",
+      "title": "Tasty Planet",
+      "developer": "Dingo Games Inc.",
+      "url": "https://apps.apple.com/kr/app/tasty-planet/id415069562?uo=2",
+      "price": "￦6,600",
+      "category": "게임"
+    },
+    {
+      "rank": 99,
+      "id": "483349192",
+      "title": "Swiped",
+      "developer": "iGold Technologies",
+      "url": "https://apps.apple.com/kr/app/swiped/id483349192?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    },
+    {
+      "rank": 100,
+      "id": "342699962",
+      "title": "Rat On A Scooter XL",
+      "developer": "Donut Games",
+      "url": "https://apps.apple.com/kr/app/rat-on-a-scooter-xl/id342699962?uo=2",
+      "price": "￦1,100",
+      "category": "게임"
+    }
+  ]
+}

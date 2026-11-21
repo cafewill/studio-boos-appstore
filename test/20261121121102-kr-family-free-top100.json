@@ -1,0 +1,910 @@
+{
+  "source": "https://itunes.apple.com/kr/rss/topfreeapplications/limit=100/genre=7009/json",
+  "fetchedAt": "2026-11-21T12:12:38.128671+09:00",
+  "feedUpdated": "2026-11-20T19:11:31-07:00",
+  "requestedLimit": 100,
+  "returnedCount": 100,
+  "platform": "Apple RSS applications feed; iPhone/iPad scope not separately guaranteed",
+  "entries": [
+    {
+      "rank": 1,
+      "id": "1015322991",
+      "title": "Rummikub",
+      "developer": "Kinkajoo Ltd",
+      "url": "https://apps.apple.com/kr/app/rummikub/id1015322991?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 2,
+      "id": "6760818996",
+      "title": "TopTop: 게임, 채팅 & 친구들",
+      "developer": "MX INNOVATION PTE. LTD.",
+      "url": "https://apps.apple.com/kr/app/toptop-%EA%B2%8C%EC%9E%84-%EC%B1%84%ED%8C%85-%EC%B9%9C%EA%B5%AC%EB%93%A4/id6760818996?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 3,
+      "id": "1344700142",
+      "title": "UNO!™",
+      "developer": "Mattel Game Studios HK Limited",
+      "url": "https://apps.apple.com/kr/app/uno/id1344700142?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 4,
+      "id": "1465731199",
+      "title": "2 Player Games : the Challenge",
+      "developer": "Moreno Maio",
+      "url": "https://apps.apple.com/kr/app/2-player-games-the-challenge/id1465731199?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 5,
+      "id": "1446874445",
+      "title": "매직 레벨 9: 탭 피아노 게임, 비트에 맞춰 춤추기",
+      "developer": "Kim Nguyen",
+      "url": "https://apps.apple.com/kr/app/%EB%A7%A4%EC%A7%81-%EB%A0%88%EB%B2%A8-9-%ED%83%AD-%ED%94%BC%EC%95%84%EB%85%B8-%EA%B2%8C%EC%9E%84-%EB%B9%84%ED%8A%B8%EC%97%90-%EB%A7%9E%EC%B6%B0-%EC%B6%A4%EC%B6%94%EA%B8%B0/id1446874445?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 6,
+      "id": "924373886",
+      "title": "길건너 친구들",
+      "developer": "HIPSTER WHALE",
+      "url": "https://apps.apple.com/kr/app/%EA%B8%B8%EA%B1%B4%EB%84%88-%EC%B9%9C%EA%B5%AC%EB%93%A4/id924373886?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 7,
+      "id": "1673039373",
+      "title": "Cube Solver 3D",
+      "developer": "LOLAGRE",
+      "url": "https://apps.apple.com/kr/app/cube-solver-3d/id1673039373?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 8,
+      "id": "1455441206",
+      "title": "캣점프",
+      "developer": "Seeplay Inc.",
+      "url": "https://apps.apple.com/kr/app/%EC%BA%A3%EC%A0%90%ED%94%84/id1455441206?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 9,
+      "id": "6448392144",
+      "title": "케이크 정렬 - 컬러 정렬 및 병합 퍼즐 게임",
+      "developer": "FALCON GAMES",
+      "url": "https://apps.apple.com/kr/app/%EC%BC%80%EC%9D%B4%ED%81%AC-%EC%A0%95%EB%A0%AC-%EC%BB%AC%EB%9F%AC-%EC%A0%95%EB%A0%AC-%EB%B0%8F-%EB%B3%91%ED%95%A9-%ED%8D%BC%EC%A6%90-%EA%B2%8C%EC%9E%84/id6448392144?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 10,
+      "id": "6746151928",
+      "title": "두근두근타운",
+      "developer": "XD (HK) Limited",
+      "url": "https://apps.apple.com/kr/app/%EB%91%90%EA%B7%BC%EB%91%90%EA%B7%BC%ED%83%80%EC%9A%B4/id6746151928?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 11,
+      "id": "6821957503",
+      "title": "딴짓 - 친구랑 보드게임",
+      "developer": "Minseok Ryu",
+      "url": "https://apps.apple.com/kr/app/%EB%94%B4%EC%A7%93-%EC%B9%9C%EA%B5%AC%EB%9E%91-%EB%B3%B4%EB%93%9C%EA%B2%8C%EC%9E%84/id6821957503?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 12,
+      "id": "1586980403",
+      "title": "Coloring Match",
+      "developer": "SUPERSONIC STUDIOS LTD",
+      "url": "https://apps.apple.com/kr/app/coloring-match/id1586980403?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 13,
+      "id": "6772202256",
+      "title": "Loops: 슬리더링크 퍼즐",
+      "developer": "DAVID GREBEN",
+      "url": "https://apps.apple.com/kr/app/loops-%EC%8A%AC%EB%A6%AC%EB%8D%94%EB%A7%81%ED%81%AC-%ED%8D%BC%EC%A6%90/id6772202256?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 14,
+      "id": "6824655215",
+      "title": "정리정돈! 모든 것",
+      "developer": "SayGames LTD",
+      "url": "https://apps.apple.com/kr/app/%EC%A0%95%EB%A6%AC%EC%A0%95%EB%8F%88-%EB%AA%A8%EB%93%A0-%EA%B2%83/id6824655215?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 15,
+      "id": "1244329629",
+      "title": "2048: Number Puzzle Game",
+      "developer": "erkay uzun",
+      "url": "https://apps.apple.com/kr/app/2048-number-puzzle-game/id1244329629?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 16,
+      "id": "6443624260",
+      "title": "Sunshine Island: Farm Life",
+      "developer": "Goodgame Studio",
+      "url": "https://apps.apple.com/kr/app/sunshine-island-farm-life/id6443624260?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 17,
+      "id": "1573133915",
+      "title": "룰렛+ : 결정 룰렛, 랜덤 추첨 스피너",
+      "developer": "Komorebi Inc.",
+      "url": "https://apps.apple.com/kr/app/%EB%A3%B0%EB%A0%9B-%EA%B2%B0%EC%A0%95-%EB%A3%B0%EB%A0%9B-%EB%9E%9C%EB%8D%A4-%EC%B6%94%EC%B2%A8-%EC%8A%A4%ED%94%BC%EB%84%88/id1573133915?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 18,
+      "id": "1621328561",
+      "title": "MONOPOLY GO! (모노폴리 GO!)",
+      "developer": "Scopely, Inc.",
+      "url": "https://apps.apple.com/kr/app/monopoly-go-%EB%AA%A8%EB%85%B8%ED%8F%B4%EB%A6%AC-go/id1621328561?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 19,
+      "id": "987360477",
+      "title": "쿠킹마마: 요리해 보아요!",
+      "developer": "Office Create Corp.",
+      "url": "https://apps.apple.com/kr/app/%EC%BF%A0%ED%82%B9%EB%A7%88%EB%A7%88-%EC%9A%94%EB%A6%AC%ED%95%B4-%EB%B3%B4%EC%95%84%EC%9A%94/id987360477?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 20,
+      "id": "6478563961",
+      "title": "브레인테스트 올스타 (Brain Test): IQ 게임",
+      "developer": "UNICO STUDIO",
+      "url": "https://apps.apple.com/kr/app/%EB%B8%8C%EB%A0%88%EC%9D%B8%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%98%AC%EC%8A%A4%ED%83%80-brain-test-iq-%EA%B2%8C%EC%9E%84/id6478563961?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 21,
+      "id": "1425579722",
+      "title": "동물온천",
+      "developer": "SUPERTHUMb Inc.",
+      "url": "https://apps.apple.com/kr/app/%EB%8F%99%EB%AC%BC%EC%98%A8%EC%B2%9C/id1425579722?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 22,
+      "id": "6746332353",
+      "title": "리락쿠마와 스미코구라시 - Tadaima",
+      "developer": "株式会社イエローブルー",
+      "url": "https://apps.apple.com/kr/app/%EB%A6%AC%EB%9D%BD%EC%BF%A0%EB%A7%88%EC%99%80-%EC%8A%A4%EB%AF%B8%EC%BD%94%EA%B5%AC%EB%9D%BC%EC%8B%9C-tadaima/id6746332353?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 23,
+      "id": "506627515",
+      "title": "헤이데이",
+      "developer": "Supercell",
+      "url": "https://apps.apple.com/kr/app/%ED%97%A4%EC%9D%B4%EB%8D%B0%EC%9D%B4/id506627515?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 24,
+      "id": "6757144180",
+      "title": "조선시대 별점 주막 : 조선 팔도 쿠킹 대장경",
+      "developer": "NEOVINCI, Inc.",
+      "url": "https://apps.apple.com/kr/app/%EC%A1%B0%EC%84%A0%EC%8B%9C%EB%8C%80-%EB%B3%84%EC%A0%90-%EC%A3%BC%EB%A7%89-%EC%A1%B0%EC%84%A0-%ED%8C%94%EB%8F%84-%EC%BF%A0%ED%82%B9-%EB%8C%80%EC%9E%A5%EA%B2%BD/id6757144180?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 25,
+      "id": "1462117269",
+      "title": "SKY - 빛의 아이들",
+      "developer": "thatgamecompany",
+      "url": "https://apps.apple.com/kr/app/sky-%EB%B9%9B%EC%9D%98-%EC%95%84%EC%9D%B4%EB%93%A4/id1462117269?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 26,
+      "id": "1635978552",
+      "title": "1 2 3 4 Player Games",
+      "developer": "Moreno Maio",
+      "url": "https://apps.apple.com/kr/app/1-2-3-4-player-games/id1635978552?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 27,
+      "id": "993090598",
+      "title": "Ludo King",
+      "developer": "GAMETION GLOBAL TECHNOLOGIES PTE LIMITED",
+      "url": "https://apps.apple.com/kr/app/ludo-king/id993090598?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 28,
+      "id": "1269516792",
+      "title": "2~4 인용 미니게임",
+      "developer": "Penji Games B.V.",
+      "url": "https://apps.apple.com/kr/app/2-4-%EC%9D%B8%EC%9A%A9-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/id1269516792?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 29,
+      "id": "1140266903",
+      "title": "엄마는 게임을 숨겼다 - 탈출 게임",
+      "developer": "hap Inc.",
+      "url": "https://apps.apple.com/kr/app/%EC%97%84%EB%A7%88%EB%8A%94-%EA%B2%8C%EC%9E%84%EC%9D%84-%EC%88%A8%EA%B2%BC%EB%8B%A4-%ED%83%88%EC%B6%9C-%EA%B2%8C%EC%9E%84/id1140266903?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 30,
+      "id": "977958854",
+      "title": "하베스트 랜드",
+      "developer": "MTAG PUBLISHING LTD",
+      "url": "https://apps.apple.com/kr/app/%ED%95%98%EB%B2%A0%EC%8A%A4%ED%8A%B8-%EB%9E%9C%EB%93%9C/id977958854?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 31,
+      "id": "6752662891",
+      "title": "음악 피아노 7: 음악게임 & 피아노게임",
+      "developer": "Nguyen Thien",
+      "url": "https://apps.apple.com/kr/app/%EC%9D%8C%EC%95%85-%ED%94%BC%EC%95%84%EB%85%B8-7-%EC%9D%8C%EC%95%85%EA%B2%8C%EC%9E%84-%ED%94%BC%EC%95%84%EB%85%B8%EA%B2%8C%EC%9E%84/id6752662891?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 32,
+      "id": "1267861706",
+      "title": "마이 다마고치 포에버 My Tamagotchi",
+      "developer": "BANDAI NAMCO Entertainment Europe",
+      "url": "https://apps.apple.com/kr/app/%EB%A7%88%EC%9D%B4-%EB%8B%A4%EB%A7%88%EA%B3%A0%EC%B9%98-%ED%8F%AC%EC%97%90%EB%B2%84-my-tamagotchi/id1267861706?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 33,
+      "id": "6746071792",
+      "title": "자취생키우기3",
+      "developer": "Sora Ryoo",
+      "url": "https://apps.apple.com/kr/app/%EC%9E%90%EC%B7%A8%EC%83%9D%ED%82%A4%EC%9A%B0%EA%B8%B03/id6746071792?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 34,
+      "id": "6511238101",
+      "title": "My Superstore Simulator",
+      "developer": "Game District LLC",
+      "url": "https://apps.apple.com/kr/app/my-superstore-simulator/id6511238101?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 35,
+      "id": "909351158",
+      "title": "마이토킹안젤라",
+      "developer": "Outfit7 Limited",
+      "url": "https://apps.apple.com/kr/app/%EB%A7%88%EC%9D%B4%ED%86%A0%ED%82%B9%EC%95%88%EC%A0%A4%EB%9D%BC/id909351158?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 36,
+      "id": "1601400687",
+      "title": "2인용 게임 - 데이터 필요없는 오프라인 미니게임",
+      "developer": "Halos Labs Technology Co.,Ltd",
+      "url": "https://apps.apple.com/kr/app/2%EC%9D%B8%EC%9A%A9-%EA%B2%8C%EC%9E%84-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%95%84%EC%9A%94%EC%97%86%EB%8A%94-%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8-%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/id1601400687?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 37,
+      "id": "1472526081",
+      "title": "TOFU GIRL",
+      "developer": "JoyPac",
+      "url": "https://apps.apple.com/kr/app/tofu-girl/id1472526081?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 38,
+      "id": "1395888987",
+      "title": "고양이는 정말 귀여워",
+      "developer": "SungHyuk Yoon",
+      "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4%EB%8A%94-%EC%A0%95%EB%A7%90-%EA%B7%80%EC%97%AC%EC%9B%8C/id1395888987?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 39,
+      "id": "6753282229",
+      "title": "브레인 테스트 5: 까다로운 도전",
+      "developer": "UNICO STUDIO",
+      "url": "https://apps.apple.com/kr/app/%EB%B8%8C%EB%A0%88%EC%9D%B8-%ED%85%8C%EC%8A%A4%ED%8A%B8-5-%EA%B9%8C%EB%8B%A4%EB%A1%9C%EC%9A%B4-%EB%8F%84%EC%A0%84/id6753282229?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 40,
+      "id": "6749690403",
+      "title": "Enchanted Inn",
+      "developer": "Tactile Games ApS",
+      "url": "https://apps.apple.com/kr/app/enchanted-inn/id6749690403?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 41,
+      "id": "1601164404",
+      "title": "월간엔터테인먼트",
+      "developer": "Sora Ryoo",
+      "url": "https://apps.apple.com/kr/app/%EC%9B%94%EA%B0%84%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8/id1601164404?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 42,
+      "id": "6800831293",
+      "title": "소프트 타워: 아이스크림 쌓기",
+      "developer": "jin mizoi",
+      "url": "https://apps.apple.com/kr/app/%EC%86%8C%ED%94%84%ED%8A%B8-%ED%83%80%EC%9B%8C-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-%EC%8C%93%EA%B8%B0/id6800831293?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 43,
+      "id": "1454191110",
+      "title": "신당동 떡볶이 2",
+      "developer": "nurijoy",
+      "url": "https://apps.apple.com/kr/app/%EC%8B%A0%EB%8B%B9%EB%8F%99-%EB%96%A1%EB%B3%B6%EC%9D%B4-2/id1454191110?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 44,
+      "id": "1474111930",
+      "title": "프라고레　온라인 크레인게임 집에서 뽑기게임",
+      "developer": "claw machine Inc.",
+      "url": "https://apps.apple.com/kr/app/%ED%94%84%EB%9D%BC%EA%B3%A0%EB%A0%88-%EC%98%A8%EB%9D%BC%EC%9D%B8-%ED%81%AC%EB%A0%88%EC%9D%B8%EA%B2%8C%EC%9E%84-%EC%A7%91%EC%97%90%EC%84%9C-%EB%BD%91%EA%B8%B0%EA%B2%8C%EC%9E%84/id1474111930?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 45,
+      "id": "6742455668",
+      "title": "빅 팜 홈스테드: 가족 마을 이야기",
+      "developer": "Goodgame Studio",
+      "url": "https://apps.apple.com/kr/app/%EB%B9%85-%ED%8C%9C-%ED%99%88%EC%8A%A4%ED%85%8C%EB%93%9C-%EA%B0%80%EC%A1%B1-%EB%A7%88%EC%9D%84-%EC%9D%B4%EC%95%BC%EA%B8%B0/id6742455668?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 46,
+      "id": "1407604160",
+      "title": "월간아이돌 : 아이돌 키우기",
+      "developer": "Sora Ryoo",
+      "url": "https://apps.apple.com/kr/app/%EC%9B%94%EA%B0%84%EC%95%84%EC%9D%B4%EB%8F%8C-%EC%95%84%EC%9D%B4%EB%8F%8C-%ED%82%A4%EC%9A%B0%EA%B8%B0/id1407604160?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 47,
+      "id": "1353255662",
+      "title": "파스텔걸",
+      "developer": "SeyeonSoft Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%ED%8C%8C%EC%8A%A4%ED%85%94%EA%B1%B8/id1353255662?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 48,
+      "id": "1442046122",
+      "title": "고양이랑 식빵 구울래?",
+      "developer": "Dokkaebi Games",
+      "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4%EB%9E%91-%EC%8B%9D%EB%B9%B5-%EA%B5%AC%EC%9A%B8%EB%9E%98/id1442046122?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 49,
+      "id": "1512331079",
+      "title": "Pokémon Smile",
+      "developer": "The Pokemon Company",
+      "url": "https://apps.apple.com/kr/app/pok%C3%A9mon-smile/id1512331079?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 50,
+      "id": "1497637181",
+      "title": "땅파기_지구를 뚫어라",
+      "developer": "horanggmaes",
+      "url": "https://apps.apple.com/kr/app/%EB%95%85%ED%8C%8C%EA%B8%B0-%EC%A7%80%EA%B5%AC%EB%A5%BC-%EB%9A%AB%EC%96%B4%EB%9D%BC/id1497637181?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 51,
+      "id": "1090617661",
+      "title": "Steve 스티브 - 위젯 게임",
+      "developer": "Calm Sea Enterprise, S.L.",
+      "url": "https://apps.apple.com/kr/app/steve-%EC%8A%A4%ED%8B%B0%EB%B8%8C-%EC%9C%84%EC%A0%AF-%EA%B2%8C%EC%9E%84/id1090617661?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 52,
+      "id": "1633012013",
+      "title": "고양이 건물주 고영희",
+      "developer": "Dokkaebi Games",
+      "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4-%EA%B1%B4%EB%AC%BC%EC%A3%BC-%EA%B3%A0%EC%98%81%ED%9D%AC/id1633012013?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 53,
+      "id": "6741408067",
+      "title": "Pokémon Friends",
+      "developer": "The Pokemon Company",
+      "url": "https://apps.apple.com/kr/app/pok%C3%A9mon-friends/id6741408067?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 54,
+      "id": "6560107504",
+      "title": "Manhunt: 숨바꼭질 & 술래잡기",
+      "developer": "Integrated Reality Labs Inc.",
+      "url": "https://apps.apple.com/kr/app/manhunt-%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88-%EC%88%A0%EB%9E%98%EC%9E%A1%EA%B8%B0/id6560107504?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 55,
+      "id": "467573959",
+      "title": "모두의장기 혼자하기",
+      "developer": "FREEON",
+      "url": "https://apps.apple.com/kr/app/%EB%AA%A8%EB%91%90%EC%9D%98%EC%9E%A5%EA%B8%B0-%ED%98%BC%EC%9E%90%ED%95%98%EA%B8%B0/id467573959?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 56,
+      "id": "1247889896",
+      "title": "마이 오아시스 : 진정 휴식, 스트레스 해소, 힐링게임",
+      "developer": "June Inter Co., Ltd.",
+      "url": "https://apps.apple.com/kr/app/%EB%A7%88%EC%9D%B4-%EC%98%A4%EC%95%84%EC%8B%9C%EC%8A%A4-%EC%A7%84%EC%A0%95-%ED%9C%B4%EC%8B%9D-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4-%ED%95%B4%EC%86%8C-%ED%9E%90%EB%A7%81%EA%B2%8C%EC%9E%84/id1247889896?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 57,
+      "id": "6739867121",
+      "title": "Sort Express!",
+      "developer": "Circle Games",
+      "url": "https://apps.apple.com/kr/app/sort-express/id6739867121?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 58,
+      "id": "1300500620",
+      "title": "미라큘러스 레이디버그와 블랙캣",
+      "developer": "Crazy Labs",
+      "url": "https://apps.apple.com/kr/app/%EB%AF%B8%EB%9D%BC%ED%81%98%EB%9F%AC%EC%8A%A4-%EB%A0%88%EC%9D%B4%EB%94%94%EB%B2%84%EA%B7%B8%EC%99%80-%EB%B8%94%EB%9E%99%EC%BA%A3/id1300500620?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 59,
+      "id": "6831153669",
+      "title": "레디&루디: 몸놀이 게임",
+      "developer": "FunHanApp",
+      "url": "https://apps.apple.com/kr/app/%EB%A0%88%EB%94%94-%EB%A3%A8%EB%94%94-%EB%AA%B8%EB%86%80%EC%9D%B4-%EA%B2%8C%EC%9E%84/id6831153669?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 60,
+      "id": "6747178992",
+      "title": "Life Sim 3D: Family Simulator",
+      "developer": "Vira Games Inc.",
+      "url": "https://apps.apple.com/kr/app/life-sim-3d-family-simulator/id6747178992?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 61,
+      "id": "1474314811",
+      "title": "펭귄의 섬",
+      "developer": "HABBY",
+      "url": "https://apps.apple.com/kr/app/%ED%8E%AD%EA%B7%84%EC%9D%98-%EC%84%AC/id1474314811?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 62,
+      "id": "1592118437",
+      "title": "몸으로 말해요: 제스처 게임 스피드퀴즈",
+      "developer": "Yangmei Studios AB",
+      "url": "https://apps.apple.com/kr/app/%EB%AA%B8%EC%9C%BC%EB%A1%9C-%EB%A7%90%ED%95%B4%EC%9A%94-%EC%A0%9C%EC%8A%A4%EC%B2%98-%EA%B2%8C%EC%9E%84-%EC%8A%A4%ED%94%BC%EB%93%9C%ED%80%B4%EC%A6%88/id1592118437?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 63,
+      "id": "1230818349",
+      "title": "쉐프 우마미",
+      "developer": "力 杨",
+      "url": "https://apps.apple.com/kr/app/%EC%89%90%ED%94%84-%EC%9A%B0%EB%A7%88%EB%AF%B8/id1230818349?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 64,
+      "id": "1534712015",
+      "title": "뭐라고 답했을까?",
+      "developer": "TapNation",
+      "url": "https://apps.apple.com/kr/app/%EB%AD%90%EB%9D%BC%EA%B3%A0-%EB%8B%B5%ED%96%88%EC%9D%84%EA%B9%8C/id1534712015?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 65,
+      "id": "6474659972",
+      "title": "NumMatch: Logic Puzzle",
+      "developer": "BRAINWORKS PUBLISHING PTE. LTD.",
+      "url": "https://apps.apple.com/kr/app/nummatch-logic-puzzle/id6474659972?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 66,
+      "id": "1467762267",
+      "title": "Stickman Party: 4 Player Games",
+      "developer": "Maxim Krivokonev",
+      "url": "https://apps.apple.com/kr/app/stickman-party-4-player-games/id1467762267?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 67,
+      "id": "1198143062",
+      "title": "Ludo STAR",
+      "developer": "Gameberry Labs",
+      "url": "https://apps.apple.com/kr/app/ludo-star/id1198143062?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 68,
+      "id": "1208952944",
+      "title": "머지 드래곤즈! (Merge Dragons!)",
+      "developer": "Gram Games",
+      "url": "https://apps.apple.com/kr/app/%EB%A8%B8%EC%A7%80-%EB%93%9C%EB%9E%98%EA%B3%A4%EC%A6%88-merge-dragons/id1208952944?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 69,
+      "id": "6745092139",
+      "title": "Lucky Balls - Erase sand game",
+      "developer": "HYPERCELL SIA",
+      "url": "https://apps.apple.com/kr/app/lucky-balls-erase-sand-game/id6745092139?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 70,
+      "id": "6670189254",
+      "title": "Block Puzzle - Match The Board",
+      "developer": "Diem Le",
+      "url": "https://apps.apple.com/kr/app/block-puzzle-match-the-board/id6670189254?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 71,
+      "id": "1173389241",
+      "title": "동물 타워 배틀",
+      "developer": "Yabuzaki Company, Inc.",
+      "url": "https://apps.apple.com/kr/app/%EB%8F%99%EB%AC%BC-%ED%83%80%EC%9B%8C-%EB%B0%B0%ED%8B%80/id1173389241?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 72,
+      "id": "6751249993",
+      "title": "Hello Kitty Island Intro",
+      "developer": "Sunblink",
+      "url": "https://apps.apple.com/kr/app/hello-kitty-island-intro/id6751249993?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 73,
+      "id": "860820675",
+      "title": "Tasty Blue",
+      "developer": "Dingo Games Inc.",
+      "url": "https://apps.apple.com/kr/app/tasty-blue/id860820675?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 74,
+      "id": "6747324308",
+      "title": "사픽: 사자성어 퀴즈 - 고사성어 한자 공부",
+      "developer": "EcodeLab",
+      "url": "https://apps.apple.com/kr/app/%EC%82%AC%ED%94%BD-%EC%82%AC%EC%9E%90%EC%84%B1%EC%96%B4-%ED%80%B4%EC%A6%88-%EA%B3%A0%EC%82%AC%EC%84%B1%EC%96%B4-%ED%95%9C%EC%9E%90-%EA%B3%B5%EB%B6%80/id6747324308?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 75,
+      "id": "1029391378",
+      "title": "Roller Coaster VR Theme Park",
+      "developer": "Vipera Games sp. z o.o.",
+      "url": "https://apps.apple.com/kr/app/roller-coaster-vr-theme-park/id1029391378?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 76,
+      "id": "731592936",
+      "title": "디즈니 매직 킹덤",
+      "developer": "Gameloft",
+      "url": "https://apps.apple.com/kr/app/%EB%94%94%EC%A6%88%EB%8B%88-%EB%A7%A4%EC%A7%81-%ED%82%B9%EB%8D%A4/id731592936?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 77,
+      "id": "6813233056",
+      "title": "Hide Tag",
+      "developer": "Sebastian Salin",
+      "url": "https://apps.apple.com/kr/app/hide-tag/id6813233056?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 78,
+      "id": "1556403381",
+      "title": "고양이는 정말 팡팡",
+      "developer": "SungHyuk Yoon",
+      "url": "https://apps.apple.com/kr/app/%EA%B3%A0%EC%96%91%EC%9D%B4%EB%8A%94-%EC%A0%95%EB%A7%90-%ED%8C%A1%ED%8C%A1/id1556403381?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 79,
+      "id": "1575412509",
+      "title": "포켓 러브",
+      "developer": "HyperBeard Inc.",
+      "url": "https://apps.apple.com/kr/app/%ED%8F%AC%EC%BC%93-%EB%9F%AC%EB%B8%8C/id1575412509?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 80,
+      "id": "6744255942",
+      "title": "스위트 캐처 Sweet Catcher",
+      "developer": "Ryoma Shinzato",
+      "url": "https://apps.apple.com/kr/app/%EC%8A%A4%EC%9C%84%ED%8A%B8-%EC%BA%90%EC%B2%98-sweet-catcher/id6744255942?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 81,
+      "id": "1216575026",
+      "title": "행복의 저택",
+      "developer": "Magic Tavern, Inc.",
+      "url": "https://apps.apple.com/kr/app/%ED%96%89%EB%B3%B5%EC%9D%98-%EC%A0%80%ED%83%9D/id1216575026?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 82,
+      "id": "1460645640",
+      "title": "공룡박물관 타이쿤",
+      "developer": "takuya ori",
+      "url": "https://apps.apple.com/kr/app/%EA%B3%B5%EB%A3%A1%EB%B0%95%EB%AC%BC%EA%B4%80-%ED%83%80%EC%9D%B4%EC%BF%A4/id1460645640?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 83,
+      "id": "6467606448",
+      "title": "눈 색깔 혼합",
+      "developer": "Crazy Labs",
+      "url": "https://apps.apple.com/kr/app/%EB%88%88-%EC%83%89%EA%B9%94-%ED%98%BC%ED%95%A9/id6467606448?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 84,
+      "id": "722121506",
+      "title": "와라편의점 for Kakao",
+      "developer": "newfogames",
+      "url": "https://apps.apple.com/kr/app/%EC%99%80%EB%9D%BC%ED%8E%B8%EC%9D%98%EC%A0%90-for-kakao/id722121506?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 85,
+      "id": "996353260",
+      "title": "알까기 3D : 바둑 장기 보드게임",
+      "developer": "wonjun choi",
+      "url": "https://apps.apple.com/kr/app/%EC%95%8C%EA%B9%8C%EA%B8%B0-3d-%EB%B0%94%EB%91%91-%EC%9E%A5%EA%B8%B0-%EB%B3%B4%EB%93%9C%EA%B2%8C%EC%9E%84/id996353260?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 86,
+      "id": "6766871529",
+      "title": "그림 전달 게임 - 다 같이 그림 퀴즈",
+      "developer": "Yosuke Yanamoto",
+      "url": "https://apps.apple.com/kr/app/%EA%B7%B8%EB%A6%BC-%EC%A0%84%EB%8B%AC-%EA%B2%8C%EC%9E%84-%EB%8B%A4-%EA%B0%99%EC%9D%B4-%EA%B7%B8%EB%A6%BC-%ED%80%B4%EC%A6%88/id6766871529?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 87,
+      "id": "1275023828",
+      "title": "문제 & 정답: QuizzLand",
+      "developer": "MNO GO APPS LTD",
+      "url": "https://apps.apple.com/kr/app/%EB%AC%B8%EC%A0%9C-%EC%A0%95%EB%8B%B5-quizzland/id1275023828?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 88,
+      "id": "6812151602",
+      "title": "Magic Sand Color - No Timer",
+      "developer": "Pusilung HK Limited",
+      "url": "https://apps.apple.com/kr/app/magic-sand-color-no-timer/id6812151602?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 89,
+      "id": "6817314923",
+      "title": "SCRAM: 숨바꼭질",
+      "developer": "Moveera Pty Ltd",
+      "url": "https://apps.apple.com/kr/app/scram-%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88/id6817314923?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 90,
+      "id": "6742157438",
+      "title": "Florisium",
+      "developer": "BYWAY GAMES LIMITED",
+      "url": "https://apps.apple.com/kr/app/florisium/id6742157438?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 91,
+      "id": "6803815469",
+      "title": "틀린그림찾기: 캐치아워",
+      "developer": "The MiddleMan",
+      "url": "https://apps.apple.com/kr/app/%ED%8B%80%EB%A6%B0%EA%B7%B8%EB%A6%BC%EC%B0%BE%EA%B8%B0-%EC%BA%90%EC%B9%98%EC%95%84%EC%9B%8C/id6803815469?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 92,
+      "id": "6753110925",
+      "title": "Family Bay: 머지 & 팜",
+      "developer": "Moon Active",
+      "url": "https://apps.apple.com/kr/app/family-bay-%EB%A8%B8%EC%A7%80-%ED%8C%9C/id6753110925?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 93,
+      "id": "1257119820",
+      "title": "냉장고의 푸딩이 없어졌다 - 탈출 게임",
+      "developer": "hap Inc.",
+      "url": "https://apps.apple.com/kr/app/%EB%83%89%EC%9E%A5%EA%B3%A0%EC%9D%98-%ED%91%B8%EB%94%A9%EC%9D%B4-%EC%97%86%EC%96%B4%EC%A1%8C%EB%8B%A4-%ED%83%88%EC%B6%9C-%EA%B2%8C%EC%9E%84/id1257119820?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 94,
+      "id": "1447724110",
+      "title": "나인 멘스 모리스 - 온라인",
+      "developer": "DonkeyCat GmbH",
+      "url": "https://apps.apple.com/kr/app/%EB%82%98%EC%9D%B8-%EB%A9%98%EC%8A%A4-%EB%AA%A8%EB%A6%AC%EC%8A%A4-%EC%98%A8%EB%9D%BC%EC%9D%B8/id1447724110?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 95,
+      "id": "1460208042",
+      "title": "Rilakkuma Farm",
+      "developer": "Imagineer Co.,Ltd.",
+      "url": "https://apps.apple.com/kr/app/rilakkuma-farm/id1460208042?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 96,
+      "id": "1640707256",
+      "title": "나와 강아지 - 강아지 펫 육성 게임",
+      "developer": "HARRISON STUDIO INC.",
+      "url": "https://apps.apple.com/kr/app/%EB%82%98%EC%99%80-%EA%B0%95%EC%95%84%EC%A7%80-%EA%B0%95%EC%95%84%EC%A7%80-%ED%8E%AB-%EC%9C%A1%EC%84%B1-%EA%B2%8C%EC%9E%84/id1640707256?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 97,
+      "id": "1437308917",
+      "title": "학교 땡땡이！간단한 퍼즐 풀기 게임!",
+      "developer": "Eureka Studio Inc.",
+      "url": "https://apps.apple.com/kr/app/%ED%95%99%EA%B5%90-%EB%95%A1%EB%95%A1%EC%9D%B4-%EA%B0%84%EB%8B%A8%ED%95%9C-%ED%8D%BC%EC%A6%90-%ED%92%80%EA%B8%B0-%EA%B2%8C%EC%9E%84/id1437308917?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 98,
+      "id": "6741863450",
+      "title": "퀴즈몬스터 - 술게임/스피드게임/라이어게임/파티/친구",
+      "developer": "Seung Hun Beak",
+      "url": "https://apps.apple.com/kr/app/%ED%80%B4%EC%A6%88%EB%AA%AC%EC%8A%A4%ED%84%B0-%EC%88%A0%EA%B2%8C%EC%9E%84-%EC%8A%A4%ED%94%BC%EB%93%9C%EA%B2%8C%EC%9E%84-%EB%9D%BC%EC%9D%B4%EC%96%B4%EA%B2%8C%EC%9E%84-%ED%8C%8C%ED%8B%B0-%EC%B9%9C%EA%B5%AC/id6741863450?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 99,
+      "id": "6468810871",
+      "title": "Triviascapes - 일반상식 퀴즈게임",
+      "developer": "MNO GO APPS LTD",
+      "url": "https://apps.apple.com/kr/app/triviascapes-%EC%9D%BC%EB%B0%98%EC%83%81%EC%8B%9D-%ED%80%B4%EC%A6%88%EA%B2%8C%EC%9E%84/id6468810871?uo=2",
+      "price": "받기",
+      "category": "게임"
+    },
+    {
+      "rank": 100,
+      "id": "6740204025",
+      "title": "랜덤게임-커피내기",
+      "developer": "Kim HyoungSik",
+      "url": "https://apps.apple.com/kr/app/%EB%9E%9C%EB%8D%A4%EA%B2%8C%EC%9E%84-%EC%BB%A4%ED%94%BC%EB%82%B4%EA%B8%B0/id6740204025?uo=2",
+      "price": "받기",
+      "category": "게임"
+    }
+  ]
+}

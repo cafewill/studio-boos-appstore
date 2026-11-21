@@ -1,0 +1,6 @@
+import {action,grid,note,chip,shape,dots,palette,pathBoard} from '../../shared/board-ui.js';
+import * as M from './model.js';
+export function render(s){
+const veggie=(id,cut)=>`<svg viewBox="0 0 140 100" class="produce-art" aria-hidden="true">${id===0?`<path d="M${cut?'45 28L85 28L65 85Z':'35 25L105 25L65 88Z'}" fill="#efad85" stroke="#365d46" stroke-width="3"/><path d="m65 25-10-20m10 20 12-20" stroke="#365d46" stroke-width="4"/>`:id===1?`<circle cx="70" cy="55" r="33" fill="#efad85" stroke="#365d46" stroke-width="3"/>${cut?'<path d="M48 55h44M70 33v44" stroke="#365d46" stroke-width="3"/>':'<path d="m55 24 15 8 16-8-15-7Z" fill="#97bdaf"/>'}`:`<rect x="20" y="33" width="100" height="40" rx="20" fill="#97bdaf" stroke="#365d46" stroke-width="3"/>${cut?'<path d="M52 35v36m30-36v36" stroke="#365d46" stroke-width="3"/>':'<path d="M40 48h10m13 11h10m15-11h10" stroke="#365d46" stroke-width="2"/>'}`}</svg>`;
+return `<section class="farm-kitchen"><span class="farm-label">텃밭에서 부엌까지</span>`+note('통째 모습과 잘린 모습을 연결해 볼까요?')+`<div class="farm-cutting-board">${veggie(s.target,false)}${chip(M.names[s.target])}</div>`+grid(s.order.map((id,i)=>action(veggie(id,true)+`<span>${M.names[id]} 조각</span>`,i,{name:M.names[id]+' 조각 선택'})),3,'vegetable-plates')+'</section>';
+}

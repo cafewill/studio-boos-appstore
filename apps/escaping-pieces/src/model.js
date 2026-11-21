@@ -1,0 +1,4 @@
+import {random, shuffled, copy} from '../../shared/random.js';
+export function createState(seed){const row=1+seed%2;return {row,col:seed%2,blockRow:row===1?seed%2:1+seed%2,selected:0,done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='select'&&[0,1].includes(a.id))return {...s,selected:a.id};if(a.type!=='tap'||a.id<0||a.id>3)return s;const n=copy(s);if(s.selected===0&&a.id<2){const col=s.col+(a.id===0?-1:1);if(col<0)return s;if(s.blockRow<=s.row&&s.blockRow+1>=s.row&&col<=3&&col+1>=3)return s;if(col>2){n.done=true;n.col=3;}else n.col=col;return n;}if(s.selected===1&&a.id>=2){const row=s.blockRow+(a.id===2?-1:1);if(row<0||row>2)return s;if(s.col+1>=3&&row<=s.row&&row+1>=s.row)return s;n.blockRow=row;return n;}return s;}
+export const hint=s=>{const blocked=s.blockRow<=s.row&&s.blockRow+1>=s.row;if(blocked)return s.selected!==1?{type:'select',id:1}:{type:'tap',id:s.row===1?3:2};return s.selected!==0?{type:'select',id:0}:{type:'tap',id:1};};

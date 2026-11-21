@@ -1,0 +1,5 @@
+import {action,grid,note} from '../../shared/board-ui.js';
+export function render(s){
+ const apples=Array.from({length:s.count},(_,i)=>{const x=40+(i%5)*69,y=52+Math.floor(i/5)*79;return `<g transform="translate(${x} ${y})"><path d="M0-9C-30-28-34 14-12 26Q0 35 12 26C34 14 30-28 0-9Z" fill="${i%2?'#e9c85e':'#efad85'}" stroke="#654b36" stroke-width="2.5"/><path d="M0-8q-5-14 6-22M2-17q20-18 23-2q-13 9-23 2" fill="#97bdaf" stroke="#365d46" stroke-width="2.5"/></g>`;}).join('');
+ return `<section class="picnic-world"><div class="picnic-postcard"><span>햇살 아래, 오늘의 소풍</span><h2>바구니에 사과가 몇 개?</h2></div>${note('하나씩 살펴보고 알맞은 바구니를 골라요.')}<div class="picnic-cloth"><svg viewBox="0 0 360 195" class="picnic-fruit" role="img" aria-label="사과 ${s.count}개">${apples}</svg></div><div class="picnic-answer-label">같은 개수의 바구니를 찾아요</div>${grid(s.options.map((n,i)=>action(`<span class="woven-handle" aria-hidden="true"></span><strong>${n}</strong><span>개 담기</span>`,i,{name:n+'개 담는 바구니',className:'woven-basket'})),3)}</section>`;
+}
