@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {CONTENTS} from '../apps/catalog.js';
+import {summarizeContents,filterContents,isPlayable,CATEGORIES} from '../apps/catalog-summary.js';
+const make=(slug,category,status,ageBand='6-8')=>({slug,title:slug,goal:'함께 관찰해요',skills:['관찰'],category,status,ageBand});
+const fixture=[make('새싹','education','implemented','3-5'),make('별','education','verified'),make('다리','game','implemented'),make('그림','creative','implemented'),make('준비','education','planned'),make('다음','creative','reviewed')];
+assert.deepEqual(summarizeContents(fixture),{all:4,education:2,game:1,creative:1});
+assert.deepEqual(summarizeContents([]),{all:0,education:0,game:0,creative:0});
+assert.equal(filterContents(fixture).length,4);
+assert.deepEqual(filterContents(fixture,{category:'education',age:'3-5',query:' 새싹 '}).map(c=>c.slug),['새싹']);
+assert.equal(filterContents(fixture,{query:'준비'}).length,0);
+assert.equal(filterContents(fixture,{category:'creative',age:'3-5'}).length,0);
+assert.equal(filterContents(fixture,{query:'관찰'}).length,4);
+const before=JSON.stringify(fixture);summarizeContents(fixture);filterContents(fixture,{category:'game'});assert.equal(JSON.stringify(fixture),before);
+const counts=summarizeContents(CONTENTS);
+assert.equal(counts.all,CONTENTS.filter(isPlayable).length);
+assert.equal(counts.all,counts.education+counts.game+counts.creative);
+for(const c of CATEGORIES)assert.equal(filterContents(CONTENTS,{category:c.id}).length,counts[c.id]);
+console.log('PASS: playable counts, future candidates excluded, combined filters, nonmutation, category totals match actual catalog.',JSON.stringify(counts));
