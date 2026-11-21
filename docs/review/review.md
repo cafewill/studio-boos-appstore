@@ -49,6 +49,23 @@
 | 빠져나오는 조각 | [리뷰](20261121143203-escaping-pieces-review.md) |
 | 모래 길잡이 | [리뷰](20261121143203-sand-paths-review.md) |
 
+### 🌍 추가 10개 · 총 41개
+
+[분야 확장 조사·대응표](20261121165150-expand10-review.md)
+
+| 콘텐츠 | 개별 문서 |
+|---|---|
+| 새싹 실험실 | [조사·대응표](20261121165150-sprout-lab-review.md) |
+| 구름 공방 | [조사·대응표](20261121165150-weather-studio-review.md) |
+| 행성 산책 | [조사·대응표](20261121165150-orbit-playground-review.md) |
+| 몸속 여행길 | [조사·대응표](20261121165150-body-trail-review.md) |
+| 톱니 작업실 | [조사·대응표](20261121165150-gear-workshop-review.md) |
+| 물방울 연구소 | [조사·대응표](20261121165150-water-workshop-review.md) |
+| 로봇 첫걸음 | [조사·대응표](20261121165150-robot-instructions-review.md) |
+| 화석 발굴대 | [조사·대응표](20261121165150-fossil-field-review.md) |
+| 나눔 빵집 | [조사·대응표](20261121165150-fraction-bakery-review.md) |
+| 균형 놀이터 | [조사·대응표](20261121165150-balance-playground-review.md) |
+
 ## 📌 요약 정보
 
 신규 30개와 기존 모양 정원을 유지한다. 개별 파일·목록·GLANCE를 같은 작업에서 갱신한다.

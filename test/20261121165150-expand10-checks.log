@@ -1,0 +1,287 @@
+
+node tools/verify-shape-garden.mjs
+body: 10.69:1 (min 4.5)
+secondary: 5.63:1 (min 4.5)
+button: 7.47:1 (min 4.5)
+boundary: 4.00:1 (min 3)
+boundary on background: 3.70:1 (min 3)
+shape outline: 3.91:1 (min 3)
+shape outline: 3.63:1 (min 3)
+shape outline: 3.58:1 (min 3)
+shape outline: 4.40:1 (min 3)
+PASS: 54076 assertions; 2,000 generated sessions, state transitions, storage failures, contrast.
+
+node tools/verify-content-models.mjs
+PASS counting-picnic longest 1
+PASS vegetable-pairs longest 1
+PASS toy-shelves longest 5
+PASS leaf-discovery longest 4
+PASS dino-pieces longest 12
+PASS letter-bloom longest 2
+PASS alphabet-pals longest 1
+PASS sound-discovery longest 1
+PASS clock-walk longest 1
+PASS story-footsteps longest 4
+PASS breeze-salon longest 2
+PASS today-wardrobe longest 2
+PASS cloud-icecream longest 3
+PASS kind-kitchen longest 4
+PASS sound-paint longest 2
+PASS forest-hideaway longest 2
+PASS little-things-map longest 3
+PASS connected-trails longest 10
+PASS layered-paper longest 5
+PASS ten-friends longest 8
+PASS number-squares longest 12
+PASS double-garden longest 3
+PASS loop-walk longest 8
+PASS sum-flowerbeds longest 21
+PASS little-delivery longest 9
+PASS unwinding-hooks longest 6
+PASS discovery-buttons longest 3
+PASS pattern-journey longest 2
+PASS escaping-pieces longest 7
+PASS sand-paths longest 15
+PASS sprout-lab longest 6
+PASS weather-studio longest 9
+PASS orbit-playground longest 12
+PASS body-trail longest 5
+PASS gear-workshop longest 6
+PASS water-workshop longest 8
+PASS robot-instructions longest 14
+PASS fossil-field longest 25
+PASS fraction-bakery longest 8
+PASS balance-playground longest 3
+{
+  "contents": 40,
+  "checks": 11360,
+  "reports": [
+    {
+      "slug": "counting-picnic",
+      "seeds": 10,
+      "longest": 1
+    },
+    {
+      "slug": "vegetable-pairs",
+      "seeds": 10,
+      "longest": 1
+    },
+    {
+      "slug": "toy-shelves",
+      "seeds": 10,
+      "longest": 5
+    },
+    {
+      "slug": "leaf-discovery",
+      "seeds": 10,
+      "longest": 4
+    },
+    {
+      "slug": "dino-pieces",
+      "seeds": 10,
+      "longest": 12
+    },
+    {
+      "slug": "letter-bloom",
+      "seeds": 10,
+      "longest": 2
+    },
+    {
+      "slug": "alphabet-pals",
+      "seeds": 10,
+      "longest": 1
+    },
+    {
+      "slug": "sound-discovery",
+      "seeds": 10,
+      "longest": 1
+    },
+    {
+      "slug": "clock-walk",
+      "seeds": 10,
+      "longest": 1
+    },
+    {
+      "slug": "story-footsteps",
+      "seeds": 10,
+      "longest": 4
+    },
+    {
+      "slug": "breeze-salon",
+      "seeds": 10,
+      "longest": 2
+    },
+    {
+      "slug": "today-wardrobe",
+      "seeds": 10,
+      "longest": 2
+    },
+    {
+      "slug": "cloud-icecream",
+      "seeds": 10,
+      "longest": 3
+    },
+    {
+      "slug": "kind-kitchen",
+      "seeds": 10,
+      "longest": 4
+    },
+    {
+      "slug": "sound-paint",
+      "seeds": 10,
+      "longest": 2
+    },
+    {
+      "slug": "forest-hideaway",
+      "seeds": 10,
+      "longest": 2
+    },
+    {
+      "slug": "little-things-map",
+      "seeds": 10,
+      "longest": 3
+    },
+    {
+      "slug": "connected-trails",
+      "seeds": 10,
+      "longest": 10
+    },
+    {
+      "slug": "layered-paper",
+      "seeds": 10,
+      "longest": 5
+    },
+    {
+      "slug": "ten-friends",
+      "seeds": 10,
+      "longest": 8
+    },
+    {
+      "slug": "number-squares",
+      "seeds": 10,
+      "longest": 12
+    },
+    {
+      "slug": "double-garden",
+      "seeds": 10,
+      "longest": 3
+    },
+    {
+      "slug": "loop-walk",
+      "seeds": 10,
+      "longest": 8
+    },
+    {
+      "slug": "sum-flowerbeds",
+      "seeds": 10,
+      "longest": 21
+    },
+    {
+      "slug": "little-delivery",
+      "seeds": 10,
+      "longest": 9
+    },
+    {
+      "slug": "unwinding-hooks",
+      "seeds": 10,
+      "longest": 6
+    },
+    {
+      "slug": "discovery-buttons",
+      "seeds": 10,
+      "longest": 3
+    },
+    {
+      "slug": "pattern-journey",
+      "seeds": 10,
+      "longest": 2
+    },
+    {
+      "slug": "escaping-pieces",
+      "seeds": 10,
+      "longest": 7
+    },
+    {
+      "slug": "sand-paths",
+      "seeds": 10,
+      "longest": 15
+    },
+    {
+      "slug": "sprout-lab",
+      "seeds": 10,
+      "longest": 6
+    },
+    {
+      "slug": "weather-studio",
+      "seeds": 10,
+      "longest": 9
+    },
+    {
+      "slug": "orbit-playground",
+      "seeds": 10,
+      "longest": 12
+    },
+    {
+      "slug": "body-trail",
+      "seeds": 10,
+      "longest": 5
+    },
+    {
+      "slug": "gear-workshop",
+      "seeds": 10,
+      "longest": 6
+    },
+    {
+      "slug": "water-workshop",
+      "seeds": 10,
+      "longest": 8
+    },
+    {
+      "slug": "robot-instructions",
+      "seeds": 10,
+      "longest": 14
+    },
+    {
+      "slug": "fossil-field",
+      "seeds": 10,
+      "longest": 25
+    },
+    {
+      "slug": "fraction-bakery",
+      "seeds": 10,
+      "longest": 8
+    },
+    {
+      "slug": "balance-playground",
+      "seeds": 10,
+      "longest": 3
+    }
+  ]
+}
+
+node tools/verify-domain-invariants.mjs
+PASS: 2621 independent puzzle, learning and lifecycle assertions.
+
+node tools/verify-expand10.mjs
+PASS expansion domain sprout-lab
+PASS expansion domain weather-studio
+PASS expansion domain orbit-playground
+PASS expansion domain body-trail
+PASS expansion domain gear-workshop
+PASS expansion domain water-workshop
+PASS expansion domain robot-instructions
+PASS expansion domain fossil-field
+PASS expansion domain fraction-bakery
+PASS expansion domain balance-playground
+PASS: 10 new domains, 39728 invariant / exploration / enabled-hint checks.
+
+node tools/verify-shared.mjs
+PASS: 26 shared storage, lifecycle and action validation checks.
+
+node tools/verify-architecture.mjs
+PASS: 41 registered contents, 179 JS modules, 1452 architecture checks; no cross-content imports or cycles.
+
+python3 tools/verify-project.py
+Markdown 187, HTML 43, JS syntax 179, local references 1121, errors 0
+
+PASS: all automated checks. Browser, device and child observations are separate.

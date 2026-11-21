@@ -1,0 +1,171 @@
+{
+  "checkedOn": "2026-11-21",
+  "country": "kr",
+  "method": "Apple Lookup official metadata; ten exact IDs; no screenshots or full descriptions retained",
+  "sources": [
+    "https://itunes.apple.com/lookup?id=872615882,1076985045,347546771,682046579,351841075&country=kr",
+    "https://itunes.apple.com/lookup?id=422034547,1224622426,1460645640,545625741,1173389241&country=kr"
+  ],
+  "results": [
+    {
+      "trackId": 872615882,
+      "trackName": "타이니밥의 식물",
+      "artistName": "Tinybop Inc.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%ED%83%80%EC%9D%B4%EB%8B%88%EB%B0%A5%EC%9D%98-%EC%8B%9D%EB%AC%BC/id872615882?uo=4",
+      "version": "1.2.5",
+      "currentVersionReleaseDate": "2023-01-06T21:10:43Z",
+      "price": 4400.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "여행"
+      ]
+    },
+    {
+      "trackId": 1076985045,
+      "trackName": "타이니밥의 날씨",
+      "artistName": "Tinybop Inc.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%ED%83%80%EC%9D%B4%EB%8B%88%EB%B0%A5%EC%9D%98-%EB%82%A0%EC%94%A8/id1076985045?uo=4",
+      "version": "1.1.0",
+      "currentVersionReleaseDate": "2022-12-07T22:36:12Z",
+      "price": 4400.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "날씨"
+      ]
+    },
+    {
+      "trackId": 347546771,
+      "trackName": "Solar Walk - 태양 광 시스템 3D, 행성",
+      "artistName": "Vito Technology Inc.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/solar-walk-%ED%83%9C%EC%96%91-%EA%B4%91-%EC%8B%9C%EC%8A%A4%ED%85%9C-3d-%ED%96%89%EC%84%B1/id347546771?uo=4",
+      "version": "2.5.5",
+      "currentVersionReleaseDate": "2026-05-11T17:11:28Z",
+      "price": 7700.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 682046579,
+      "trackName": "타이니밥의 사람의 몸",
+      "artistName": "Tinybop Inc.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%ED%83%80%EC%9D%B4%EB%8B%88%EB%B0%A5%EC%9D%98-%EC%82%AC%EB%9E%8C%EC%9D%98-%EB%AA%B8/id682046579?uo=4",
+      "version": "3.6.5",
+      "currentVersionReleaseDate": "2026-09-02T19:10:09Z",
+      "price": 6600.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "의료"
+      ]
+    },
+    {
+      "trackId": 351841075,
+      "trackName": "Cogs",
+      "artistName": "Lazy 8 Studios",
+      "trackViewUrl": "https://apps.apple.com/kr/app/cogs/id351841075?uo=4",
+      "version": "2.0.12",
+      "currentVersionReleaseDate": "2025-10-29T19:18:31Z",
+      "price": 7700.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "엔터테인먼트",
+        "퍼즐",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 422034547,
+      "trackName": "Feed Me Oil",
+      "artistName": "Alexandr Ilin",
+      "trackViewUrl": "https://apps.apple.com/kr/app/feed-me-oil/id422034547?uo=4",
+      "version": "2.2",
+      "currentVersionReleaseDate": "2017-07-10T15:22:07Z",
+      "price": 3300.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "퍼즐",
+        "엔터테인먼트",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 1224622426,
+      "trackName": "Delightex Edu",
+      "artistName": "Delightex GmbH",
+      "trackViewUrl": "https://apps.apple.com/kr/app/delightex-edu/id1224622426?uo=4",
+      "version": "2026.4",
+      "currentVersionReleaseDate": "2026-07-29T09:42:31Z",
+      "price": 0.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 1460645640,
+      "trackName": "공룡박물관 타이쿤",
+      "artistName": "takuya ori",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%EA%B3%B5%EB%A3%A1%EB%B0%95%EB%AC%BC%EA%B4%80-%ED%83%80%EC%9D%B4%EC%BF%A4/id1460645640?uo=4",
+      "version": "1.10.11",
+      "currentVersionReleaseDate": "2025-12-16T23:03:36Z",
+      "price": 0.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "시뮬레이션",
+        "가족",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 545625741,
+      "trackName": "수학의 제왕: 스쿨 에디션",
+      "artistName": "Oddrobo Software AB",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%EC%88%98%ED%95%99%EC%9D%98-%EC%A0%9C%EC%99%95-%EC%8A%A4%EC%BF%A8-%EC%97%90%EB%94%94%EC%85%98/id545625741?uo=4",
+      "version": "2.0.11",
+      "currentVersionReleaseDate": "2026-11-17T14:55:04Z",
+      "price": 3300.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "게임",
+        "퍼즐",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 1173389241,
+      "trackName": "동물 타워 배틀",
+      "artistName": "Yabuzaki Company, Inc.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%EB%8F%99%EB%AC%BC-%ED%83%80%EC%9B%8C-%EB%B0%B0%ED%8B%80/id1173389241?uo=4",
+      "version": "26.3.7",
+      "currentVersionReleaseDate": "2026-11-14T18:13:03Z",
+      "price": 0.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "엔터테인먼트",
+        "가족",
+        "캐주얼"
+      ]
+    }
+  ]
+}

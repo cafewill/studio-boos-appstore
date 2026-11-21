@@ -1,0 +1,10 @@
+/* 관찰·실험 도구의 공통 표현. 각 활동의 장면·배치는 개별 CSS에서 정의한다. */
+[data-app] .activity-root{background:#f8f5ed;border-color:#c4cdbb}
+[data-app] .experiment-art{display:block;width:100%;height:auto;max-height:360px;margin:12px auto 20px}
+[data-app] .experiment-tools{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin-top:18px}
+[data-app] .scene-label{font-size:18px;font-weight:700;margin:12px 0}
+[data-app] .quiet-note{font-size:14px;line-height:1.8;color:#52675b;margin:20px auto 0;max-width:620px}
+[data-app] .scene-result{border-radius:20px;background:#fff;padding:18px;color:#365d46;font-size:19px;font-weight:700;margin:20px 0 0}
+[data-app] .welcome-cover{margin:0;min-width:0}
+[data-app] .welcome-cover img{display:block;width:100%;height:auto;border-radius:28px;border:1px solid #c4cdbb}
+[data-app] .finish-cover{display:block;width:min(100%,400px);height:auto;margin:20px auto;border-radius:24px}

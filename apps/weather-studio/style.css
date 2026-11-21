@@ -1,0 +1,9 @@
+[data-app="weather-studio"] .activity-root{background:#edf3f7}
+[data-app="weather-studio"] .cycle-world{background:white;border-radius:24px;padding:10px}
+[data-app="weather-studio"] .cycle-counts{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+[data-app="weather-studio"] .experiment-tools{grid-template-columns:repeat(3,minmax(0,1fr))}
+[data-app="weather-studio"] .experiment-tools .play-tile{background:#fff5dc}
+@media(max-width:500px){[data-app="weather-studio"] .experiment-tools{grid-template-columns:1fr}
+[data-app="weather-studio"] .experiment-tools .play-tile{min-height:54px;flex-direction:row}
+[data-app="weather-studio"] .cycle-world{padding:6px}
+[data-app="weather-studio"] .cycle-counts .play-chip{font-size:14px;padding:6px 8px}}

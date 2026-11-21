@@ -1,0 +1,8 @@
+[data-app="orbit-playground"] .activity-root{background:#eef0f6}
+[data-app="orbit-playground"] .orbit-stage{border-radius:24px;background:#fff}
+[data-app="orbit-playground"] .planet-tray,[data-app="orbit-playground"] .orbit-slots{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0}
+[data-app="orbit-playground"] .planet-dot{width:28px;height:28px;border-radius:50%;border:2px solid #365d46}
+[data-app="orbit-playground"] .orbit-slots .play-tile{font-size:15px;background:#fff7dc}
+@media(max-width:480px){[data-app="orbit-playground"] .planet-tray,.orbit-slots{grid-template-columns:repeat(2,minmax(0,1fr))}
+[data-app="orbit-playground"] .planet-tray .play-tile{flex-direction:row;min-height:55px}
+[data-app="orbit-playground"] .orbit-slots .play-tile{min-height:60px}}

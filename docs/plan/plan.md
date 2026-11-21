@@ -48,6 +48,23 @@
 | 빠져나오는 조각 | [계획](20261121143203-escaping-pieces-plan.md) |
 | 모래 길잡이 | [계획](20261121143203-sand-paths-plan.md) |
 
+### 🌍 추가 10개 · 총 41개
+
+[분야 확장 구현 계획](20261121165150-expand10-plan.md)
+
+| 콘텐츠 | 개별 문서 |
+|---|---|
+| 새싹 실험실 | [구현 계획](20261121165150-sprout-lab-plan.md) |
+| 구름 공방 | [구현 계획](20261121165150-weather-studio-plan.md) |
+| 행성 산책 | [구현 계획](20261121165150-orbit-playground-plan.md) |
+| 몸속 여행길 | [구현 계획](20261121165150-body-trail-plan.md) |
+| 톱니 작업실 | [구현 계획](20261121165150-gear-workshop-plan.md) |
+| 물방울 연구소 | [구현 계획](20261121165150-water-workshop-plan.md) |
+| 로봇 첫걸음 | [구현 계획](20261121165150-robot-instructions-plan.md) |
+| 화석 발굴대 | [구현 계획](20261121165150-fossil-field-plan.md) |
+| 나눔 빵집 | [구현 계획](20261121165150-fraction-bakery-plan.md) |
+| 균형 놀이터 | [구현 계획](20261121165150-balance-playground-plan.md) |
+
 ## 📌 요약 정보
 
 신규 30개와 기존 모양 정원을 유지한다. 개별 파일·목록·GLANCE를 같은 작업에서 갱신한다.

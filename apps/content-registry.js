@@ -598,5 +598,215 @@ export const NEW_CONTENTS = [
       "plan": "../docs/plan/20261121143203-sand-paths-plan.md",
       "verify": "../test/20261121143203-sand-paths-verify.md"
     }
+  },
+  {
+    "slug": "sprout-lab",
+    "title": "새싹 실험실",
+    "ageBand": "3-5",
+    "category": "education",
+    "goal": "빛과 물을 번갈아 주며 씨앗의 변화를 살펴봐요.",
+    "description": "빛과 물을 번갈아 주며 씨앗의 변화를 살펴봐요.",
+    "skills": [
+      "성장 관찰"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "성장 관찰",
+    "thumbnail": "sprout-lab/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-sprout-lab-review.md",
+      "plan": "../docs/plan/20261121165150-sprout-lab-plan.md",
+      "verify": "../test/20261121165150-sprout-lab-verify.md"
+    }
+  },
+  {
+    "slug": "weather-studio",
+    "title": "구름 공방",
+    "ageBand": "6-8",
+    "category": "education",
+    "goal": "물방울이 수증기와 구름을 거쳐 돌아오는 길을 만들어요.",
+    "description": "물방울이 수증기와 구름을 거쳐 돌아오는 길을 만들어요.",
+    "skills": [
+      "물의 순환"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "물의 순환",
+    "thumbnail": "weather-studio/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-weather-studio-review.md",
+      "plan": "../docs/plan/20261121165150-weather-studio-plan.md",
+      "verify": "../test/20261121165150-weather-studio-verify.md"
+    }
+  },
+  {
+    "slug": "orbit-playground",
+    "title": "행성 산책",
+    "ageBand": "6-8",
+    "category": "education",
+    "goal": "태양 가까운 행성을 차례로 놓고 움직임을 관찰해요.",
+    "description": "태양 가까운 행성을 차례로 놓고 움직임을 관찰해요.",
+    "skills": [
+      "행성 순서"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "행성 순서",
+    "thumbnail": "orbit-playground/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-orbit-playground-review.md",
+      "plan": "../docs/plan/20261121165150-orbit-playground-plan.md",
+      "verify": "../test/20261121165150-orbit-playground-verify.md"
+    }
+  },
+  {
+    "slug": "body-trail",
+    "title": "몸속 여행길",
+    "ageBand": "6-8",
+    "category": "education",
+    "goal": "음식이 지나가는 길을 따라 몸속 기관의 역할을 만나요.",
+    "description": "음식이 지나가는 길을 따라 몸속 기관의 역할을 만나요.",
+    "skills": [
+      "소화 경로"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "소화 경로",
+    "thumbnail": "body-trail/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-body-trail-review.md",
+      "plan": "../docs/plan/20261121165150-body-trail-plan.md",
+      "verify": "../test/20261121165150-body-trail-verify.md"
+    }
+  },
+  {
+    "slug": "gear-workshop",
+    "title": "톱니 작업실",
+    "ageBand": "6-8",
+    "category": "game",
+    "goal": "톱니를 연결하고 손잡이의 움직임이 전달되는 모습을 봐요.",
+    "description": "톱니를 연결하고 손잡이의 움직임이 전달되는 모습을 봐요.",
+    "skills": [
+      "회전 전달"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "회전 전달",
+    "thumbnail": "gear-workshop/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-gear-workshop-review.md",
+      "plan": "../docs/plan/20261121165150-gear-workshop-plan.md",
+      "verify": "../test/20261121165150-gear-workshop-verify.md"
+    }
+  },
+  {
+    "slug": "water-workshop",
+    "title": "물방울 연구소",
+    "ageBand": "6-8",
+    "category": "game",
+    "goal": "밸브를 고르고 물을 한 칸씩 보내 세 화분을 돌봐요.",
+    "description": "밸브를 고르고 물을 한 칸씩 보내 세 화분을 돌봐요.",
+    "skills": [
+      "물의 분배"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "물의 분배",
+    "thumbnail": "water-workshop/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-water-workshop-review.md",
+      "plan": "../docs/plan/20261121165150-water-workshop-plan.md",
+      "verify": "../test/20261121165150-water-workshop-verify.md"
+    }
+  },
+  {
+    "slug": "robot-instructions",
+    "title": "로봇 첫걸음",
+    "ageBand": "6-8",
+    "category": "education",
+    "goal": "앞으로와 회전 명령을 이어 작은 로봇에게 길을 알려줘요.",
+    "description": "앞으로와 회전 명령을 이어 작은 로봇에게 길을 알려줘요.",
+    "skills": [
+      "순서와 코딩"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "순서와 코딩",
+    "thumbnail": "robot-instructions/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-robot-instructions-review.md",
+      "plan": "../docs/plan/20261121165150-robot-instructions-plan.md",
+      "verify": "../test/20261121165150-robot-instructions-verify.md"
+    }
+  },
+  {
+    "slug": "fossil-field",
+    "title": "화석 발굴대",
+    "ageBand": "3-5",
+    "category": "game",
+    "goal": "흙을 살살 털어 오래된 흔적을 찾고 작은 전시를 꾸며요.",
+    "description": "흙을 살살 털어 오래된 흔적을 찾고 작은 전시를 꾸며요.",
+    "skills": [
+      "탐색과 전시"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "탐색과 전시",
+    "thumbnail": "fossil-field/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-fossil-field-review.md",
+      "plan": "../docs/plan/20261121165150-fossil-field-plan.md",
+      "verify": "../test/20261121165150-fossil-field-verify.md"
+    }
+  },
+  {
+    "slug": "fraction-bakery",
+    "title": "나눔 빵집",
+    "ageBand": "9-12",
+    "category": "education",
+    "goal": "빵을 같은 크기로 나누고 필요한 분수만큼 담아요.",
+    "description": "빵을 같은 크기로 나누고 필요한 분수만큼 담아요.",
+    "skills": [
+      "같은 크기와 분수"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "같은 크기와 분수",
+    "thumbnail": "fraction-bakery/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-fraction-bakery-review.md",
+      "plan": "../docs/plan/20261121165150-fraction-bakery-plan.md",
+      "verify": "../test/20261121165150-fraction-bakery-verify.md"
+    }
+  },
+  {
+    "slug": "balance-playground",
+    "title": "균형 놀이터",
+    "ageBand": "9-12",
+    "category": "education",
+    "goal": "무게와 받침점에서의 거리를 바꾸며 균형을 찾아요.",
+    "description": "무게와 받침점에서의 거리를 바꾸며 균형을 찾아요.",
+    "skills": [
+      "무게와 거리"
+    ],
+    "status": "implemented",
+    "added": "2026-11-21",
+    "rounds": 3,
+    "kind": "무게와 거리",
+    "thumbnail": "balance-playground/cover.svg",
+    "docs": {
+      "review": "../docs/review/20261121165150-balance-playground-review.md",
+      "plan": "../docs/plan/20261121165150-balance-playground-plan.md",
+      "verify": "../test/20261121165150-balance-playground-verify.md"
+    }
   }
 ];

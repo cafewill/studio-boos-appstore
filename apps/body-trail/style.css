@@ -1,0 +1,11 @@
+[data-app="body-trail"] .activity-root{background:#fff4e7}
+[data-app="body-trail"] .body-layout{display:grid;grid-template-columns:minmax(150px,.9fr) minmax(0,1.1fr);gap:18px;align-items:start}
+[data-app="body-trail"] .body-map{width:100%;height:auto;position:sticky;top:12px;background:#fff;border-radius:28px}
+[data-app="body-trail"] .organ-stops{padding:0;margin:0;list-style:none;text-align:left}
+[data-app="body-trail"] .organ-stops li{display:grid;grid-template-columns:90px 1fr;gap:12px;align-items:center;margin-bottom:12px}
+[data-app="body-trail"] .organ-stops li>span{font-size:14px;line-height:1.7}
+[data-app="body-trail"] .organ-stops .play-tile{min-height:54px}
+@media(max-width:540px){[data-app="body-trail"] .body-layout{grid-template-columns:1fr}
+[data-app="body-trail"] .body-map{position:static;max-height:260px}
+[data-app="body-trail"] .organ-stops li{grid-template-columns:100px 1fr}
+[data-app="body-trail"] .organ-stops li>span{font-size:15px}}
