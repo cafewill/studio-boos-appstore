@@ -1,0 +1,5 @@
+[data-app="word-weave"] .activity-root{background:#efeaf5}
+
+[data-app="word-weave"] .sentence-loom{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));gap:18px;margin:45px 0}
+[data-app="word-weave"] .sentence-loom .play-tile{min-height:100px;font-size:23px}
+[data-app="word-weave"] .sentence-guide{font-size:18px;word-break:keep-all}

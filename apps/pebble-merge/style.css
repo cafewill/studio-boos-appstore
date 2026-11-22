@@ -1,0 +1,5 @@
+[data-app="pebble-merge"] .activity-root{background:#edf1f7}
+
+[data-app="pebble-merge"] .merge-meadow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:16px;background:#d7e4c9;border-radius:25px}
+[data-app="pebble-merge"] .merge-meadow .play-tile{min-height:85px;font-size:18px}
+[data-app="pebble-merge"] .merge-meadow .empty-plot{background:transparent;border-style:dashed}

@@ -1,0 +1,4 @@
+export function createState(seed){const root=[0,2,4][(seed>>>0)%3];return {selected:[],target:[root,root+4,root+7],done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='tap'&&Number.isInteger(a.id)&&a.id>=0&&a.id<12)return {...s,selected:s.selected.includes(a.id)?s.selected.filter(n=>n!==a.id):[...s.selected,a.id]};if(a.type==='finish'&&a.id===0&&s.selected.length===3&&s.target.every(n=>s.selected.includes(n)))return {...s,done:true};return s;}
+export function notes(s){return s.selected.map(pitch=>({pitch,step:0}));}
+export function hint(s){if(s.done)return null;const extra=s.selected.find(n=>!s.target.includes(n));if(extra!==undefined)return {type:'tap',id:extra};const next=s.target.find(n=>!s.selected.includes(n));return next===undefined?{type:'finish',id:0}:{type:'tap',id:next};}

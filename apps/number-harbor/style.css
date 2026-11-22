@@ -1,0 +1,6 @@
+[data-app="number-harbor"] .activity-root{background:#edf1e5}
+
+[data-app="number-harbor"] .arrival-boat{padding:24px;background:#e3eff3;border-radius:50% 50% 20px 20px;font-size:32px;margin:20px auto;max-width:380px}
+[data-app="number-harbor"] .number-piers{display:grid;gap:14px}
+[data-app="number-harbor"] .number-piers .play-tile{flex-direction:row;justify-content:space-around}
+[data-app="number-harbor"] .pier-numbers{font-size:24px}

@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+import {stone} from './model.js';
+export function render(s){return note('돌이 이어지지 않으면 기다려도 좋아요. 강물은 기다리기 버튼을 누를 때만 움직여요.')+scene(`<rect x="40" y="60" width="420" height="150" rx="20" fill="#bdd8e1"/>${[1,2].map(r=>`<ellipse cx="${110+stone(r,s.phase)*140}" cy="${35+r*68}" rx="48" ry="20" fill="#a6b79c"/>`).join('')}<path d="M40 35H460M40 255H460" stroke="#97bdaf" stroke-width="20"/><circle cx="${110+s.col*140}" cy="${35+s.row*68}" r="18" fill="#efad85"/>`,'강 위 징검돌과 작은 탐험 점')+tools([action('한 차례 기다리기',0,{type:'tool'}),action('왼쪽 자리',1,{type:'tool',disabled:s.row!==3||s.col===0}),action('오른쪽 자리',2,{type:'tool',disabled:s.row!==3||s.col===2}),action('앞 돌로 한 걸음',0,{disabled:s.row>1&&stone(s.row-1,s.phase)!==s.col})])+summary(s,'맞닿는 순간을 살펴 강 건너에 도착했어요.','실제 강 건너기·교통안전 지침이 아닌 차례 놀이예요.');}

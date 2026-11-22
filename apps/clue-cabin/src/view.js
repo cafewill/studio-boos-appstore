@@ -1,0 +1,3 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+export function render(s){return note('첫 단서만으로는 두 창문이 남아요. 두 번째 단서도 만나 보세요.')+`<div class="clue-notebook">${[0,1].map(i=>action(s.revealed.includes(i)?i===0?(s.target<2?'윗줄에 있어요.':'아랫줄에 있어요.'):(s.target%2?'오른쪽에 있어요.':'왼쪽에 있어요.'):'단서 '+(i+1)+' 열기',i,{type:'reveal',disabled:s.revealed.includes(i)})).join('')}</div><div class="cabin-windows">${[0,1,2,3].map(i=>action(`${i<2?'윗줄':'아랫줄'} ${i%2?'오른쪽':'왼쪽'} 창문`,i,{pressed:s.picked===i})).join('')}</div>`+summary(s,'두 단서가 가리키는 한 창문을 찾았어요.','능력·지능·순위 점수를 매기지 않는 조건 퍼즐이에요.');}

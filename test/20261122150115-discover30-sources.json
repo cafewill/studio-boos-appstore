@@ -1,0 +1,498 @@
+{
+  "checkedAt": "2026-11-22T15:15:15.459768+09:00",
+  "country": "kr",
+  "method": "Apple Lookup exact 30 IDs. Official descriptions read; not installed or played. No full descriptions or screenshots retained.",
+  "priorChartRows": 396,
+  "priorUniqueIds": 396,
+  "selectedInPriorSnapshot": 30,
+  "sources": [
+    "https://itunes.apple.com/lookup?id=6824880652,1515215584,373493387,961227503,1328950963,327210762,478643661,1464264092,387692731,1236657805&country=kr",
+    "https://itunes.apple.com/lookup?id=924373886,6803815469,6670189254,1208952944,6547834967,1309035984,408697793,497936366,957124541,529826126&country=kr",
+    "https://itunes.apple.com/lookup?id=6463616555,850456491,1123652342,1078677054,845190066,1271707085,416087694,423855879,1524841987,1474314811&country=kr"
+  ],
+  "results": [
+    {
+      "trackId": 6824880652,
+      "trackName": "Jazz Piano 50",
+      "artistName": "harang kim",
+      "trackViewUrl": "https://apps.apple.com/kr/app/jazz-piano-50/id6824880652?uo=4",
+      "version": "1.0.5",
+      "currentVersionReleaseDate": "2026-11-21T20:09:51Z",
+      "price": 8800.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "음악"
+      ]
+    },
+    {
+      "trackId": 1515215584,
+      "trackName": "RakugakiAR",
+      "artistName": "Whatever Co.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/rakugakiar/id1515215584?uo=4",
+      "version": "1.2.0",
+      "currentVersionReleaseDate": "2026-06-25T06:27:28Z",
+      "price": 1100.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 373493387,
+      "trackName": "AnkiMobile Flashcards",
+      "artistName": "Anki Software, LLC",
+      "trackViewUrl": "https://apps.apple.com/kr/app/ankimobile-flashcards/id373493387?uo=4",
+      "version": "26.10.1",
+      "currentVersionReleaseDate": "2026-11-16T17:10:45Z",
+      "price": 44000.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "생산성"
+      ]
+    },
+    {
+      "trackId": 961227503,
+      "trackName": "BEAKER by THIX",
+      "artistName": "THIX LLC",
+      "trackViewUrl": "https://apps.apple.com/kr/app/beaker-by-thix/id961227503?uo=4",
+      "version": "2.4",
+      "currentVersionReleaseDate": "2021-01-03T20:50:18Z",
+      "price": 1100.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육"
+      ]
+    },
+    {
+      "trackId": 1328950963,
+      "trackName": "넘버블록스: 숨바꼭질",
+      "artistName": "Blue-Zoo",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%EB%84%98%EB%B2%84%EB%B8%94%EB%A1%9D%EC%8A%A4-%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88/id1328950963?uo=4",
+      "version": "1.6.4",
+      "currentVersionReleaseDate": "2025-09-05T18:48:21Z",
+      "price": 4400.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "게임",
+        "퍼즐",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 327210762,
+      "trackName": "Multilingual Picture DIC",
+      "artistName": "DaolSoft, Co., Ltd.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/multilingual-picture-dic/id327210762?uo=4",
+      "version": "1.4.3",
+      "currentVersionReleaseDate": "2023-11-29T12:09:52Z",
+      "price": 3300.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "참고"
+      ]
+    },
+    {
+      "trackId": 478643661,
+      "trackName": "Handy Art Reference Tool",
+      "artistName": "Belief Engine",
+      "trackViewUrl": "https://apps.apple.com/kr/app/handy-art-reference-tool/id478643661?uo=4",
+      "version": "5.2",
+      "currentVersionReleaseDate": "2026-08-24T20:49:22Z",
+      "price": 3300.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "생산성"
+      ]
+    },
+    {
+      "trackId": 1464264092,
+      "trackName": "별책 국어사전",
+      "artistName": "별책",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%EB%B3%84%EC%B1%85-%EA%B5%AD%EC%96%B4%EC%82%AC%EC%A0%84/id1464264092?uo=4",
+      "version": "1.9.108",
+      "currentVersionReleaseDate": "2026-11-06T17:00:23Z",
+      "price": 6600.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육"
+      ]
+    },
+    {
+      "trackId": 387692731,
+      "trackName": "Mensa Brain Test",
+      "artistName": "Barnstorm Games",
+      "trackViewUrl": "https://apps.apple.com/kr/app/mensa-brain-test/id387692731?uo=4",
+      "version": "1.3.1",
+      "currentVersionReleaseDate": "2017-10-17T21:05:58Z",
+      "price": 3300.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 1236657805,
+      "trackName": "Cube CFOP: F2L, OLL & PLL",
+      "artistName": "Tuan Truong",
+      "trackViewUrl": "https://apps.apple.com/kr/app/cube-cfop-f2l-oll-pll/id1236657805?uo=4",
+      "version": "7.2.0",
+      "currentVersionReleaseDate": "2026-11-13T21:02:57Z",
+      "price": 4400.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "교육",
+        "참고"
+      ]
+    },
+    {
+      "trackId": 924373886,
+      "trackName": "길건너 친구들",
+      "artistName": "HIPSTER WHALE",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%EA%B8%B8%EA%B1%B4%EB%84%88-%EC%B9%9C%EA%B5%AC%EB%93%A4/id924373886?uo=4",
+      "version": "7.15",
+      "currentVersionReleaseDate": "2026-11-15T22:52:52Z",
+      "price": 0.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "9+",
+      "genres": [
+        "게임",
+        "캐주얼",
+        "가족",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 6803815469,
+      "trackName": "틀린그림찾기: 캐치아워",
+      "artistName": "The MiddleMan",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%ED%8B%80%EB%A6%B0%EA%B7%B8%EB%A6%BC%EC%B0%BE%EA%B8%B0-%EC%BA%90%EC%B9%98%EC%95%84%EC%9B%8C/id6803815469?uo=4",
+      "version": "1.0.14",
+      "currentVersionReleaseDate": "2026-11-16T01:16:19Z",
+      "price": 0.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "12+",
+      "genres": [
+        "게임",
+        "가족",
+        "퍼즐"
+      ]
+    },
+    {
+      "trackId": 6670189254,
+      "trackName": "Block Puzzle - Match The Board",
+      "artistName": "Diem Le",
+      "trackViewUrl": "https://apps.apple.com/kr/app/block-puzzle-match-the-board/id6670189254?uo=4",
+      "version": "2.5.1",
+      "currentVersionReleaseDate": "2026-09-13T21:40:23Z",
+      "price": 0.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "퍼즐",
+        "가족",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 1208952944,
+      "trackName": "머지 드래곤즈! (Merge Dragons!)",
+      "artistName": "Gram Games",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%EB%A8%B8%EC%A7%80-%EB%93%9C%EB%9E%98%EA%B3%A4%EC%A6%88-merge-dragons/id1208952944?uo=4",
+      "version": "13.19.2",
+      "currentVersionReleaseDate": "2026-11-18T20:55:20Z",
+      "price": 0.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "9+",
+      "genres": [
+        "게임",
+        "퍼즐",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 6547834967,
+      "trackName": "동물의 숲 포켓 캠프 컴플리트",
+      "artistName": "Nintendo Co., Ltd.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%EB%8F%99%EB%AC%BC%EC%9D%98-%EC%88%B2-%ED%8F%AC%EC%BC%93-%EC%BA%A0%ED%94%84-%EC%BB%B4%ED%94%8C%EB%A6%AC%ED%8A%B8/id6547834967?uo=4",
+      "version": "7.1.4",
+      "currentVersionReleaseDate": "2026-08-26T02:00:30Z",
+      "price": 19000.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "시뮬레이션",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 1309035984,
+      "trackName": "Passpartout: Starving Artist",
+      "artistName": "Flamebait AB",
+      "trackViewUrl": "https://apps.apple.com/kr/app/passpartout-starving-artist/id1309035984?uo=4",
+      "version": "1.33",
+      "currentVersionReleaseDate": "2026-10-26T22:02:27Z",
+      "price": 7700.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "12+",
+      "genres": [
+        "게임",
+        "시뮬레이션",
+        "가족",
+        "교육"
+      ]
+    },
+    {
+      "trackId": 408697793,
+      "trackName": "King of Opera",
+      "artistName": "Tuokio Inc.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/king-of-opera/id408697793?uo=4",
+      "version": "1.16.42",
+      "currentVersionReleaseDate": "2020-05-07T22:55:04Z",
+      "price": 4400.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "가족",
+        "보드",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 497936366,
+      "trackName": "Catapult King",
+      "artistName": "Glinda Games PTY LTD",
+      "trackViewUrl": "https://apps.apple.com/kr/app/catapult-king/id497936366?uo=4",
+      "version": "1.6.009",
+      "currentVersionReleaseDate": "2018-06-08T15:59:54Z",
+      "price": 1100.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "9+",
+      "genres": [
+        "게임",
+        "가족",
+        "엔터테인먼트",
+        "액션"
+      ]
+    },
+    {
+      "trackId": 957124541,
+      "trackName": "Tsuro - 경로의 게임",
+      "artistName": "Thunderbox Entertainment Ltd.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/tsuro-%EA%B2%BD%EB%A1%9C%EC%9D%98-%EA%B2%8C%EC%9E%84/id957124541?uo=4",
+      "version": "1.12",
+      "currentVersionReleaseDate": "2021-10-20T05:40:13Z",
+      "price": 6600.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "가족",
+        "보드",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 529826126,
+      "trackName": "OLO game",
+      "artistName": "Sennep",
+      "trackViewUrl": "https://apps.apple.com/kr/app/olo-game/id529826126?uo=4",
+      "version": "2.0.1",
+      "currentVersionReleaseDate": "2026-09-17T22:48:23Z",
+      "price": 7700.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "엔터테인먼트",
+        "보드",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 6463616555,
+      "trackName": "Ticket to Ride®",
+      "artistName": "Marmalade Game Studio",
+      "trackViewUrl": "https://apps.apple.com/kr/app/ticket-to-ride/id6463616555?uo=4",
+      "version": "1.11.3",
+      "currentVersionReleaseDate": "2026-10-21T10:06:12Z",
+      "price": 7700.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "엔터테인먼트",
+        "가족",
+        "보드"
+      ]
+    },
+    {
+      "trackId": 850456491,
+      "trackName": "Bounden",
+      "artistName": "Adriaan de Jongh",
+      "trackViewUrl": "https://apps.apple.com/kr/app/bounden/id850456491?uo=4",
+      "version": "1.6.1",
+      "currentVersionReleaseDate": "2022-01-08T07:10:02Z",
+      "price": 4400.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "음악",
+        "가족",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 1123652342,
+      "trackName": "쥐라기GO - 공룡 사진 찍기 대모험 - 귀엽고 재미있는 공룡들을 발견하고 멋진 사진을 찍어보세요",
+      "artistName": "BebopBee, Inc",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%EC%A5%90%EB%9D%BC%EA%B8%B0go-%EA%B3%B5%EB%A3%A1-%EC%82%AC%EC%A7%84-%EC%B0%8D%EA%B8%B0-%EB%8C%80%EB%AA%A8%ED%97%98-%EA%B7%80%EC%97%BD%EA%B3%A0-%EC%9E%AC%EB%AF%B8%EC%9E%88%EB%8A%94-%EA%B3%B5%EB%A3%A1%EB%93%A4%EC%9D%84-%EB%B0%9C%EA%B2%AC%ED%95%98%EA%B3%A0-%EB%A9%8B%EC%A7%84-%EC%82%AC%EC%A7%84%EC%9D%84-%EC%B0%8D%EC%96%B4%EB%B3%B4%EC%84%B8%EC%9A%94/id1123652342?uo=4",
+      "version": "1.0.1",
+      "currentVersionReleaseDate": "2016-08-20T11:10:38Z",
+      "price": 6600.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "가족",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 1078677054,
+      "trackName": "minimize",
+      "artistName": "BorderLeap",
+      "trackViewUrl": "https://apps.apple.com/kr/app/minimize/id1078677054?uo=4",
+      "version": "1.2.1",
+      "currentVersionReleaseDate": "2018-05-29T00:35:42Z",
+      "price": 4400.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "가족",
+        "퍼즐"
+      ]
+    },
+    {
+      "trackId": 845190066,
+      "trackName": "6 takes!",
+      "artistName": "Application Systems Heidelberg Software GmbH",
+      "trackViewUrl": "https://apps.apple.com/kr/app/6-takes/id845190066?uo=4",
+      "version": "1.53",
+      "currentVersionReleaseDate": "2026-07-24T11:37:27Z",
+      "price": 1100.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "엔터테인먼트",
+        "카드",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 1271707085,
+      "trackName": "Orbu",
+      "artistName": "Dream Reality Interactive",
+      "trackViewUrl": "https://apps.apple.com/kr/app/orbu/id1271707085?uo=4",
+      "version": "1.0.16",
+      "currentVersionReleaseDate": "2019-12-12T16:55:41Z",
+      "price": 4400.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "가족",
+        "퍼즐",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 416087694,
+      "trackName": "Can Knockdown 2",
+      "artistName": "Infinite Dreams Inc.",
+      "trackViewUrl": "https://apps.apple.com/kr/app/can-knockdown-2/id416087694?uo=4",
+      "version": "1.16",
+      "currentVersionReleaseDate": "2018-02-04T11:02:21Z",
+      "price": 1100.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "액션",
+        "가족",
+        "엔터테인먼트"
+      ]
+    },
+    {
+      "trackId": 423855879,
+      "trackName": "Bumpy Road",
+      "artistName": "Simogo AB",
+      "trackViewUrl": "https://apps.apple.com/kr/app/bumpy-road/id423855879?uo=4",
+      "version": "2.5",
+      "currentVersionReleaseDate": "2018-11-25T08:43:45Z",
+      "price": 4400.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "캐주얼",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 1524841987,
+      "trackName": "The First Tree™",
+      "artistName": "David Wehle",
+      "trackViewUrl": "https://apps.apple.com/kr/app/the-first-tree/id1524841987?uo=4",
+      "version": "1.3",
+      "currentVersionReleaseDate": "2020-11-18T08:00:00Z",
+      "price": 7700.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "12+",
+      "genres": [
+        "게임",
+        "어드벤처",
+        "가족"
+      ]
+    },
+    {
+      "trackId": 1474314811,
+      "trackName": "펭귄의 섬",
+      "artistName": "HABBY",
+      "trackViewUrl": "https://apps.apple.com/kr/app/%ED%8E%AD%EA%B7%84%EC%9D%98-%EC%84%AC/id1474314811?uo=4",
+      "version": "1.101.1",
+      "currentVersionReleaseDate": "2026-11-06T10:54:32Z",
+      "price": 0.0,
+      "currency": "KRW",
+      "contentAdvisoryRating": "4+",
+      "genres": [
+        "게임",
+        "시뮬레이션",
+        "라이프스타일",
+        "가족"
+      ]
+    }
+  ]
+}

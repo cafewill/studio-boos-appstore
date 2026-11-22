@@ -1,0 +1,4 @@
+[data-app="doodle-parade"] .activity-root{background:#edf1f7}
+
+[data-app="doodle-parade"] .doodle-paper{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;max-width:330px;margin:auto}
+[data-app="doodle-parade"] .doodle-paper .play-tile{min-height:64px}

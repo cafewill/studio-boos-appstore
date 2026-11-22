@@ -1,0 +1,3 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+export function render(s){return note('아래쪽 이웃한 두 끝을 바꾸어요. 각 리본이 같은 무늬의 도착지에 닿게 해 봐요.')+scene(s.ends.map((v,i)=>`<path d="M${110+v*140} 50C${110+v*140} 130 ${110+i*140} 170 ${110+i*140} 245" fill="none" stroke="${['#af6f4c','#3e7769','#7766a1'][v]}" stroke-width="12"/><text x="${110+v*140}" y="30" text-anchor="middle">${['●','▲','■'][v]}</text><text x="${110+i*140}" y="285" text-anchor="middle">${['●','▲','■'][i]}</text>`).join(''),'세 리본의 출발과 도착')+tools([action('왼쪽 두 끝 바꾸기',0,{type:'tool'}),action('오른쪽 두 끝 바꾸기',1,{type:'tool'})])+summary(s,'리본이 각자의 무늬에 도착했어요.','원작 타일·8포트 연결·보드·대결 규칙은 사용하지 않아요.');}

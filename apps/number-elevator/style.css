@@ -1,0 +1,6 @@
+[data-app="number-elevator"] .activity-root{background:#edf1e5}
+
+[data-app="number-elevator"] .place-value{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}
+[data-app="number-elevator"] .place-value section{background:white;border-radius:20px;padding:12px}
+[data-app="number-elevator"] .place-value h2{font-size:20px}
+[data-app="number-elevator"] .place-value .explore-art{max-height:250px}

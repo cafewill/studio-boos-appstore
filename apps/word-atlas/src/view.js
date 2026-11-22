@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+import {words} from './model.js';
+export function render(s){return note('그림을 고르고 낱말을 열어요. 발음이나 점수를 평가하지 않아요.')+scene(`<path d="M0 235Q250 180 500 235V300H0Z" fill="#d7e4c9"/><path d="M85 225V150m-45 0 45-90 45 90Z" fill="#97bdaf" stroke="#365d46" stroke-width="5"/><path d="M210 225h95l-25 30h-45Zm45-10v-70l40 45Z" fill="#e3c46b"/><path d="M360 235V140l55-45 55 45v95Z" fill="#efad85"/>`,'나무와 배, 집이 있는 낱말 지도')+tools(words.map(([ko],i)=>action(ko,i,{type:'select',pressed:s.active===i})))+`<div class="atlas-label">${s.opened.includes(s.active)?`${words[s.active][0]} · ${words[s.active][1]}`:'어떤 낱말일까요?'}</div>`+tools([action('낱말 열어보기',0,{type:'reveal',disabled:s.opened.includes(s.active)}),action('지도 마무리',0,{type:'finish',disabled:s.opened.length!==3})])+summary(s,'세 사물의 한국어와 영어 이름을 만났어요.','자체 기본 낱말이며 원작 사전 뜻풀이·사진·음성은 사용하지 않아요.');}
