@@ -1,0 +1,6 @@
+[data-app="tilt-corners"] .activity-root{background:#efeaf5}
+
+[data-app="tilt-corners"] .tilt-tray{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;background:#dbe5d0;padding:18px;border-radius:25px}
+[data-app="tilt-corners"] .tilt-space{display:grid;place-items:center;aspect-ratio:1;background:white;border:1px solid #718474;border-radius:15px;font-size:24px}
+[data-app="tilt-corners"] .tilt-space.occupied{background:#b5d4c8}
+[data-app="tilt-corners"] .tilt-space.target-space{outline:2px dashed #365d46;outline-offset:-6px}

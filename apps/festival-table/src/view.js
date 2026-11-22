@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+import {recipes} from './model.js';
+export function render(s){return note('만들 재료를 먼저 살펴봐요. 모임에는 세 가지 물건이 필요해요.')+scene(`<path d="M40 210H460v25H40Zm40 25v40m340-40v40" fill="#dfc6a7"/>${s.made[0]?'<path d="M120 210V120" stroke="#365d46" stroke-width="5"/><circle cx="120" cy="110" r="28" fill="#efad85"/>':''}${s.made[1]?'<rect x="220" y="130" width="65" height="80" rx="12" fill="#e3c46b"/>':''}${s.made[2]?'<path d="m350 210 35-90 35 90Z" fill="#b7ade0"/>':''}`,'만든 물건이 놓이는 모임 탁자')+tools([action(`종이 모으기 · ${s.stock[0]}`,0,{type:'tool',disabled:s.stock[0]===5}),action(`끈 모으기 · ${s.stock[1]}`,1,{type:'tool',disabled:s.stock[1]===5})])+tools(['종이꽃','작은 등불','바람 장식'].map((n,i)=>action(`${n} · 종이 ${recipes[i][0]} 끈 ${recipes[i][1]}`,i,{disabled:s.made[i]})))+summary(s,'필요한 재료를 나누어 모임 탁자를 준비했어요.','돈·희귀도·출석 보상 없이 자체 재료와 제작만 살펴봐요.');}

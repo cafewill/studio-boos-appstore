@@ -1,0 +1,3 @@
+export function createState(seed){const hole=(seed>>>0)%3;return {rows:[[true,true,true].map((_,i)=>i!==hole),[true,true,true].map((_,i)=>i!==(hole+1)%3)],cleared:0,done:false};}
+export function reduce(s,a){if(s.done||a.type!=='tap'||!Number.isInteger(a.id)||a.id<0||a.id>=6)return s;const r=Math.floor(a.id/3),c=a.id%3;if(!s.rows[r]||s.rows[r][c])return s;const row=s.rows[r].map((v,i)=>v||i===c),full=row.every(Boolean),rows=s.rows.map((v,i)=>i===r?(full?null:row):v),cleared=s.cleared+(full?1:0);return {...s,rows,cleared,done:cleared===2};}
+export function hint(s){if(s.done)return null;const r=s.rows.findIndex(Boolean);return {type:'tap',id:r*3+s.rows[r].indexOf(false)};}

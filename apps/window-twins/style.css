@@ -1,0 +1,4 @@
+[data-app="window-twins"] .activity-root{background:#efeaf5}
+
+[data-app="window-twins"] .twin-scenes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px}
+[data-app="window-twins"] .twin-scenes h2{font-size:18px}

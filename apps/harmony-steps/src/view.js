@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+const names=['도','도♯','레','레♯','미','파','파♯','솔','솔♯','라','라♯','시'];
+export function render(s){return note('오늘 만날 세 음: '+s.target.map(n=>names[n]).join(' · '))+`<div class="chord-lights">${s.target.map(n=>`<span class="chord-light ${s.selected.includes(n)?'lit':''}">${names[n]}</span>`).join('')}</div><div class="chord-keyboard">${names.map((n,i)=>action(n,i,{pressed:s.selected.includes(i)})).join('')}</div><button type="button" class="play-tile wide-tile" data-audio="0">고른 음 함께 듣기 · 소리 선택 사항</button>`+action('화음의 무늬 담기',0,{type:'finish',className:'wide-tile',disabled:s.selected.length!==3||!s.target.every(n=>s.selected.includes(n))})+summary(s,'세 음이 나란한 하나의 화음을 만났어요.','화음의 느낌을 좋음·나쁨으로 평가하지 않아요. 소리 없이도 건반을 살펴볼 수 있어요.');}

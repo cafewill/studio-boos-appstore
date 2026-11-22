@@ -1,0 +1,9 @@
+[data-app="mirror-duet"] .activity-root{background:#edf1f7}
+
+[data-app="mirror-duet"] .mirror-panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+[data-app="mirror-duet"] .mirror-panels h2{font-size:18px;margin-bottom:10px}
+[data-app="mirror-duet"] .mirror-dots,[data-app="mirror-duet"] .hand-positions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+[data-app="mirror-duet"] .mirror-dot{display:grid;place-items:center;aspect-ratio:1;border:1px solid #718474;background:white;border-radius:15px;font-size:18px}
+[data-app="mirror-duet"] .mirror-dot.target-dot{outline:3px dashed #365d46;outline-offset:-5px}
+[data-app="mirror-duet"] .mirror-dot.hand-dot{background:#e3c46b}
+[data-app="mirror-duet"] .hand-positions .play-tile{min-height:60px}

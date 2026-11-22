@@ -1,0 +1,5 @@
+[data-app="clue-cabin"] .activity-root{background:#edf1e5}
+
+[data-app="clue-cabin"] .clue-notebook{display:grid;gap:12px;margin-bottom:24px}
+[data-app="clue-cabin"] .cabin-windows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;background:#dfc6a7;padding:20px;border-radius:25px}
+[data-app="clue-cabin"] .cabin-windows .play-tile{min-height:100px}

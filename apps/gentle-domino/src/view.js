@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+import {positions} from './model.js';
+export function render(s){return note('조각이 닿는 길이보다 다음 조각이 멀면 인사가 멈춰요. 길이를 바꾸어 보세요.')+scene(`<path d="M35 260H465" stroke="#718474" stroke-width="7"/>${positions.map((p,i)=>`<g transform="translate(${55+p*75} 255) rotate(${i<s.last?45:0})"><rect x="-13" y="${-65-s.heights[i]*45}" width="26" height="${65+s.heights[i]*45}" rx="5" fill="${['#efad85','#97bdaf','#b7ade0','#e3c46b'][i]}"/></g><text x="${55+p*75}" y="290" text-anchor="middle">${i+1}</text>`).join('')}`,'네 도미노의 길이와 간격')+tools(s.heights.map((v,i)=>action(`${i+1}번 조각 · 닿는 길이 ${v+1}`,i,{type:'select',pressed:s.selected===i})))+tools([action('선택 조각 길이 바꾸기',0,{type:'tool'}),action('첫 조각으로 인사 보내기',0,{type:'start'})])+summary(s,'간격에 맞는 길이가 인사를 끝까지 전달했어요.','파괴·사격·시간 제한 없이 길이와 연쇄만 표현해요.');}

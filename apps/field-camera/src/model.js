@@ -1,0 +1,4 @@
+export const subjects=[{name:'작은 새',pan:0,zoom:1},{name:'나무의 잎',pan:2,zoom:2},{name:'강 위의 배',pan:4,zoom:1}];
+export function createState(seed){return {pan:(seed>>>0)%5,zoom:1,album:[],done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='tool'&&[0,1].includes(a.id)){const pan=s.pan+(a.id===0?-1:1);return pan>=0&&pan<=4?{...s,pan}:s;}if(a.type==='tool'&&a.id===2)return {...s,zoom:s.zoom===1?2:1};if(a.type==='start'&&a.id===0){const i=subjects.findIndex(v=>v.pan===s.pan&&v.zoom===s.zoom);if(i<0||s.album.includes(i))return s;const album=[...s.album,i];return {...s,album,done:album.length===3};}return s;}
+export function hint(s){if(s.done)return null;const target=subjects.find((_,i)=>!s.album.includes(i));return target.pan!==s.pan?{type:'tool',id:target.pan<s.pan?0:1}:target.zoom!==s.zoom?{type:'tool',id:2}:{type:'start',id:0};}

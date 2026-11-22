@@ -1,0 +1,3 @@
+export function createState(seed){return {marks:[],color:(seed>>>0)%3,brush:0,done:false};}
+export function reduce(s,a){if(s.done)return s;if(a.type==='select'&&[0,1,2].includes(a.id)&&s.color!==a.id)return {...s,color:a.id};if(a.type==='tool'&&[0,1,2].includes(a.id)&&s.brush!==a.id)return {...s,brush:a.id};if(a.type==='tap'&&[0,1,2,3,4,5].includes(a.id)&&s.marks.length<12)return {...s,marks:[...s.marks,{slot:a.id,color:s.color,brush:s.brush}]};if(a.type==='clear'&&a.id===0&&s.marks.length)return {...s,marks:[]};if(a.type==='finish'&&a.id===0&&s.marks.length)return {...s,done:true};return s;}
+export function hint(s){return s.done?null:s.marks.length?{type:'finish',id:0}:{type:'tap',id:2};}

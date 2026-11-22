@@ -1,0 +1,4 @@
+[data-app="face-turn"] .activity-root{background:#edf1f7}
+
+[data-app="face-turn"] .turn-box{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;background:#d7e4c9;padding:20px;border-radius:25px}
+[data-app="face-turn"] .turn-cell{display:grid;place-items:center;min-height:110px;background:#fff;font-size:50px;border-radius:20px}

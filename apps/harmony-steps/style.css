@@ -1,0 +1,7 @@
+[data-app="harmony-steps"] .activity-root{background:#edf1e5}
+
+[data-app="harmony-steps"] .chord-keyboard{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px}
+[data-app="harmony-steps"] .chord-keyboard .play-tile{min-height:80px}
+[data-app="harmony-steps"] .chord-lights{display:flex;justify-content:center;gap:12px;margin:20px}
+[data-app="harmony-steps"] .chord-light{padding:22px;background:#fff;border:2px dashed #718474;border-radius:50%;font-size:20px}
+[data-app="harmony-steps"] .chord-light.lit{background:#e3c46b;border-style:solid}

@@ -1,0 +1,4 @@
+[data-app="gallery-curator"] .activity-root{background:#efeaf5}
+
+[data-app="gallery-curator"] .canvas-positions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+[data-app="gallery-curator"] .canvas-positions .play-tile{min-height:60px}

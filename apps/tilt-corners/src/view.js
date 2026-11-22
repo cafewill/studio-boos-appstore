@@ -1,0 +1,3 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+export function render(s){return note('같은 줄의 블록은 앞 블록을 지나칠 수 없어요. 막히면 처음 배치로 돌아가도 좋아요.')+`<div class="tilt-tray">${Array.from({length:9},(_,i)=>`<span class="tilt-space ${s.cells.includes(i)?'occupied':''} ${i<3?'target-space':''}">${s.cells.includes(i)?'●':i<3?'목표':''}</span>`).join('')}</div>`+tools(['위로 기울이기','오른쪽 기울이기','아래로 기울이기','왼쪽 기울이기'].map((n,i)=>action(n,i,{type:'tool'})))+action('처음 배치로',0,{type:'clear',className:'wide-tile',disabled:s.cells.join(',')===s.initial.join(',')})+summary(s,'한 번의 기울임으로 여러 블록의 자리가 달라졌어요.','실제 중력·원작 블록 제거·등각 투영을 사용하지 않는 정수 격자예요.');}

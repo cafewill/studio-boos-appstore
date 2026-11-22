@@ -1,0 +1,4 @@
+import {action,note,chip,escape} from '../../shared/board-ui.js';
+import {scene,tools,summary} from '../../shared/exploration-ui.js';
+import {lit} from './model.js';
+export function render(s){return note('한 조명은 이웃한 두 자리를 비춰요. 두 빛을 나누어 모두 함께 서 보아요.')+scene(`${s.lights.map((p,i)=>`<path d="M${120+i*260} 20L${70+p*140} 240H${270+p*140}Z" fill="${i?'#dcd4f0':'#f5e3a5'}" opacity=".6"/>`).join('')}<path d="M35 260H465" stroke="#755d43" stroke-width="10"/>${lit(s).map((v,i)=>`<circle cx="${110+i*140}" cy="155" r="23" fill="${v?'#e3c46b':'#d2dbcd'}"/><path d="M${110+i*140} 180v65m-20-40h40" stroke="#365d46" stroke-width="9"/>`).join('')}`,'세 친구와 두 조명이 있는 무대')+tools([action('왼쪽 조명 옮기기',0,{type:'tool'}),action('오른쪽 조명 옮기기',1,{type:'tool'}),action('함께 인사하기',0,{type:'finish',disabled:!lit(s).every(Boolean)})])+summary(s,'누구도 밀어내지 않고 무대의 빛을 함께 나누었어요.','원작 대결·밀치기·테너·음악을 사용하지 않아요.');}

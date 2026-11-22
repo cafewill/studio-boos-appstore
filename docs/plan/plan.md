@@ -1,4 +1,4 @@
-작성일: 2026년 11월 21일
+작성일: 2026년 11월 22일
 작성자: ChatGPT (이메일 미제공)
 
 # 🗂 계획 목록
@@ -101,6 +101,43 @@
 | 빈칸 조각 공방 | [개별 plan](20261121194717-poly-room-plan.md) |
 | 풀어 보는 조각 구름 | [개별 plan](20261121194717-knot-cloud-plan.md) |
 | 서로 여는 다리 | [개별 plan](20261121194717-bridge-pals-plan.md) |
+
+### 🌱 새 후보 30개 · 누적 101개
+
+[30개 묶음 문서](20261122150115-discover30-plan.md)
+
+| 콘텐츠 | 개별 문서 |
+|---|---|
+| 세 음의 화음 계단 | [plan](20261122150115-harmony-steps-plan.md) |
+| 낙서의 작은 산책 | [plan](20261122150115-doodle-parade-plan.md) |
+| 기억 엽서 상자 | [plan](20261122150115-memory-postcards-plan.md) |
+| 층층 액체병 | [plan](20261122150115-density-bottles-plan.md) |
+| 열 묶음 승강기 | [plan](20261122150115-number-elevator-plan.md) |
+| 그림 낱말 지도 | [plan](20261122150115-word-atlas-plan.md) |
+| 종이 관절 인형 | [plan](20261122150115-pose-puppet-plan.md) |
+| 낱말 이어짜기 | [plan](20261122150115-word-weave-plan.md) |
+| 단서 오두막 | [plan](20261122150115-clue-cabin-plan.md) |
+| 네 칸 회전 상자 | [plan](20261122150115-face-turn-plan.md) |
+| 움직이는 징검돌 | [plan](20261122150115-crossing-stones-plan.md) |
+| 다른 점 창문 | [plan](20261122150115-window-twins-plan.md) |
+| 줄을 여는 블록 | [plan](20261122150115-row-clear-plan.md) |
+| 세 알 꽃씨 | [plan](20261122150115-pebble-merge-plan.md) |
+| 바람 모임 준비 | [plan](20261122150115-festival-table-plan.md) |
+| 우리 그림 전시회 | [plan](20261122150115-gallery-curator-plan.md) |
+| 빛 나눔 무대 | [plan](20261122150115-stage-spotlight-plan.md) |
+| 둥근 길 꽃바구니 | [plan](20261122150115-arc-garden-plan.md) |
+| 리본 길 바꾸기 | [plan](20261122150115-route-weaver-plan.md) |
+| 말랑 공 밀기 | [plan](20261122150115-cushion-slide-plan.md) |
+| 이웃 마을 연결 | [plan](20261122150115-town-links-plan.md) |
+| 마주 보는 손길 | [plan](20261122150115-mirror-duet-plan.md) |
+| 작은 탐험 사진첩 | [plan](20261122150115-field-camera-plan.md) |
+| 기울이는 빈칸판 | [plan](20261122150115-tilt-corners-plan.md) |
+| 숫자 배 정박 | [plan](20261122150115-number-harbor-plan.md) |
+| 동그란 물결 연못 | [plan](20261122150115-ripple-pond-plan.md) |
+| 도미노 인사 | [plan](20261122150115-gentle-domino-plan.md) |
+| 길을 들어 올려요 | [plan](20261122150115-hill-rescue-plan.md) |
+| 숲길 발자국 지도 | [plan](20261122150115-forest-echo-plan.md) |
+| 함께 일하는 섬 | [plan](20261122150115-shared-island-plan.md) |
 
 ## 📌 요약 정보
 
